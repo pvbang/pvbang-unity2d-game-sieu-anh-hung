@@ -8,4 +8,4 @@
 Library/PackageCache/com.unity.burst@1.8.7/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 *dsymutil filter=lfs diff=lfs merge=lfs -text
 Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_5_0.bundle filter=lfs diff=lfs merge=lfs -text
-Assets/Sprites/Items/login/login_upscayl_4x_realesrgan-x4plus-anime.png filter=lfs diff=lfs merge=lfs -text
+Assets/_/Sprites/Items/login/login_upscayl_4x_realesrgan-x4plus-anime.png filter=lfs diff=lfs merge=lfs -text
