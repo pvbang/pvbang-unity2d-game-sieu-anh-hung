@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: a5fe060c816f8104ba076efb07deb86f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2908
+        width: 1598
+        height: 794
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadf2daaa21a14943af14db748ddfefd
+      internalID: -2117398617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_1
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 2636
+        width: 1174
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c34f340f6edefc41a8173237eccf380
+      internalID: -689060459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_2
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 2502
+        width: 1161
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2e7c7580d22f94e9c174fefbb65ed6
+      internalID: -444416647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_3
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1981
+        width: 588
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755d36d7785bfdd469bbd49c86bb17d5
+      internalID: -1465841782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2120
+        width: 1601
+        height: 789
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8555bf7ef192543bb3da5204764cd8
+      internalID: 73094914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1393
+        width: 1601
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e930a5f64e8a141be9fb860775b3c8
+      internalID: -518810350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 515
+        width: 377
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78592118faa53a4f8424c2fca18ad21
+      internalID: 1062589484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 369
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40624d912d1dcd042a57007c51033549
+      internalID: -1725549943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 23
+        width: 366
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc18915107eee4e94cf5ad65f4d48d
+      internalID: 723847195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_9
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 399
+        width: 489
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245191cdafc81cf49916bcd26b870e07
+      internalID: -2061204397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 770
+        width: 358
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fb1d0590b27444da7d7245e2e5fc4b
+      internalID: -789293023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1064
+        width: 414
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0627aede857c2f54ba42710f70bfcf45
+      internalID: 1589050832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_12
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1257
+        width: 840
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be58e829b246ad4baea1a9d8c064daa
+      internalID: -98112337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_13
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 1028
+        width: 539
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f98e407f1084f448acd3607788fb65
+      internalID: -1410830713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_14
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1134
+        width: 352
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b206947503b8364d8d69bdff5deb2a6
+      internalID: 600402510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_15
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 1511
+        width: 486
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05276de8da9fa9246ab9136cd9f30c91
+      internalID: 1249816750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_16
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1954
+        width: 1106
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1bb996ba27fe54897231e014941853
+      internalID: -1025530243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_17
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 2272
+        width: 316
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41026ccf00376646a73f105a4122a36
+      internalID: -1486703048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 529
+        width: 416
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ff75095018f2429349f985b94472f
+      internalID: -808725591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_19
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1954
+        width: 250
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8767405034f2ad14fbbdec16cb7998c7
+      internalID: -2086213476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_0: -2117398617
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_1: -689060459
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_10: -789293023
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_11: 1589050832
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_12: -98112337
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_13: -1410830713
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_14: 600402510
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_15: 1249816750
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_16: -1025530243
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_17: -1486703048
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_18: -808725591
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_19: -2086213476
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_2: -444416647
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_3: -1465841782
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_4: 73094914
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_5: -518810350
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_6: 1062589484
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_7: -1725549943
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_8: 723847195
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_9: -2061204397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
