@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "8454888305",
+    "firebase_url": "https://unity2d-game-sieu-anh-hung-default-rtdb.firebaseio.com",
+    "project_id": "unity2d-game-sieu-anh-hung",
+    "storage_bucket": "unity2d-game-sieu-anh-hung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8454888305:android:b514705359cf62bc10b4d0",
+        "android_client_info": {
+          "package_name": "com.pvbang.sieuanhhung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdE75sgjhcZs2z2kFpu4lqJ6XeekR2ewg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

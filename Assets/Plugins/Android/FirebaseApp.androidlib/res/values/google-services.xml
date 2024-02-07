@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://unity2d-game-sieu-anh-hung-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">8454888305</string>
+  <string name="google_storage_bucket" translatable="false">unity2d-game-sieu-anh-hung.appspot.com</string>
+  <string name="project_id" translatable="false">unity2d-game-sieu-anh-hung</string>
+  <string name="google_api_key" translatable="false">AIzaSyAdE75sgjhcZs2z2kFpu4lqJ6XeekR2ewg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAdE75sgjhcZs2z2kFpu4lqJ6XeekR2ewg</string>
+  <string name="google_app_id" translatable="false">1:8454888305:android:b514705359cf62bc10b4d0</string>
+</resources>

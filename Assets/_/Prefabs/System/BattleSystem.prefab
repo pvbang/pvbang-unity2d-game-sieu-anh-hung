@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2159753693629187550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5239596095229891723}
+  - component: {fileID: 933703604832301006}
+  m_Layer: 0
+  m_Name: BattleSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5239596095229891723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159753693629187550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933703604832301006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159753693629187550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a674056d5536aba4492b293b3b70c2f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleStase: 0
+  turn: {fileID: 0}
+  heroLeft1Prefab: {fileID: 1174811333649560341, guid: 49f4b099c24646e4b87ee31226a2ad18, type: 3}
+  heroLeft2Prefab: {fileID: 0}
+  heroLeft3Prefab: {fileID: 0}
+  heroLeft4Prefab: {fileID: 0}
+  heroLeft5Prefab: {fileID: 0}
+  heroLeft6Prefab: {fileID: 0}
+  heroRight1Prefab: {fileID: 1174811333649560341, guid: 49f4b099c24646e4b87ee31226a2ad18, type: 3}
+  heroRight2Prefab: {fileID: 0}
+  heroRight3Prefab: {fileID: 0}
+  heroRight4Prefab: {fileID: 0}
+  heroRight5Prefab: {fileID: 0}
+  heroRight6Prefab: {fileID: 0}
+  moveSpeed: 5

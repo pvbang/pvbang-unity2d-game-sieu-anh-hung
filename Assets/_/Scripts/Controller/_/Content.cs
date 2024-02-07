@@ -1,0 +1,30 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Content : MonoBehaviour
+{
+    // xóa tất cả các item trong list
+    public void DestroyContents()
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
+    // tạo 1 item vào list
+    public void AddContent(Transform content)
+    {
+        Instantiate(content, transform);
+    }
+
+    // tạo hiều item vào list
+    public void AddContent(List<Transform> contentList)
+    {
+        foreach (Transform content in contentList)
+        {
+            Instantiate(content, transform);
+        }
+    }
+}
