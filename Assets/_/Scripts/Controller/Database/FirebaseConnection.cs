@@ -17,6 +17,8 @@ public class FirebaseConnection : MonoBehaviour
         this.auth = FirebaseAuth.DefaultInstance;
     }
 
-    //private FirebaseUser user;
-    //user = FirebaseConnection.instance.auth.CurrentUser;
+    /*
+    private FirebaseUser user;
+    user = FirebaseConnection.instance.auth.CurrentUser;
+    */
 }

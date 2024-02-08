@@ -24,7 +24,7 @@ public class SetAvatar : BaseButton
         user = FirebaseConnection.instance.auth.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
 
-        SetRandomName();
+        // SetRandomName();
         GetAvatarIndex();
     }
 
@@ -67,6 +67,12 @@ public class SetAvatar : BaseButton
             return;
         }
 
+        if (NameInput.text.Length == 0)
+        {
+            Notification.instance.ShowNotifications("Bạn chưa đặt tên cho nhân vật");
+            return;
+        }
+
         string name = NameInput.text;
 
         // kiểm tra tên nhân vật có trống không
@@ -81,19 +87,21 @@ public class SetAvatar : BaseButton
         {
             { "id", ServerID+"SAH"+RandomStringGenerator.GenerateRandomString(7) },
             { "name", name },
-            { "level", "0" },
-            { "EXP", "0" },
-            { "power", "0" },
-            { "physical", "120" },
-            { "vip", "0" },
+            { "level", 0 },
+            { "exp", 0 },
+            { "maxEXP", 100 },
+            { "power", 0 },
+            { "physical", 120 },
+            { "maxPhysical", 120 },
+            { "vip", 0 },
             { "avatar", GetAvatarIndex() }
         };
 
         Dictionary<string, object> itemsData = new Dictionary<string, object>
         {
-            { "diamond", "0" },
-            { "meat", "0" },
-            { "iron", "0" }
+            { "diamond", 0 },
+            { "meat", 0 },
+            { "iron", 0 }
         };
 
         reference.Child("games").UpdateChildrenAsync(gamesData);
