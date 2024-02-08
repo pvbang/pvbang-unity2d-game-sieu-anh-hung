@@ -4,10 +4,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Firebase.Auth;
 
 public class SetAvatar : BaseButton
 {
-    private string username;
+    private FirebaseUser user;
+    
     private string ServerID;
     private int AvatarIndex = 0;
 
@@ -19,7 +21,7 @@ public class SetAvatar : BaseButton
 
     private void Awake()
     {
-        username = PlayerPrefs.GetString("Account");
+        user = FirebaseConnection.instance.auth.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
 
         SetRandomName();
@@ -59,6 +61,12 @@ public class SetAvatar : BaseButton
     // khởi tạo và set thông tin cho account
     public void SetGameDataAsync()
     {
+        if (user == null)
+        {
+            Notification.instance.ShowNotifications("Bạn chưa đăng nhập");
+            return;
+        }
+
         string name = NameInput.text;
 
         // kiểm tra tên nhân vật có trống không
@@ -68,7 +76,7 @@ public class SetAvatar : BaseButton
             return;
         }
 
-        DatabaseReference reference = FirebaseConnection.instance.databaseReference.Child("accounts").Child(username).Child("servers").Child(ServerID);
+        DatabaseReference reference = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(ServerID);
         Dictionary<string, object> gamesData = new Dictionary<string, object>
         {
             { "id", ServerID+"SAH"+RandomStringGenerator.GenerateRandomString(7) },

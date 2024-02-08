@@ -39,26 +39,50 @@ public class LoadScene : BaseButton
     // hàm này load nếu được gọi từ hàm khác trong trường hợp isActive = false
     public void LoadSelectScene()
     {
-        SceneManager.LoadScene(selectScene.ToString());
+        if (GetComponent<ButtonAnimation>())
+        {
+            // nếu có animation thì delay theo thời gian của animation
+            StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(selectScene.ToString()), GetComponent<ButtonAnimation>().GetLengthAnimation()));
+        }
+        else
+        {
+            SceneManager.LoadScene(selectScene.ToString());
+        }
     }
 
     // load scene trước đó (quay lại scene trước đó - last scene)
     public void LoadLastScene()
     {
-        SceneManager.LoadScene(PlayerPrefs.GetString("LastScene"));
+        if (GetComponent<ButtonAnimation>())
+        {
+            // nếu có animation thì delay theo thời gian của animation
+            StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(PlayerPrefs.GetString("LastScene")), GetComponent<ButtonAnimation>().GetLengthAnimation()));
+        }
+        else
+        {
+            SceneManager.LoadScene(PlayerPrefs.GetString("LastScene"));
+        }
     }
 
     // reload scene hiện tại
     public void ReloadScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (GetComponent<ButtonAnimation>())
+        {
+            // nếu có animation thì delay theo thời gian của animation
+            StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(SceneManager.GetActiveScene().name), GetComponent<ButtonAnimation>().GetLengthAnimation()));
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     protected override void OnClick()
     {
         if (GetComponent<ButtonAnimation>())
         {
-            // nêu có animation thì delay theo thời gian của animation
+            // nếu có animation thì delay theo thời gian của animation
             StartCoroutine(CoroutineHelper.DelaySeconds(() => Load(), GetComponent<ButtonAnimation>().GetLengthAnimation()));
         }
         else

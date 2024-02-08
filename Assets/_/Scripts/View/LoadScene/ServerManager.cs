@@ -1,4 +1,5 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth;
+using Firebase.Database;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,7 +8,7 @@ using UnityEngine;
 
 public class ServerManager : MonoBehaviour
 {
-    private string username;
+    private FirebaseUser user;
 
     private string serverID;
     private Server server;
@@ -21,10 +22,7 @@ public class ServerManager : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerPrefs.HasKey("Account"))
-        {
-            username = PlayerPrefs.GetString("Account");
-        }
+        user = FirebaseConnection.instance.auth.CurrentUser;
 
         if (PlayerPrefs.HasKey("ServerID")) {
             serverID = PlayerPrefs.GetString("ServerID");
@@ -61,7 +59,7 @@ public class ServerManager : MonoBehaviour
         // StartCoroutine(DeleteServer("S1"));
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!PlayerPrefs.HasKey("ServerID"))
         {
@@ -77,9 +75,9 @@ public class ServerManager : MonoBehaviour
         }
 
         // nếu PlayerPrefs Account thay đổi giá trị thì cập nhật lại username
-        if (PlayerPrefs.GetString("Account") != username)
+        if (FirebaseConnection.instance.auth.CurrentUser != user)
         {
-            username = PlayerPrefs.GetString("Account");
+            user = FirebaseConnection.instance.auth.CurrentUser;
         }
     }
 
@@ -176,7 +174,10 @@ public class ServerManager : MonoBehaviour
     // lấy danh sách server đã đăng ký bởi tài khoản
     public IEnumerator GetListServerByAccount()
     {
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(username).Child("servers").GetValueAsync();
+        if (FirebaseConnection.instance.auth.CurrentUser == null) yield break;
+        if (serverID.Length == 0) yield break;
+
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
 
