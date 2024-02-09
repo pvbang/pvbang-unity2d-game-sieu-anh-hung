@@ -18,6 +18,8 @@ public class HeroBar : MonoBehaviour
     public TextMeshProUGUI TxtMeat;
     public TextMeshProUGUI TxtDiamond;
     public TextMeshProUGUI TxtVip;
+    public TextMeshProUGUI TxtPower;
+
 
     private void Awake()
     {
@@ -78,6 +80,7 @@ public class HeroBar : MonoBehaviour
         string physical = data.Child("physical").Value.ToString();
         string maxPhysical = data.Child("maxPhysical").Value.ToString();
         string vip = data.Child("vip").Value.ToString();
+        string power = data.Child("power").Value.ToString();
 
         TxtName.text = name;
         TxtLevel.text = level;
@@ -86,10 +89,12 @@ public class HeroBar : MonoBehaviour
         Physial.GetComponent<HealthBar>().UpdateBar(float.Parse(physical), float.Parse(maxPhysical));
 
         TxtVip.text = "VIP " +vip;
+        TxtPower.text = power;
 
         Avatar.GetComponent<BackgroundController>().ChangeBackground(avatar-1);
 
         EXP.GetComponent<EXPController>().CheckEXP(int.Parse(exp), int.Parse(maxEXP), int.Parse(level));
+        Physial.GetComponent<PhysicalController>().CheckPhysical(int.Parse(physical), int.Parse(maxPhysical));
     }
 
     // set thông tin item

@@ -25,7 +25,7 @@ public class PhysicalController : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("StartAddPhysical", 0, 60);
+        InvokeRepeating("StartAddPhysical", 0, 300);
 
         if (user == null) return;
         if (ServerID == "") return;
@@ -44,14 +44,10 @@ public class PhysicalController : MonoBehaviour
     // 
     public void CheckPhysical(int physical, int maxPhysical)
     {
-        if (physical >= maxPhysical)
+        if (physical > maxPhysical)
         {
             referenceGames.Child("physical").SetValueAsync(maxPhysical);
             return;
-        }
-        else 
-        { 
-            
         }
     }
 
@@ -63,9 +59,10 @@ public class PhysicalController : MonoBehaviour
     public IEnumerator AddPhysical()
     {
         string physical = "";
+        string maxPhysical = "";
         string timePhysical = "";
 
-        referenceGames.Child("physical").GetValueAsync().ContinueWithOnMainThread(task => {
+        referenceGames.GetValueAsync().ContinueWithOnMainThread(task => {
             if (task.IsFaulted)
             {
                 Debug.Log("Error: " + task.Exception);
@@ -73,21 +70,35 @@ public class PhysicalController : MonoBehaviour
             else if (task.IsCompleted)
             {
                 DataSnapshot snapshot = task.Result;
-                physical = snapshot.Value.ToString();
+                physical = snapshot.Child("physical").Value.ToString();
+                maxPhysical = snapshot.Child("maxPhysical").Value.ToString();
+                timePhysical = snapshot.Child("timePhysical").Value.ToString();
             }
         });
 
-        referenceGames.Child("timePhysical").GetValueAsync().ContinueWithOnMainThread(task => {
-            if (task.IsFaulted)
-            {
-                Debug.Log("Error: " + task.Exception);
-            }
-            else if (task.IsCompleted)
-            {
-                DataSnapshot snapshot = task.Result;
-                timePhysical = snapshot.Value.ToString();
-            }
-        });
+        //referenceGames.Child("physical").GetValueAsync().ContinueWithOnMainThread(task => {
+        //    if (task.IsFaulted)
+        //    {
+        //        Debug.Log("Error: " + task.Exception);
+        //    }
+        //    else if (task.IsCompleted)
+        //    {
+        //        DataSnapshot snapshot = task.Result;
+        //        physical = snapshot.Value.ToString();
+        //    }
+        //});
+
+        //referenceGames.Child("timePhysical").GetValueAsync().ContinueWithOnMainThread(task => {
+        //    if (task.IsFaulted)
+        //    {
+        //        Debug.Log("Error: " + task.Exception);
+        //    }
+        //    else if (task.IsCompleted)
+        //    {
+        //        DataSnapshot snapshot = task.Result;
+        //        timePhysical = snapshot.Value.ToString();
+        //    }
+        //});
 
         // chờ 3s
         yield return new WaitForSeconds(3);
@@ -96,18 +107,25 @@ public class PhysicalController : MonoBehaviour
         {
             timePhysical = DateTime.Now.ToString();
             referenceGames.Child("timePhysical").SetValueAsync(timePhysical);
-            CalculatorPhysical(timePhysical, physical);
+            CalculatorPhysical(timePhysical, physical, maxPhysical);
         }
         else
         {
-            CalculatorPhysical(timePhysical, physical);
+            CalculatorPhysical(timePhysical, physical, maxPhysical);
         }
     }
 
 
-    private void CalculatorPhysical(string firstTime, string physical)
+    private void CalculatorPhysical(string firstTime, string physical, string maxPhysical)
     {
         DateTime nowTime = DateTime.Now;
+        if (physical == maxPhysical)
+        {
+            referenceGames.Child("timePhysical").SetValueAsync(nowTime.ToString());
+            return;
+        }
+
+
         DateTime firstDateTime = DateTime.Parse(firstTime);
 
         // Chuyển đổi DateTime thành TimeSpan và lấy giá trị giây
@@ -118,7 +136,13 @@ public class PhysicalController : MonoBehaviour
 
         if (time >= 1)
         {
-            referenceGames.Child("physical").SetValueAsync(int.Parse(physical) + time);
+            int newPhysical = int.Parse(physical) + time;
+            if (newPhysical > int.Parse(maxPhysical))
+            {
+                newPhysical = int.Parse(maxPhysical);
+            }
+
+            referenceGames.Child("physical").SetValueAsync(newPhysical);
             referenceGames.Child("timePhysical").SetValueAsync(nowTime.ToString());
         }
     }
