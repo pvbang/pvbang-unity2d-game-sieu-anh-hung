@@ -58,16 +58,14 @@
     <Analyzer Include="D:\applications\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_\Scripts\Model\HeroList.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\AuthSignOut.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
-    <Compile Include="Assets\_\Scripts\View\BattleSystemScene\LeftHero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\GameAssets.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ButtonAnimation.cs" />
-    <Compile Include="Assets\_\Scripts\Model\Account.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\BaseButton.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\HP.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Scenes\Scene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Scenes\LoadScene.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ChooseServer.cs" />
@@ -76,22 +74,23 @@
     <Compile Include="Assets\_\Scripts\View\LoadScene\ListServer.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Register.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\HealthBar.cs" />
-    <Compile Include="Assets\_\Scripts\Model\User.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\HeroController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\BackgroundController.cs" />
-    <Compile Include="Assets\_\Scripts\View\BattleSystemScene\BattleSystem.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\EXPController.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Notification.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\InvertListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\Server.cs" />
-    <Compile Include="Assets\_\Scripts\View\BattleSystemScene\StatusBar.cs" />
+    <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RemovePlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\Level.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\ShakeBackground.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ServerManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroBar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
-    <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetPlayerPrefs.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\games\_games_all.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\SetupLoadScene.cs" />
   </ItemGroup>
   <ItemGroup>

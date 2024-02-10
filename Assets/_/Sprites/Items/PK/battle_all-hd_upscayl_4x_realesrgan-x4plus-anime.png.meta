@@ -568,6 +568,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_20
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1989
+        width: 1107
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d833536f3bbef34ea24cda6e89daf82
+      internalID: 871384662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -592,6 +613,7 @@ TextureImporter:
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_18: -808725591
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_19: -2086213476
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_2: -444416647
+      battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_20: 871384662
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_3: -1465841782
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_4: 73094914
       battle_all-hd_upscayl_4x_realesrgan-x4plus-anime_5: -518810350

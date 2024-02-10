@@ -89,7 +89,7 @@ public class HeroBar : MonoBehaviour
         Physial.GetComponent<HealthBar>().UpdateBar(float.Parse(physical), float.Parse(maxPhysical));
 
         TxtVip.text = "VIP " +vip;
-        TxtPower.text = power;
+        TxtPower.text = "Lực chiến: " +power;
 
         Avatar.GetComponent<BackgroundController>().ChangeBackground(avatar-1);
 
