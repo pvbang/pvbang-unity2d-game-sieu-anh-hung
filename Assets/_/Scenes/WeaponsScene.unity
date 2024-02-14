@@ -1236,12 +1236,20 @@ PrefabInstance:
       value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 4055958926294267626, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
+      propertyPath: m_margin.y
+      value: 3.6708565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055958926294267626, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
       propertyPath: m_fontSizeBase
       value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 7367046167692247106, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
       propertyPath: m_text
       value: "Ch\xECa kh\xF3a cao c\u1EA5p"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367046167692247106, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
+      propertyPath: m_margin.y
+      value: -20.206757
       objectReference: {fileID: 0}
     - target: {fileID: 7857150596055924510, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
       propertyPath: m_Pivot.x
