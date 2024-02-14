@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ui_homeLandSys-hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1438
+        width: 3667
+        height: 2062
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8cac7cff04deb46b2a095cd61f3336
+      internalID: 1373988288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_homeLandSys-hd_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1548
+        width: 3486
+        height: 1634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 41, z: 46, w: 35}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f1b52679e4874788c7d287b9ed9d8
+      internalID: 1272472931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_homeLandSys-hd_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1535
+        width: 3512
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e91b1aa8f177b4491420fadac9b253
+      internalID: -506824920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_homeLandSys-hd_3
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 1593
+        width: 14
+        height: 1551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e77542f67796e44963a5dcd386a158
+      internalID: 1462401242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +242,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_homeLandSys-hd_0: 1373988288
+      ui_homeLandSys-hd_1: 1272472931
+      ui_homeLandSys-hd_2: -506824920
+      ui_homeLandSys-hd_3: 1462401242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

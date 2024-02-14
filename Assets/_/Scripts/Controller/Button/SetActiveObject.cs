@@ -10,6 +10,8 @@ public class SetActiveObject : BaseButton
     public bool active = false;
     public bool waitAnimation = false;
 
+    public float waitSeconds = 0.0f;
+
     protected override void OnClick()
     {
         if (waitAnimation)
@@ -18,7 +20,7 @@ public class SetActiveObject : BaseButton
         }
         else
         {
-            obj.SetActive(active);
+            StartCoroutine(CoroutineHelper.DelaySeconds(() => obj.SetActive(active), waitSeconds));
         }
     }
 

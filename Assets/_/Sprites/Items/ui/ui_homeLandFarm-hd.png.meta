@@ -169,6 +169,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ui_homeLandFarm-hd_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 2492
+        height: 1519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7c1a966d77da41ad168a83c643466
+      internalID: -2038182611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -181,6 +202,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ui_homeLandFarm-hd_0: -2089012874
+      ui_homeLandFarm-hd_1: 601352817
+      ui_homeLandFarm-hd_2: -2038182611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

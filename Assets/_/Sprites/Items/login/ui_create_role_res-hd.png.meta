@@ -430,7 +430,7 @@ TextureImporter:
         width: 917
         height: 364
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,7 +451,7 @@ TextureImporter:
         width: 854
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,7 +472,7 @@ TextureImporter:
         width: 920
         height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,6 +480,27 @@ TextureImporter:
       bones: []
       spriteID: 8563849cb81e75f48987280ddb4fe9a2
       internalID: -1928299202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_create_role_res-hd_16
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 157
+        width: 840
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a885b820bf796a41906e5b2341eb61c
+      internalID: -190588685
       vertices: []
       indices: 
       edges: []
@@ -503,6 +524,7 @@ TextureImporter:
       ui_create_role_res-hd_13: 5283301
       ui_create_role_res-hd_14: 310584277
       ui_create_role_res-hd_15: -1928299202
+      ui_create_role_res-hd_16: -190588685
       ui_create_role_res-hd_2: -1184418999
       ui_create_role_res-hd_3: -532383758
       ui_create_role_res-hd_4: 1748858043
