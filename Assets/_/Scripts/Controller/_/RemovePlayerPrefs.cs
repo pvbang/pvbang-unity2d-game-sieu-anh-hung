@@ -5,7 +5,7 @@ using UnityEngine;
 public class RemovePlayerPrefs : BaseButton
 {
     public bool removeAllPlayerPrefs = false;
-    public string PlayerPrefsKey;
+    public string PlayerPrefsKey = "ServerID";
 
     // xóa player pref
     public void RemovePlayerPref()
@@ -13,8 +13,7 @@ public class RemovePlayerPrefs : BaseButton
         if (removeAllPlayerPrefs)
         {
             PlayerPrefs.DeleteAll();
-        }
-        else
+        } else
         {
             PlayerPrefs.DeleteKey(PlayerPrefsKey);
         }

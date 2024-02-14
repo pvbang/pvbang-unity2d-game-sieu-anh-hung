@@ -8,17 +8,12 @@ public class FirebaseConnection : MonoBehaviour
     public static FirebaseConnection instance;
 
     public DatabaseReference databaseReference;
-    public FirebaseAuth auth;
 
     private void Awake()
     {
         FirebaseConnection.instance = this;
         this.databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-        this.auth = FirebaseAuth.DefaultInstance;
     }
 
-    /*
-    private FirebaseUser user;
-    user = FirebaseConnection.instance.auth.CurrentUser;
-    */
+    //FirebaseAuth.DefaultInstance.CurrentUser
 }

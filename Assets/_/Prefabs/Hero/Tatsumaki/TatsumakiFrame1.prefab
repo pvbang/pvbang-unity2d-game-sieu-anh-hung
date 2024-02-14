@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 384}
+  m_AnchoredPosition: {x: 0, y: 377}
   m_SizeDelta: {x: 450, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1087760961852683676
@@ -142,8 +142,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tatsumaki
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 3
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -219,7 +219,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8165459215047358219}
   - component: {fileID: 3568439120365889614}
-  - component: {fileID: 1271594645406353101}
   m_Layer: 0
   m_Name: TatsumakiFrame1
   m_TagString: Untagged
@@ -293,31 +292,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1271594645406353101}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: selectHero
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1271594645406353101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5928436535567640347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccb8d044570f3d242b58139e29dd37a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+      m_Calls: []
 --- !u!1 &8661024083792687379
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,8 +435,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lv. 1 / 205
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -485,8 +460,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

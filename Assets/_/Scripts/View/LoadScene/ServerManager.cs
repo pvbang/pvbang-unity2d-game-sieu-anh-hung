@@ -22,8 +22,8 @@ public class ServerManager : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseConnection.instance.auth.CurrentUser;
-
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
+        
         if (PlayerPrefs.HasKey("ServerID")) {
             serverID = PlayerPrefs.GetString("ServerID");
         } else
@@ -63,8 +63,10 @@ public class ServerManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("ServerID"))
         {
+            Debug.Log("ServerID 1: " + PlayerPrefs.GetString("ServerID"));
             serverID = "S1";
             PlayerPrefs.SetString("ServerID", serverID);
+            StartCoroutine(GetServer(serverID));
         }
 
         // nếu PlayerPrefs ServerID thay đổi giá trị thì cập nhật lại server
@@ -75,9 +77,9 @@ public class ServerManager : MonoBehaviour
         }
 
         // nếu PlayerPrefs Account thay đổi giá trị thì cập nhật lại username
-        if (FirebaseConnection.instance.auth.CurrentUser != user)
+        if (FirebaseAuth.DefaultInstance.CurrentUser != user)
         {
-            user = FirebaseConnection.instance.auth.CurrentUser;
+            user = FirebaseAuth.DefaultInstance.CurrentUser;
         }
     }
 
@@ -174,7 +176,7 @@ public class ServerManager : MonoBehaviour
     // lấy danh sách server đã đăng ký bởi tài khoản
     public IEnumerator GetListServerByAccount()
     {
-        if (FirebaseConnection.instance.auth.CurrentUser == null) yield break;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) yield break;
         if (serverID.Length == 0) yield break;
 
         var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").GetValueAsync();

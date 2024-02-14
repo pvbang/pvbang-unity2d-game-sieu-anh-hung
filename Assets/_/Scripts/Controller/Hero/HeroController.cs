@@ -12,6 +12,11 @@ public class HeroController : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            animator = GetComponentInChildren<Animator>();
+        }
+
         hero = GetComponent<Hero>();
         hp = transform.Find("CanvasStatusBar").Find("StatusBar").Find("HP").GetComponent<HP>();
         level = transform.Find("CanvasStatusBar").Find("StatusBar").Find("Level").GetComponent<Level>();

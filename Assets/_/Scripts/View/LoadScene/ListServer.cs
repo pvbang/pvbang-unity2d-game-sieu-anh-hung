@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Firebase.Auth;
 
 public class ListServer : MonoBehaviour
 {
-    private string username;
+    private FirebaseUser user;
     private ServerManager serverManager;
 
     public Transform item;
@@ -19,7 +20,7 @@ public class ListServer : MonoBehaviour
 
     private void Awake()
     {
-        username = PlayerPrefs.GetString("Account");
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
         serverManager = GetComponentInParent<ServerManager>();
         contentAllServer = GameObject.Find("AllServer").GetComponentInChildren<Content>();
         contentAccountServer = GameObject.Find("AcountServer").GetComponentInChildren<Content>();  
@@ -52,9 +53,9 @@ public class ListServer : MonoBehaviour
 
     void OnEnable()
     {
-        if (PlayerPrefs.GetString("Account") != username)
+        if (FirebaseAuth.DefaultInstance.CurrentUser != user)
         {
-            username = PlayerPrefs.GetString("Account");
+            user = FirebaseAuth.DefaultInstance.CurrentUser;
             StartCoroutine(LoadScene());
         }
     }

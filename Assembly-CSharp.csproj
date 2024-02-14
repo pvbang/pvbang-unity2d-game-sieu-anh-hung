@@ -62,6 +62,7 @@
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\GameAssets.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveObject.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ButtonAnimation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\BaseButton.cs" />
@@ -85,12 +86,12 @@
     <Compile Include="Assets\_\Scripts\Controller\_\RemovePlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\Level.cs" />
+    <Compile Include="Assets\_\Scripts\View\LoadScene\UILoadScene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\ShakeBackground.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ServerManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroBar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetPlayerPrefs.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\Database\games\_games_all.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\SetupLoadScene.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Net.Mail;
+using System.Diagnostics;
 
 public class SetupLoadScene : MonoBehaviour
 {
@@ -21,33 +22,40 @@ public class SetupLoadScene : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseConnection.instance.auth.CurrentUser;
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
 
         serverID = PlayerPrefs.GetString("ServerID");
-        SetActive(false, false, false, false, false);
+        SetActive(false, false, true, false, false);
     }
 
     void Start()
     {
         StartCoroutine(GetInfoAccount());
+        UnityEngine.Debug.Log("Start");
     }
 
     private void FixedUpdate()
     {
-        if (PlayerPrefs.GetString("ServerID") != serverID)
+        if (PlayerPrefs.HasKey("ServerID"))
         {
-            serverID = PlayerPrefs.GetString("ServerID");
-            StartCoroutine(GetInfoAccount());
-        }
-
-        if (FirebaseConnection.instance.auth.CurrentUser != user)
+            if (PlayerPrefs.GetString("ServerID") != serverID)
+            {
+                serverID = PlayerPrefs.GetString("ServerID");
+                StartCoroutine(GetInfoAccount());
+            }
+        } else
         {
-            user = FirebaseConnection.instance.auth.CurrentUser;
-            StartCoroutine(GetInfoAccount());
+            PlayerPrefs.SetString("ServerID", "S1");
         }
 
         if (user != null)
         {
+            if (FirebaseAuth.DefaultInstance.CurrentUser != user)
+            {
+                user = FirebaseAuth.DefaultInstance.CurrentUser;
+                StartCoroutine(GetInfoAccount());
+            }
+
             if (startGame)
             {
                 SetActive(true, false, false, true, true);
@@ -59,6 +67,7 @@ public class SetupLoadScene : MonoBehaviour
         }
         else
         {
+            user = FirebaseAuth.DefaultInstance.CurrentUser;
             SetActive(false, false, true, false, false);
         }
     }
@@ -75,7 +84,7 @@ public class SetupLoadScene : MonoBehaviour
     // lấy thông tin tài khoản
     public IEnumerator GetInfoAccount()
     {
-        if (FirebaseConnection.instance.auth.CurrentUser == null) yield break;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) yield break;
         if (serverID.Length == 0) yield break;
 
         var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(serverID).GetValueAsync();

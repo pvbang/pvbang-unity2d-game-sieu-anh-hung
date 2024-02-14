@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3635173193258731177}
+  - component: {fileID: 7911869466380029908}
+  - component: {fileID: 1179288432361425226}
+  - component: {fileID: 86394835826152026}
   m_Layer: 0
   m_Name: Tatsumaki
   m_TagString: Untagged
@@ -29,11 +32,72 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 41504627195126373}
   - {fileID: 4279759810632707761}
   - {fileID: 2021299107725522957}
-  - {fileID: 41504627195126373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7911869466380029908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618402547051651092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366f926f3c8fc1442ba3e299c25c4e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h_id: tatsumaki
+  h_name: Tatsumaki
+  h_level: 0
+  h_hp: 4400
+  h_maxHP: 4400
+  h_damagePysical: 1000
+  h_damageMagic: 5200
+  h_tank: 1700
+  h_speed: 2300
+  elements: wind
+  landAttackElements: 0
+  landTankElements: 0
+  waterAttackElements: 0
+  waterTankElements: 0
+  windAttackElements: 3000
+  windTankElements: 3000
+  fireAttackElements: 0
+  fireTankElements: 0
+  lightAttackElements: 0
+  lightTankElements: 0
+  darkAttackElements: 0
+  darkTankElements: 0
+  evolution: 0
+  superEvolution: 0
+  reincarnation: 0
+--- !u!114 &1179288432361425226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618402547051651092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632387b1a740a434a9a67d4af3b0cab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!210 &86394835826152026
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618402547051651092}
+  m_Enabled: 1
+  m_SortingLayerID: -1104287745
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &802431142322946515
 PrefabInstance:
   m_ObjectHideFlags: 0

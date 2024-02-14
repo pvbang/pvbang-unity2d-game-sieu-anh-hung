@@ -13,7 +13,7 @@ public class EXPController : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseConnection.instance.auth.CurrentUser;
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
     }
 

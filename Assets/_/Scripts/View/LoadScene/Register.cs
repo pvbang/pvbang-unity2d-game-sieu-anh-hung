@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Firebase.Database;
+using Firebase.Auth;
 
 public class Register : MonoBehaviour
 {
@@ -55,7 +56,7 @@ public class Register : MonoBehaviour
     {
         var email = username + "@gmail.com";
 
-        var task = FirebaseConnection.instance.auth.CreateUserWithEmailAndPasswordAsync(email, password);
+        var task = FirebaseAuth.DefaultInstance.CreateUserWithEmailAndPasswordAsync(email, password);
         yield return new WaitUntil(() => task.IsCompleted);
 
         if (task.IsFaulted)
@@ -71,7 +72,7 @@ public class Register : MonoBehaviour
         }
         else if (task.IsCompleted)
         {
-            Firebase.Auth.AuthResult result = task.Result;
+            AuthResult result = task.Result;
             Dictionary<string, object> userID = new Dictionary<string, object>
             {
                 { "userID", result.User.UserId }

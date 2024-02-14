@@ -442,8 +442,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294933845
-  m_fontColor: {r: 0.3339622, g: 0.49183792, b: 1, a: 1}
+    rgba: 4294930176
+  m_fontColor: {r: 0, g: 0.43529412, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1973,8 +1973,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278249312
-  m_fontColor: {r: 0.374756, g: 0.9056604, b: 0, a: 1}
+    rgba: 4280872514
+  m_fontColor: {r: 0.25882354, g: 0.9333334, b: 0.15686275, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3254,7 +3254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &841403226396020125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3292,8 +3292,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u0103ng nh\u1EADp"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3520,15 +3520,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ch\u01B0a c\xF3 t\xE0i kho\u1EA3n? >>"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 920fb26d47bb5d843b62883d5e1a0540, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: 920fb26d47bb5d843b62883d5e1a0540, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4290361785
-  m_fontColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    rgba: 4290230199
+  m_fontColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3545,8 +3545,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3928,8 +3928,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SAH S1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 806a66c6c821ecb458def0e72d0e0a7f, type: 2}
+  m_sharedMaterial: {fileID: -1556396113692069839, guid: 806a66c6c821ecb458def0e72d0e0a7f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3953,8 +3953,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4119,7 +4119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1681273825304671439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4315,7 +4315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NH\u1EA4P CH\u1ECCN"
+  m_text: "Nh\u1EA5p ch\u1ECDn"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 806a66c6c821ecb458def0e72d0e0a7f, type: 2}
   m_sharedMaterial: {fileID: -1556396113692069839, guid: 806a66c6c821ecb458def0e72d0e0a7f, type: 2}
@@ -5775,8 +5775,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u0103ng k\xFD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5864,8 +5864,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "V\xE0o game"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6032,8 +6032,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u0103ng k\xFD t\xE0i kho\u1EA3n m\u1EDBi >"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6057,8 +6057,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6270,7 +6270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 141, y: 77}
+  m_AnchoredPosition: {x: 141, y: 86}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3963552329780829404
@@ -8053,7 +8053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6526289306770831748
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8927,8 +8927,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Nh\u1EA5p \u0111\u0103ng nh\u1EADp"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9034,8 +9034,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0110\u1ED5i t\xE0i kho\u1EA3n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 177652755d3611b44892fa4f52bf3b74, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9142,7 +9142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   removeAllPlayerPrefs: 1
-  PlayerPrefsKey: Account
+  PlayerPrefsKey: ServerID
 --- !u!114 &7822867951103465965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9934,7 +9934,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7766238865942887856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3bc88084cc44f04ca51812c104eade4, type: 3}
+  m_Script: {fileID: 11500000, guid: b9a4f8cf6e23cca4588251aae3bba84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Server: {fileID: 1676000953118338396}
@@ -10378,8 +10378,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "T\u1EA1o nh\xE2n v\u1EADt"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: 5d6344c9016ce0e4e81bbc46fff22ac0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10464,8 +10464,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -270.53, y: 82.26001}
-  m_SizeDelta: {x: 463.07, y: 90.19}
+  m_AnchoredPosition: {x: -288, y: 82.26001}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8916824506451499341
 MonoBehaviour:

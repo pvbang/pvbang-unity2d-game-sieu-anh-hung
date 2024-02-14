@@ -412,8 +412,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Quy t\u1EAFc"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1698,10 +1698,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Danh s\xE1ch \u0111\u1EA1o c\u1EE5"
+  m_text: "Danh s\xE1ch trang b\u1ECB"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
-  m_sharedMaterial: {fileID: -6412725834051987994, guid: fba7cf37c2de00b41998b5f52e7ea638, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
+  m_sharedMaterial: {fileID: -4169352844883024999, guid: b000ec5d6f3de6f498f30d3dcd113bdc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1725,8 +1725,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2095,7 +2095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c25edd13a382bd4cb8b580ddf794f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectScene: 0
+  selectScene: 2
   isActive: 1
   isLoadLastScene: 1
 --- !u!114 &9138320898146809158

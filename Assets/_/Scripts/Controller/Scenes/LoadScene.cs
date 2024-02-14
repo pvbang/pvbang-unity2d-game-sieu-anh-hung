@@ -8,7 +8,8 @@ public enum ListScene
     ChooseCharacterScene,
     MainScene,
     ArenaScene,
-    ListTeamScene,
+    BagScene,
+    HeroScene,
     PKScene,
     TeamScene,
     WeaponsScene

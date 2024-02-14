@@ -1,4 +1,5 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth;
+using Firebase.Database;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -67,7 +68,7 @@ public class Login : MonoBehaviour
 
         var email = username + "@gmail.com";
 
-        var task = FirebaseConnection.instance.auth.SignInWithEmailAndPasswordAsync(email, password);
+        var task = FirebaseAuth.DefaultInstance.SignInWithEmailAndPasswordAsync(email, password);
         yield return new WaitUntil(() => task.IsCompleted);
 
         if (task.IsFaulted)
@@ -76,8 +77,8 @@ public class Login : MonoBehaviour
         }
         else if (task.IsCompleted)
         {
-            Firebase.Auth.AuthResult result = task.Result;
-            Debug.LogFormat("User signed in successfully: {0} ({1})", result.User.DisplayName, result.User.UserId);
+            AuthResult result = task.Result;
+            Debug.Log("Đăng nhập thành công: " + result.User.UserId);
             Notification.instance.ShowNotifications("Đăng nhập thành công");
             login.SetActive(false);
         }

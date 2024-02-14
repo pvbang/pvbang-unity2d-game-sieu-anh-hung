@@ -21,7 +21,7 @@ public class SetAvatar : BaseButton
 
     private void Awake()
     {
-        user = FirebaseConnection.instance.auth.CurrentUser;
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
 
         // SetRandomName();

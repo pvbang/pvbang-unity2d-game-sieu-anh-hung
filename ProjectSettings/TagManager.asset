@@ -50,6 +50,9 @@ TagManager:
   - name: Top
     uniqueID: 3904422923
     locked: 0
+  - name: Hero
+    uniqueID: 3190679551
+    locked: 0
   - name: AOA
     uniqueID: 1863487475
     locked: 0

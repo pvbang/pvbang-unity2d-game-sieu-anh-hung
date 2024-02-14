@@ -23,7 +23,7 @@ public class HeroBar : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseConnection.instance.auth.CurrentUser;
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
 
         ServerID = PlayerPrefs.GetString("ServerID");
     }
@@ -82,19 +82,19 @@ public class HeroBar : MonoBehaviour
         string vip = data.Child("vip").Value.ToString();
         string power = data.Child("power").Value.ToString();
 
-        TxtName.text = name;
-        TxtLevel.text = level;
+        if (TxtName != null) TxtName.text = name;
+        if (TxtLevel != null) TxtLevel.text = level;
 
-        EXP.GetComponent<HealthBar>().UpdateBar(float.Parse(exp), float.Parse(maxEXP));
-        Physial.GetComponent<HealthBar>().UpdateBar(float.Parse(physical), float.Parse(maxPhysical));
+        if (EXP != null) EXP.GetComponent<HealthBar>().UpdateBar(float.Parse(exp), float.Parse(maxEXP));
+        if (Physial != null) Physial.GetComponent<HealthBar>().UpdateBar(float.Parse(physical), float.Parse(maxPhysical));
 
-        TxtVip.text = "VIP " +vip;
-        TxtPower.text = "Lực chiến: " +power;
+        if (TxtVip != null) TxtVip.text = "VIP " +vip;
+        if (TxtPower != null) TxtPower.text = "Lực chiến: " +power;
 
-        Avatar.GetComponent<BackgroundController>().ChangeBackground(avatar-1);
+        if (Avatar != null) Avatar.GetComponent<BackgroundController>().ChangeBackground(avatar-1);
 
-        EXP.GetComponent<EXPController>().CheckEXP(int.Parse(exp), int.Parse(maxEXP), int.Parse(level));
-        Physial.GetComponent<PhysicalController>().CheckPhysical(int.Parse(physical), int.Parse(maxPhysical));
+        if (EXP != null) EXP.GetComponent<EXPController>().CheckEXP(int.Parse(exp), int.Parse(maxEXP), int.Parse(level));
+        if (Physial != null) Physial.GetComponent<PhysicalController>().CheckPhysical(int.Parse(physical), int.Parse(maxPhysical));
     }
 
     // set thông tin item
