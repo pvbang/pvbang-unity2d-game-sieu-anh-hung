@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4773883081147875884}
   - component: {fileID: 385096811015616220}
   - component: {fileID: -4469757377239062585}
+  - component: {fileID: 6219907430139781220}
   m_Layer: 0
   m_Name: Overlord
   m_TagString: Hero
@@ -120,6 +121,19 @@ SortingGroup:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &6219907430139781220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6790082999103566864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8393a769f83a52944a5410ab7a0c2c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: overlord
 --- !u!1001 &2057065911283924376
 PrefabInstance:
   m_ObjectHideFlags: 0
