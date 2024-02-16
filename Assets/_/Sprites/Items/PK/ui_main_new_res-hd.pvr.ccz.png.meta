@@ -362,10 +362,10 @@ TextureImporter:
       name: ui_main_new_res-hd.pvr.ccz_10
       rect:
         serializedVersion: 2
-        x: 2292
-        y: 4665
-        width: 480
-        height: 503
+        x: 2231
+        y: 4643
+        width: 583
+        height: 554
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: ui_main_new_res-hd.pvr.ccz_11
       rect:
         serializedVersion: 2
-        x: 2846
-        y: 4665
-        width: 500
-        height: 500
+        x: 2814
+        y: 4643
+        width: 560
+        height: 553
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,7 +535,7 @@ TextureImporter:
         width: 307
         height: 293
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,7 +556,7 @@ TextureImporter:
         width: 677
         height: 766
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

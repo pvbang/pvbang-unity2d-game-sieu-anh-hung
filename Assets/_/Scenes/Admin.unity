@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5784127531803595485, guid: 55575af2107858e448c5096fe071eb73, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CreateNewGiftcodeButton
+      value: ForButton
       objectReference: {fileID: 0}
     - target: {fileID: 5784127531803595485, guid: 55575af2107858e448c5096fe071eb73, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -289,11 +289,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6cac2d1627a0ed4097d9456819a5498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCreate: 0
+  isEdit: 1
+  isDelete: 0
   giftcodeID: SAHTANTHU
   itemID:
-  - overlord
+  - TheCamVanNang
+  - TheDoVanNang
   quantity:
   - 2
+  - 3
+  timeEnd: 99999
 --- !u!1 &157533613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 473696930771131415, guid: ad58579d516cfa242806d088d2781c17, type: 3}

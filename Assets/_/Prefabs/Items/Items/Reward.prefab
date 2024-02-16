@@ -244,8 +244,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 8453806163203611963}
   - component: {fileID: 1530036638954512433}
   - component: {fileID: 8930032261975205173}
+  - component: {fileID: 6886050526097040670}
   m_Layer: 6
   m_Name: Reward
   m_TagString: Untagged
@@ -402,6 +403,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: reward
+--- !u!114 &6886050526097040670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588082978015119524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e1c985ebd2a244f91b03c9d8b463ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 7593606731353986819}
+  frame: {fileID: 5912146370310146795}
+  text: {fileID: 7411719205995328499}
 --- !u!1 &5792911111409136562
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +506,7 @@ GameObject:
   - component: {fileID: 5756610470480145516}
   - component: {fileID: 5912146370310146795}
   m_Layer: 6
-  m_Name: Image
+  m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
