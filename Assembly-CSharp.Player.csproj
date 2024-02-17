@@ -67,6 +67,7 @@
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\BaseButton.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\RemovePlayerPrefs.cs" />
+    <Compile Include="Assets\_\Scripts\View\HeroScene\ListHero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Giftcode\GiftcodeManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\WelfereContent.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HP.cs" />
@@ -88,13 +89,13 @@
     <Compile Include="Assets\_\Scripts\View\MainScene\WelfereContentButton.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\EXPController.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\Hero\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Notification.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\InvertListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\Server.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\ItemAssets.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroManager.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\HeroFrame.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetPlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Giftcode\GetGiftcode.cs" />
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />
@@ -103,7 +104,9 @@
     <Compile Include="Assets\_\Scripts\Controller\_\ShakeBackground.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ServerManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroBar.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\HeroUnit.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
+    <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\SetupLoadScene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\DestroyObject.cs" />

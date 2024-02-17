@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1174811333649560341}
   - component: {fileID: 8912680009218212973}
-  - component: {fileID: 4773883081147875884}
   - component: {fileID: 385096811015616220}
   - component: {fileID: -4469757377239062585}
   - component: {fileID: 6219907430139781220}
   - component: {fileID: 3185595292289850648}
+  - component: {fileID: 4824646088508023563}
   m_Layer: 0
   m_Name: Hero_Overlord
   m_TagString: Hero
@@ -61,42 +61,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4773883081147875884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6790082999103566864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 366f926f3c8fc1442ba3e299c25c4e46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  h_name: Overlord
-  h_level: 0
-  h_hp: 5500
-  h_maxHP: 5500
-  h_damagePysical: 3200
-  h_damageMagic: 4800
-  h_tank: 2200
-  h_speed: 1200
-  elements: dark
-  landAttackElements: 0
-  landTankElements: 0
-  waterAttackElements: 0
-  waterTankElements: 0
-  windAttackElements: 0
-  windTankElements: 0
-  fireAttackElements: 0
-  fireTankElements: 0
-  lightAttackElements: 0
-  lightTankElements: 0
-  darkAttackElements: 3000
-  darkTankElements: 3000
-  evolution: 0
-  superEvolution: 0
-  reincarnation: 0
 --- !u!114 &385096811015616220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8393a769f83a52944a5410ab7a0c2c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 
+  id: Hero_Overlord
 --- !u!114 &3185595292289850648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,11 +110,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f502c95cc2189b94e8c5d0896cfc3310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iconName: Overlord
+  itemName: Overlord
   icon: {fileID: 21300000, guid: 1c4fd1c9eb0a62a42815e0a3c4827db1, type: 3}
   frame: {fileID: 1025419923, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
   image: {fileID: 21300000, guid: 8ec49f7f8200d0e42ace36936500e506, type: 3}
   background: {fileID: 1879330930, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+--- !u!114 &4824646088508023563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6790082999103566864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b180baab4773f72428ee84c290f2b080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h_id: Hero_Overlord
+  h_name: Overlord
+  h_level: 0
+  h_hp: 12000
+  h_maxHP: 12000
+  h_damagePysical: 4800
+  h_damageMagic: 5200
+  h_tank: 4500
+  h_speed: 2400
+  elements: dark
+  landAttackElements: 0
+  landTankElements: 0
+  waterAttackElements: 0
+  waterTankElements: 0
+  windAttackElements: 0
+  windTankElements: 0
+  fireAttackElements: 0
+  fireTankElements: 0
+  lightAttackElements: 0
+  lightTankElements: 0
+  darkAttackElements: 3000
+  darkTankElements: 3000
+  evolution: 0
+  superEvolution: 0
+  reincarnation: 0
 --- !u!1001 &2057065911283924376
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class HeroController : MonoBehaviour
 {
     private Animator animator;
-    private Hero hero;
+    private HeroUnit hero;
     private HP hp;
     private Level level;
 
@@ -17,7 +17,7 @@ public class HeroController : MonoBehaviour
             animator = GetComponentInChildren<Animator>();
         }
 
-        hero = GetComponent<Hero>();
+        hero = GetComponent<HeroUnit>();
         hp = transform.Find("CanvasStatusBar").Find("StatusBar").Find("HP").GetComponent<HP>();
         level = transform.Find("CanvasStatusBar").Find("StatusBar").Find("Level").GetComponent<Level>();
     }

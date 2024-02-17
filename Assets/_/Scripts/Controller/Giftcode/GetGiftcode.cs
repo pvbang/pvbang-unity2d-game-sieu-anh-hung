@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Windows;
 
 public class GetGiftcode : BaseButton
 {
@@ -18,7 +19,8 @@ public class GetGiftcode : BaseButton
         showReward = GetComponent<ShowReward>();
     }
 
-    IEnumerator GetGiftcodeButton()
+    // Lấy thông tin giftcode
+    IEnumerator GetGiftcodeInfo()
     {
         bool isUsed = false;
 
@@ -47,29 +49,11 @@ public class GetGiftcode : BaseButton
         // chờ 0.3s trước khi tiếp tục
         yield return new WaitForSeconds(0.3f);
 
-        ShowGiftcodeReward();
+        CheckGiftcode();
     }
 
-    IEnumerator ShowGiftcodeItems(Dictionary<string, object> items)
-    {
-        foreach (var item in items)
-        {
-            Debug.Log("Key: " + item.Key + ", Value: " + item.Value);
-
-            GameObject itemObject = GameAssets.Instance.GetGameObjectFromId(item.Key);
-
-            if (itemObject != null)
-            {
-                ItemAssets itemAttribute = itemObject.GetComponent<ItemAssets>();
-                showReward.ShowRewardNotification(itemAttribute.GetImage(), itemAttribute.GetFrame(), itemAttribute.GetIconName() + " x" + item.Value);
-            }
-
-            // Chờ một chút trước khi hiển thị item tiếp theo
-            yield return new WaitForSeconds(0.3f);
-        }
-    }
-
-    void ShowGiftcodeReward()
+    // Kiểm tra thông tin giftcode
+    void CheckGiftcode()
     {
         if (giftcodeData == null)
         {
@@ -96,6 +80,43 @@ public class GetGiftcode : BaseButton
         StartCoroutine(ShowGiftcodeItems((Dictionary<string, object>)giftcodeData["items"]));
     }
 
+    // Hiển thị từng item trong giftcode và thêm hero mới nếu có
+    IEnumerator ShowGiftcodeItems(Dictionary<string, object> items)
+    {
+        foreach (var item in items)
+        {
+            GameObject itemObject = GameAssets.Instance.GetGameObjectFromId(item.Key);
+
+            // Kiểm tra xem itemObject có tồn tại hay không
+            if (itemObject != null)
+            {
+                ItemAssets itemAttribute = itemObject.GetComponent<ItemAssets>();
+                showReward.ShowRewardNotification(itemAttribute.GetIcon(), itemAttribute.GetFrame(), itemAttribute.GetItemName() + " x" + item.Value);
+
+                // Tách chuỗi để lấy heroID
+                string[] parts = item.Key.Split('_');
+                string heroID = parts[0];
+
+                // Nếu heroID là "Hero", thêm hero mới
+                if (heroID == "Hero")
+                {
+                    HeroUnit hero = itemObject.GetComponent<HeroUnit>();
+                    if (hero != null) // Kiểm tra hero không null trước khi thêm vào
+                    {
+                        // chạy item.Value lần để thêm hero mới
+                        for (int i = 0; i < int.Parse(item.Value.ToString()); i++)
+                        {
+                            StartCoroutine(HeroManager.AddNewHero(hero));
+                        }
+                    }
+                }
+            }
+
+            // Chờ một chút trước khi hiển thị item tiếp theo
+            yield return new WaitForSeconds(0.3f);
+        }
+    }
+
 
     protected override void OnClick()
     {
@@ -104,6 +125,6 @@ public class GetGiftcode : BaseButton
             Notification.instance.ShowNotifications("Bạn chưa nhập giftcode");
             return;
         }
-        StartCoroutine(GetGiftcodeButton());
+        StartCoroutine(GetGiftcodeInfo());
     }
 }

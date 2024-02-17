@@ -280,7 +280,7 @@ public class RandomStringGenerator
     {
         if (length <= 0 || length > chars.Length)
         {
-            throw new ArgumentOutOfRangeException("length", "Length must be greater than 0 and less than or equal to " + chars.Length);
+            throw new ArgumentOutOfRangeException("Độ dài", "Độ dài phải lớn hơn 0 hoặc nhỏ hơn " + chars.Length);
         }
 
         return new string(Enumerable.Repeat(chars, length)

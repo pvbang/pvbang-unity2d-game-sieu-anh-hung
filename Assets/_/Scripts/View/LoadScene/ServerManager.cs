@@ -3,7 +3,6 @@ using Firebase.Database;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class ServerManager : MonoBehaviour
@@ -194,7 +193,6 @@ public class ServerManager : MonoBehaviour
 
             if (snapshot.Exists)
             {
-                
                 foreach (DataSnapshot child in snapshot.Children)
                 {
                     if (this.servers != null)

@@ -71,6 +71,7 @@ public class GiftcodeManager : MonoBehaviour
             // Duyệt qua mảng itemID và quantity để tạo một dictionary mới cho items
             for (int i = 0; i < itemID.Length && i < quantity.Length; i++)
             {
+                if (quantity[i] == null) quantity[i] = "1";
                 dataItems.Add(itemID[i], quantity[i]);
             }
 

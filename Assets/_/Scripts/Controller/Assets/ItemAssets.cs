@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class ItemAssets : MonoBehaviour
 {
-    public string iconName = "";
+    public string itemName = "";
     public Sprite icon;
     public Sprite frame;
     public Sprite image;
     public Sprite background;
 
-    public string GetIconName()
+    public string GetItemName()
     {
-        return iconName;
+        return itemName;
     }
 
     public Sprite GetIcon()
