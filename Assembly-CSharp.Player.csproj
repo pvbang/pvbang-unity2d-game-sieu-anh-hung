@@ -65,9 +65,9 @@
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveObject.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ButtonAnimation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\Giftcode\GiftcodeController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\BaseButton.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\RemovePlayerPrefs.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Giftcode\GiftcodeManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\WelfereContent.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HP.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\WinOrLose.cs" />
@@ -92,8 +92,9 @@
     <Compile Include="Assets\_\Scripts\Controller\_\Notification.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\InvertListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\Server.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\_\ItemAttribute.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Assets\ItemAssets.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Hero\HeroManager.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetPlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Giftcode\GetGiftcode.cs" />
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6694944177402037111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4585990942831526357}
+  - component: {fileID: 1666264703483326084}
+  - component: {fileID: 8279932655081615872}
+  - component: {fileID: 6488312123340070641}
+  - component: {fileID: -6437458854928481913}
+  - component: {fileID: -6175059913809691696}
+  - component: {fileID: -5382608973128714600}
+  m_Layer: 0
+  m_Name: Hero_TheAnhHonLamVanNang
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585990942831526357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1666264703483326084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8393a769f83a52944a5410ab7a0c2c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
+--- !u!114 &8279932655081615872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f502c95cc2189b94e8c5d0896cfc3310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconName: "Th\u1EBB anh h\u1ED3n lam v\u1EA1n n\u0103ng"
+  icon: {fileID: 21300000, guid: d900456917bb9b444b6df993081a5571, type: 3}
+  frame: {fileID: -1298367249, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
+  image: {fileID: 21300000, guid: 8a3568fcdf3f74b4fa6c70219589179d, type: 3}
+  background: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+--- !u!114 &6488312123340070641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366f926f3c8fc1442ba3e299c25c4e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h_name: "Th\u1EBB anh h\u1ED3n lam v\u1EA1n n\u0103ng"
+  h_level: 0
+  h_hp: 1000
+  h_maxHP: 1000
+  h_damagePysical: 1000
+  h_damageMagic: 1000
+  h_tank: 1000
+  h_speed: 1000
+  elements: light
+  landAttackElements: 0
+  landTankElements: 0
+  waterAttackElements: 0
+  waterTankElements: 0
+  windAttackElements: 0
+  windTankElements: 0
+  fireAttackElements: 0
+  fireTankElements: 0
+  lightAttackElements: 1000
+  lightTankElements: 1000
+  darkAttackElements: 0
+  darkTankElements: 0
+  evolution: 0
+  superEvolution: 0
+  reincarnation: 0
+--- !u!210 &-6437458854928481913
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_SortingLayerID: -1104287745
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!95 &-6175059913809691696
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d805db6f9c7973e4ea42ed2471b68bbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5382608973128714600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694944177402037111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632387b1a740a434a9a67d4af3b0cab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

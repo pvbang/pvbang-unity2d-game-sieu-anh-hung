@@ -153,12 +153,12 @@ public class GameAssets : MonoBehaviour
     {
         if (assetMap.TryGetValue(id, out GameObject obj))
         {
-            Debug.Log("Asset: " + id);
+            Debug.Log("Assets: " + id);
             return obj;
         }
         else
         {
-            Debug.LogWarning("Asset không tồn tại: " + id);
+            Debug.LogWarning("Assets không tồn tại: " + id);
             return null;
         }
     }

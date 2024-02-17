@@ -26,10 +26,10 @@ public class RewardController : MonoBehaviour
         }
     }
 
-    public void SetReward(Image image, Image frame, string rewardText)
+    public void SetReward(Sprite image, Sprite frame, string rewardText)
     {
-        this.image.sprite = image.sprite;
-        this.frame.sprite = frame.sprite;
+        this.image.sprite = image;
+        this.frame.sprite = frame;
         this.text.text = rewardText;
     }
 }

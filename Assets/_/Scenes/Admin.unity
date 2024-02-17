@@ -294,11 +294,19 @@ MonoBehaviour:
   isDelete: 0
   giftcodeID: SAHTANTHU
   itemID:
-  - TheCamVanNang
-  - TheDoVanNang
+  - Hero_TheTimVanNang
+  - Hero_TheCamVanNang
+  - Hero_TheDoVanNang
+  - Hero_TheVangVanNang
+  - Hero_TheHonLucVanNang
+  - Hero_TheAnhHonVangVanNang
   quantity:
+  - 1
   - 2
   - 3
+  - 4
+  - 5
+  - 6
   timeEnd: 99999
 --- !u!1 &157533613 stripped
 GameObject:

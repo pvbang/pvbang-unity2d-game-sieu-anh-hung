@@ -2,7 +2,6 @@
 
 public class Hero : MonoBehaviour
 {
-    public string h_id;
     public string h_name;
     public int h_level = 0;
     public ulong h_hp = 1000;

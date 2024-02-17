@@ -46,13 +46,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   games: []
   heros:
+  - {fileID: 4753443983569229714, guid: 3396551bd771b0e44b72136b306d6361, type: 3}
+  - {fileID: 2109247760494685479, guid: 3b81075afb273654a969b5da2bab117a, type: 3}
+  - {fileID: 745874601345010377, guid: e8ca71f058475304fa0a413264f2406a, type: 3}
+  - {fileID: 5450503220405587889, guid: a01368cf2e00b2943b2db581aae59511, type: 3}
+  - {fileID: 7347330164189876375, guid: 0cdd0513428121846ad42a8c93638b0c, type: 3}
+  - {fileID: 1530132652397483759, guid: 0422cc3ea681a7f44aee1ae8b5849a85, type: 3}
+  - {fileID: 8999168350757336384, guid: 0defea191267d244ca086f6d911cab29, type: 3}
+  - {fileID: 6694944177402037111, guid: 7eda08900bcb1094ea1e142cbf47201a, type: 3}
   - {fileID: 6790082999103566864, guid: 49f4b099c24646e4b87ee31226a2ad18, type: 3}
   - {fileID: 5618402547051651092, guid: a9c82aad9e4ce6d4894b24611f43b6ca, type: 3}
   items:
   - {fileID: 5588082978015119524, guid: 387ea36e8d4985249af8695edbf39845, type: 3}
-  icons:
-  - {fileID: 2199064610729927472, guid: fec26942f07c5fb449efc852391e57b7, type: 3}
-  - {fileID: 2199064610729927472, guid: 70c21176c17553a419993c9da494e1cd, type: 3}
-  - {fileID: 2199064610729927472, guid: 45e12106c5206be4b8c6c78a132bf1a8, type: 3}
-  - {fileID: 2199064610729927472, guid: 1b3723ae471ff8b4a9ad2bc53d6206c2, type: 3}
+  - {fileID: 5928436535567640347, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  - {fileID: 5928436535567640347, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
+  - {fileID: 8831759823323165412, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
+  icons: []
   weapons: []

@@ -7,14 +7,14 @@ using TMPro;
 public class GetGiftcode : BaseButton
 {
     public TMP_InputField inputGiftcode;
-    private GiftcodeController adminGiftcode;
+    private GiftcodeManager adminGiftcode;
     private ShowReward showReward;
 
     private Dictionary<string, object> giftcodeData;
 
     private void Awake()
     {
-        adminGiftcode = GetComponent<GiftcodeController>();
+        adminGiftcode = GetComponent<GiftcodeManager>();
         showReward = GetComponent<ShowReward>();
     }
 
@@ -60,7 +60,7 @@ public class GetGiftcode : BaseButton
 
             if (itemObject != null)
             {
-                ItemAttribute itemAttribute = itemObject.GetComponent<ItemAttribute>();
+                ItemAssets itemAttribute = itemObject.GetComponent<ItemAssets>();
                 showReward.ShowRewardNotification(itemAttribute.GetImage(), itemAttribute.GetFrame(), itemAttribute.GetIconName() + " x" + item.Value);
             }
 
