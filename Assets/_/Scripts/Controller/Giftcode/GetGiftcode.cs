@@ -40,14 +40,19 @@ public class GetGiftcode : BaseButton
             yield break;
         }
 
+        bool isExist = false;
         // Lấy thông tin giftcode
         adminGiftcode.GetGiftcode(inputGiftcode.text, giftcodeData =>
         {
             this.giftcodeData = giftcodeData;
+            isExist = true;
         });
 
         // chờ 0.3s trước khi tiếp tục
-        yield return new WaitForSeconds(0.3f);
+        while (isExist == false)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
 
         CheckGiftcode();
     }

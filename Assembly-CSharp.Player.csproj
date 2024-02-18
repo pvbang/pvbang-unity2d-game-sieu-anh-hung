@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\_\Scripts\Controller\Database\AuthSignOut.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
+    <Compile Include="Assets\_\Scripts\View\TeamScene\Team.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\GameAssets.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveObject.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\Level.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\UILoadScene.cs" />
+    <Compile Include="Assets\_\Scripts\View\HeroScene\SetHeroPosition.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\ShakeBackground.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ServerManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroBar.cs" />

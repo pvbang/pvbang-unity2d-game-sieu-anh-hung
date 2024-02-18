@@ -12,8 +12,10 @@ public class HeroManager
     // thêm hero mới vào account
     public static IEnumerator AddNewHero(HeroUnit hero)
     {
+        string heroID = "HERO_" + RandomStringGenerator.GenerateRandomString(20);
+        hero.id = heroID;
         string json = JsonUtility.ToJson(hero);
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("heros").Child("HERO_"+RandomStringGenerator.GenerateRandomString(20)).SetRawJsonValueAsync(json);
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("heros").Child(heroID).SetRawJsonValueAsync(json);
 
         yield return new WaitUntil(() => task.IsCompleted);
 
@@ -64,6 +66,7 @@ public class HeroManager
                         heros.Add(JsonUtility.FromJson<Hero>(child.GetRawJsonValue()));
                     }
 
+                    Debug.Log("Lấy danh sách hero của account thành công");
                     callback(heros);
                 }
                 else

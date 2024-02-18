@@ -51,7 +51,7 @@ public class HeroFrame : MonoBehaviour
                 this.image.sprite = itemAssets.GetImage();
             }
         }
-        this.heroLevel.text = "Lv. " + hero.h_level.ToString() + "/" + hero.h_levelMax.ToString();
+        this.heroLevel.text = "Lv. " + hero.h_level.ToString() + " / " + hero.h_levelMax.ToString();
         this.heroName.text = hero.h_name;
     }
 }

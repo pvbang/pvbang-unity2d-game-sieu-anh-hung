@@ -4,27 +4,33 @@ using UnityEngine;
 
 public class SetPlayerPrefs : BaseButton
 {
-    public bool isInt = false;
-    public bool isFloat = false;
-    public bool isString = false;
+    public string key = "";
 
+    [Header("Int")]    
+    public bool isInt = false;
     public int intValue;
+
+    [Header("Float")]
+    public bool isFloat = false;
     public float floatValue;
+
+    [Header("String")]
+    public bool isString = false;
     public string stringValue;
 
     protected override void OnClick()
     {
         if (isInt)
         {
-            PlayerPrefs.SetInt("Int", intValue);
+            PlayerPrefs.SetInt(key, intValue);
         }
         else if (isFloat)
         {
-            PlayerPrefs.SetFloat("Float", floatValue);
+            PlayerPrefs.SetFloat(key, floatValue);
         }
         else if (isString)
         {
-            PlayerPrefs.SetString("String", stringValue);
+            PlayerPrefs.SetString(key, stringValue);
         }
     }
 }

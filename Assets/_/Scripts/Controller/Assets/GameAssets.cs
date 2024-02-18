@@ -153,7 +153,7 @@ public class GameAssets : MonoBehaviour
     {
         if (assetMap.TryGetValue(id, out GameObject obj))
         {
-            Debug.Log("Assets: " + id);
+            // Debug.Log("Assets: " + id);
             return obj;
         }
         else

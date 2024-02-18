@@ -221,6 +221,9 @@ GameObject:
   - component: {fileID: 3568439120365889614}
   - component: {fileID: 8718912286272307763}
   - component: {fileID: 170698867977073492}
+  - component: {fileID: 7781964220238904369}
+  - component: {fileID: -7978164047969855438}
+  - component: {fileID: 2345405638275410816}
   m_Layer: 0
   m_Name: Item_Hero_Frame
   m_TagString: Untagged
@@ -324,6 +327,46 @@ MonoBehaviour:
   image: {fileID: 2080719748127629395}
   heroLevel: {fileID: 8673076122633050167}
   heroName: {fileID: 4213326562706246207}
+--- !u!114 &7781964220238904369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928436535567640347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54555578ec1687247b0690a444c0593d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7978164047969855438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928436535567640347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &2345405638275410816
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928436535567640347}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: d4ba0f7837d84d84faef9dc95dc9cf40, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &8661024083792687379
 GameObject:
   m_ObjectHideFlags: 0

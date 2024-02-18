@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AuthSignOut : BaseButton
 {
@@ -10,11 +11,15 @@ public class AuthSignOut : BaseButton
         if (GetComponent<ButtonAnimation>())
         {
             // nếu có animation thì delay theo thời gian của animation
-            StartCoroutine(CoroutineHelper.DelaySeconds(() => FirebaseAuth.DefaultInstance.SignOut(), GetComponent<ButtonAnimation>().GetLengthAnimation()));
+            StartCoroutine(CoroutineHelper.DelaySeconds(() => {
+                FirebaseAuth.DefaultInstance.SignOut();
+                SceneManager.LoadScene("LoadScene");
+            }, GetComponent<ButtonAnimation>().GetLengthAnimation()));
         }
         else
         {
             FirebaseAuth.DefaultInstance.SignOut();
+            SceneManager.LoadScene("LoadScene");
         }
     }
 }

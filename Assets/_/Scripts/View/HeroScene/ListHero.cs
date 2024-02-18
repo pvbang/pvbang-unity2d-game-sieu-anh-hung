@@ -30,20 +30,19 @@ public class ListHero : MonoBehaviour
         StartCoroutine(LoadScene());
     }
 
-    void OnEnable()
-    {
-        StartCoroutine(LoadScene());
-    }
-
     IEnumerator LoadScene()
     {
+        bool isLoaded = false;
         HeroManager.GetListHeroByAccount(heros =>
         {
             this.heros = heros;
+            isLoaded = true;
         });
 
-        yield return new WaitForSeconds(0.3f);
-        if (this.heros == null) yield return new WaitForSeconds(0.5f);
+        while (isLoaded == false)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
 
         ShowListHeros(this.heros);
     }
@@ -51,19 +50,22 @@ public class ListHero : MonoBehaviour
     // hiển thị danh sách các servers đã chơi
     public void ShowListHeros(List<Hero> heros)
     {
-        if (heros.Count == 0)
+        Transform itemBlank = Instantiate(this.itemBlank);
+        itemBlank.name = "HERO_BLANK";
+
+        if (heros == null)
         {
-            Transform itemTransform = Instantiate(this.itemBlank);
             contentAccountServer.DestroyContents();
-            contentAccountServer.AddContent(itemTransform);
+            contentAccountServer.AddContent(itemBlank);
             return;
         }
 
         List<Transform> contentList = new List<Transform>();
-        contentList.Add(Instantiate(this.itemBlank));
+        contentList.Add(itemBlank);
         foreach (Hero hero in heros)
         {
             Transform itemTransform = Instantiate(this.item);
+            itemTransform.name = hero.id;
             itemTransform.GetComponent<HeroFrame>().SetHeroFrame(hero);
             contentList.Add(itemTransform);
         }

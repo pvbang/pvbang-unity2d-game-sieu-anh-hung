@@ -1,5 +1,6 @@
 ﻿public class Hero
 {
+    public string id;
     public string h_id;
     public string h_name;
     public int h_level;
