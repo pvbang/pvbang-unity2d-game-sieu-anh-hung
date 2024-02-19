@@ -409,7 +409,7 @@ TextureImporter:
         width: 250
         height: 208
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 45, y: 45, z: 48, w: 48}
       outline: []
       physicsShape: []
@@ -417,6 +417,27 @@ TextureImporter:
       bones: []
       spriteID: c72726049e4f93344a342410f60e6c09
       internalID: 510769518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_team_info_res-hd.pvr.ccz_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 609
+        width: 645
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c867531dd6a9a23429e20e92845cd4cd
+      internalID: -2012018645
       vertices: []
       indices: 
       edges: []
@@ -437,6 +458,7 @@ TextureImporter:
       ui_team_info_res-hd.pvr.ccz_10: 102029391
       ui_team_info_res-hd.pvr.ccz_11: 530595971
       ui_team_info_res-hd.pvr.ccz_12: 510769518
+      ui_team_info_res-hd.pvr.ccz_13: -2012018645
       ui_team_info_res-hd.pvr.ccz_2: -158345109
       ui_team_info_res-hd.pvr.ccz_3: 1308868478
       ui_team_info_res-hd.pvr.ccz_4: -818425947

@@ -76,4 +76,47 @@ public class HeroManager
             }
         });
     }
+
+    // lấy thông tin hero từ id
+    public static void GetHeroInfoById(string heroID, Action<Hero> callback)
+    {
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null)
+        {
+            callback(null);
+            return;
+        }
+        if (PlayerPrefs.GetString("ServerID") == "")
+        {
+            callback(null);
+            return;
+        }
+
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("heros").Child(heroID).GetValueAsync();
+
+        task.ContinueWith(task =>
+        {
+            if (task.IsFaulted)
+            {
+                Debug.Log("Lỗi lấy thông tin hero từ id: " + task.Exception);
+                callback(null);
+                return;
+            }
+
+            if (task.IsCompleted)
+            {
+                DataSnapshot snapshot = task.Result;
+
+                if (snapshot.Exists)
+                {
+                    Hero hero = JsonUtility.FromJson<Hero>(snapshot.GetRawJsonValue());
+                    callback(hero);
+                }
+                else
+                {
+                    Debug.Log("Không tìm thấy hero từ id");
+                    callback(null);
+                }
+            }
+        });
+    }
 }
