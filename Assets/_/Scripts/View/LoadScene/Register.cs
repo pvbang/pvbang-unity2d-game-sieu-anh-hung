@@ -54,6 +54,7 @@ public class Register : MonoBehaviour
     // tạo tài khoản mới
     IEnumerator CreateNewUser(string username, string password)
     {
+        WaitingController.StartWaiting();
         var email = username + "@gmail.com";
 
         var task = FirebaseAuth.DefaultInstance.CreateUserWithEmailAndPasswordAsync(email, password);
@@ -82,5 +83,6 @@ public class Register : MonoBehaviour
             Notification.instance.ShowNotifications("Tạo tài khoản thành công");
             register.SetActive(false);
         }
+        WaitingController.EndWaiting();
     }
 }

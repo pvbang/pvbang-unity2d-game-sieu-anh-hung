@@ -48,24 +48,7 @@ public class Login : MonoBehaviour
     // đăng nhập
     IEnumerator CheckUserLogin(string username, string password)
     {
-        //var email = username + "@gmail.com";
-        //FirebaseConnection.instance.auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
-        //    if (task.IsCanceled)
-        //    {
-        //        Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
-        //        return;
-        //    }
-        //    if (task.IsFaulted)
-        //    {
-        //        Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
-        //        return;
-        //    }
-
-        //    Firebase.Auth.AuthResult result = task.Result;
-        //    Debug.LogFormat("User signed in successfully: {0} ({1})",
-        //        result.User.DisplayName, result.User.UserId);
-        //});
-
+        WaitingController.StartWaiting();
         var email = username + "@gmail.com";
 
         var task = FirebaseAuth.DefaultInstance.SignInWithEmailAndPasswordAsync(email, password);
@@ -82,36 +65,6 @@ public class Login : MonoBehaviour
             Notification.instance.ShowNotifications("Đăng nhập thành công");
             login.SetActive(false);
         }
-
-        //var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(username).GetValueAsync();
-
-        //yield return new WaitUntil(() => task.IsCompleted);
-
-        //if (task.IsFaulted)
-        //{
-        //    Notification.instance.ShowNotifications("Lỗi tạo tài khoản");
-        //}
-        //else if (task.IsCompleted)
-        //{
-        //    DataSnapshot snapshot = task.Result;
-        //    if (snapshot.Exists)
-        //    {
-        //        Account account = JsonUtility.FromJson<Account>(snapshot.GetRawJsonValue());
-        //        if (account.password == password)
-        //        {
-        //            Debug.Log("Đăng nhập thành công: " + username);
-        //            PlayerPrefs.SetString("Account", username);
-        //            Notification.instance.ShowNotifications("Đăng nhập thành công");
-        //            login.SetActive(false);
-        //        } else
-        //        {
-        //            Notification.instance.ShowNotifications("Sai mật khẩu");
-        //        }
-        //    }
-        //    else
-        //    {
-        //        Notification.instance.ShowNotifications("Tài khoản không tồn tại");
-        //    }
-        //}
+        WaitingController.EndWaiting();
     }
 }

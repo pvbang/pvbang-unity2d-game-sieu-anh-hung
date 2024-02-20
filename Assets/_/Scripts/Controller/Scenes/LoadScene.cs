@@ -29,9 +29,11 @@ public class LoadScene : BaseButton
             // nếu isLoadLastScene = true thì load scene trước đó
             if (isLoadLastScene)
             {
+                WaitingController.StartWaiting();
                 LoadLastScene();
             } else
             {
+                WaitingController.StartWaiting();
                 SceneManager.LoadScene(selectScene.ToString());
             }
         }  
@@ -42,11 +44,13 @@ public class LoadScene : BaseButton
     {
         if (GetComponent<ButtonAnimation>())
         {
+            WaitingController.StartWaiting();
             // nếu có animation thì delay theo thời gian của animation
             StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(selectScene.ToString()), GetComponent<ButtonAnimation>().GetLengthAnimation()));
         }
         else
-        {
+        {   
+            WaitingController.StartWaiting();
             SceneManager.LoadScene(selectScene.ToString());
         }
     }
@@ -56,11 +60,13 @@ public class LoadScene : BaseButton
     {
         if (GetComponent<ButtonAnimation>())
         {
+            WaitingController.StartWaiting();
             // nếu có animation thì delay theo thời gian của animation
             StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(PlayerPrefs.GetString("LastScene")), GetComponent<ButtonAnimation>().GetLengthAnimation()));
         }
         else
         {
+            WaitingController.StartWaiting();
             SceneManager.LoadScene(PlayerPrefs.GetString("LastScene"));
         }
     }
@@ -70,11 +76,13 @@ public class LoadScene : BaseButton
     {
         if (GetComponent<ButtonAnimation>())
         {
+            WaitingController.StartWaiting();
             // nếu có animation thì delay theo thời gian của animation
             StartCoroutine(CoroutineHelper.DelaySeconds(() => SceneManager.LoadScene(SceneManager.GetActiveScene().name), GetComponent<ButtonAnimation>().GetLengthAnimation()));
         }
         else
         {
+            WaitingController.StartWaiting();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

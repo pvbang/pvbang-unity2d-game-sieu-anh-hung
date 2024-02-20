@@ -99,6 +99,8 @@ public class UILoadScene : MonoBehaviour
         if (FirebaseAuth.DefaultInstance.CurrentUser == null) yield break;
         if (serverID.Length == 0) yield break;
 
+        WaitingController.StartWaiting();
+
         var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(serverID).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -125,5 +127,7 @@ public class UILoadScene : MonoBehaviour
                 // Debug.Log("Chưa chơi server này");
             }
         }
+
+        WaitingController.EndWaiting();
     }
 }
