@@ -26,6 +26,7 @@ public class HeroBar : MonoBehaviour
         user = FirebaseAuth.DefaultInstance.CurrentUser;
 
         ServerID = PlayerPrefs.GetString("ServerID");
+        WaitingController.Instance.DelaySeconds(1f);
     }
 
     private void Start()

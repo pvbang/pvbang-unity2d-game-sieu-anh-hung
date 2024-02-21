@@ -85,6 +85,7 @@ public class ServerManager : MonoBehaviour
     // tạo server mới
     IEnumerator CreateNewServer(string id, string username, string status)
     {
+        WaitingController.Instance.StartWaiting();
         var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -110,11 +111,15 @@ public class ServerManager : MonoBehaviour
                 Notification.instance.ShowNotifications("Tạo server thành công");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // xóa server
     IEnumerator DeleteServer(string id)
     {
+        WaitingController.Instance.StartWaiting();
+
         var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -137,11 +142,14 @@ public class ServerManager : MonoBehaviour
                 Notification.instance.ShowNotifications("Server không tồn tại");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // lấy danh sách server
     public IEnumerator GetListServer()
     {
+        WaitingController.Instance.StartWaiting();
         var task = FirebaseConnection.instance.databaseReference.Child("servers").GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -170,6 +178,8 @@ public class ServerManager : MonoBehaviour
                 Notification.instance.ShowNotifications("Không có server nào");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // lấy danh sách server đã đăng ký bởi tài khoản
@@ -178,6 +188,7 @@ public class ServerManager : MonoBehaviour
         if (FirebaseAuth.DefaultInstance.CurrentUser == null) yield break;
         if (serverID.Length == 0) yield break;
 
+        WaitingController.Instance.StartWaiting();
         var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -210,11 +221,15 @@ public class ServerManager : MonoBehaviour
                 Debug.Log("Chưa từng chơi server nào");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // lấy thông tin server
     IEnumerator GetServer(string id)
     {
+        WaitingController.Instance.StartWaiting();
+
         var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -238,11 +253,14 @@ public class ServerManager : MonoBehaviour
                 Notification.instance.ShowNotifications("Server không tồn tại");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // cập nhật thông tin server
     IEnumerator UpdateServer(string id, string username, string status)
     {
+        WaitingController.Instance.StartWaiting();
         var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
@@ -268,6 +286,8 @@ public class ServerManager : MonoBehaviour
                 Notification.instance.ShowNotifications("Server không tồn tại");
             }
         }
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // lấy thông tin server từ list

@@ -99,7 +99,7 @@ public class UILoadScene : MonoBehaviour
         if (FirebaseAuth.DefaultInstance.CurrentUser == null) yield break;
         if (serverID.Length == 0) yield break;
 
-        WaitingController.StartWaiting();
+        WaitingController.Instance.StartWaiting();
 
         var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(serverID).GetValueAsync();
 
@@ -128,6 +128,6 @@ public class UILoadScene : MonoBehaviour
             }
         }
 
-        WaitingController.EndWaiting();
+        WaitingController.Instance.EndWaiting();
     }
 }

@@ -107,6 +107,8 @@ public class SetAvatar : BaseButton
         reference.Child("games").UpdateChildrenAsync(gamesData);
         reference.Child("items").UpdateChildrenAsync(itemsData);
 
+        WaitingController.Instance.WaitingSeconds(1f);
+
         // chuyển sang màn hình game
         GetComponent<LoadScene>().LoadSelectScene();
     }

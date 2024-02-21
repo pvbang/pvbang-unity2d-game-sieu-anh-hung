@@ -1,14 +1,37 @@
+using System.Collections;
 using UnityEngine;
 
-public static class WaitingController
+// WaitingController.Instance.
+
+public class WaitingController : MonoBehaviour
 {
-    public static void StartWaiting()
+    private static WaitingController _instance;
+    public static WaitingController Instance => _instance;
+
+    private void Awake()
+    {
+        WaitingController._instance = this;
+    }
+
+    public void StartWaiting()
     {
         PlayerPrefs.SetInt("ActiveWaiting", 1);
     }
 
-    public static void EndWaiting()
+    public void EndWaiting()
     {
         PlayerPrefs.SetInt("ActiveWaiting", 0);
+    }
+
+    public void WaitingSeconds(float seconds)
+    {
+        StartWaiting();
+        CoroutineHelper.DelaySeconds(() => EndWaiting(), seconds);
+    }
+
+    public void DelaySeconds(float seconds)
+    {
+        StartWaiting();
+        StartCoroutine(CoroutineHelper.DelaySeconds(() => EndWaiting(), seconds));
     }
 }

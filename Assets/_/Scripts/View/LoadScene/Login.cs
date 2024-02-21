@@ -48,7 +48,7 @@ public class Login : MonoBehaviour
     // đăng nhập
     IEnumerator CheckUserLogin(string username, string password)
     {
-        WaitingController.StartWaiting();
+        WaitingController.Instance.StartWaiting();
         var email = username + "@gmail.com";
 
         var task = FirebaseAuth.DefaultInstance.SignInWithEmailAndPasswordAsync(email, password);
@@ -65,6 +65,6 @@ public class Login : MonoBehaviour
             Notification.instance.ShowNotifications("Đăng nhập thành công");
             login.SetActive(false);
         }
-        WaitingController.EndWaiting();
+        WaitingController.Instance.EndWaiting();
     }
 }

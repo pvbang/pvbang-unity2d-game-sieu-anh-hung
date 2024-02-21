@@ -11,12 +11,16 @@ public class GetGiftcode : BaseButton
     private GiftcodeManager adminGiftcode;
     private ShowReward showReward;
 
+    private Button button;
+
     private Dictionary<string, object> giftcodeData;
 
     private void Awake()
     {
         adminGiftcode = GetComponent<GiftcodeManager>();
         showReward = GetComponent<ShowReward>();
+
+        button = GetComponent<Button>();
     }
 
     // Lấy thông tin giftcode
@@ -88,6 +92,8 @@ public class GetGiftcode : BaseButton
     // Hiển thị từng item trong giftcode và thêm hero mới nếu có
     IEnumerator ShowGiftcodeItems(Dictionary<string, object> items)
     {
+        button.interactable = false;
+
         foreach (var item in items)
         {
             GameObject itemObject = GameAssets.Instance.GetGameObjectFromId(item.Key);
@@ -120,6 +126,8 @@ public class GetGiftcode : BaseButton
             // Chờ một chút trước khi hiển thị item tiếp theo
             yield return new WaitForSeconds(0.3f);
         }
+
+        button.interactable = true;
     }
 
 

@@ -117,14 +117,16 @@ public class Team : MonoBehaviour
         if (position_7 != null && pos7 != null) StartCoroutine(GetHeroInfo(position_7, pos7, 7));
         if (position_8 != null && pos8 != null) StartCoroutine(GetHeroInfo(position_8, pos8, 8));
         if (position_9 != null && pos9 != null) StartCoroutine(GetHeroInfo(position_9, pos9, 9));
-
     }
 
     IEnumerator GetHeroInfo(string id, GameObject pos, int posNum)
     {
+        WaitingController.Instance.StartWaiting();
+
         if (id == "HERO_BLANK") {
             Sprite blankSprite = posNum <= 6 ? mainBlankBackground : reserveBlankBackground;
             SetHeroUI(null, pos, blankSprite);
+            WaitingController.Instance.EndWaiting();
             yield break;
         }
 
@@ -149,8 +151,12 @@ public class Team : MonoBehaviour
     void SetHeroUI(Hero hero, GameObject pos, Sprite background)
     {
         pos.GetComponent<Image>().sprite = background;
-        
-        if (hero == null) return;
+
+        if (hero == null)
+        {
+            WaitingController.Instance.EndWaiting();
+            return;
+        }
 
         Transform heroTransform = pos.transform.Find("Hero").transform;
         GameObject heroObject = GameAssets.Instance.GetGameObjectFromId(hero.h_id);
@@ -162,6 +168,7 @@ public class Team : MonoBehaviour
             heroInstance.transform.localScale = heroTransform.localScale;
             heroInstance.transform.Find("CanvasStatusBar").gameObject.SetActive(false);
         }
+        WaitingController.Instance.EndWaiting();
     }
 
 }

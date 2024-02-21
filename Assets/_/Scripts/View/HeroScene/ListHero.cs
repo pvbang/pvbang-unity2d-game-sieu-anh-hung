@@ -32,6 +32,7 @@ public class ListHero : MonoBehaviour
 
     IEnumerator LoadScene()
     {
+        WaitingController.Instance.StartWaiting();
         bool isLoaded = false;
         HeroManager.GetListHeroByAccount(heros =>
         {
@@ -57,6 +58,8 @@ public class ListHero : MonoBehaviour
         {
             contentAccountServer.DestroyContents();
             contentAccountServer.AddContent(itemBlank);
+
+            WaitingController.Instance.EndWaiting();
             return;
         }
 
@@ -72,6 +75,8 @@ public class ListHero : MonoBehaviour
 
         contentAccountServer.DestroyContents();
         contentAccountServer.AddContent(contentList);
+
+        WaitingController.Instance.EndWaiting();
     }
 
     // đảo ngược danh sách heros

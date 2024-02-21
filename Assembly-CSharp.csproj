@@ -62,6 +62,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Database\AuthSignOut.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
     <Compile Include="Assets\_\Scripts\View\TeamScene\Team.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\_\AutoAssignCamera.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\GameAssets.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveObject.cs" />
@@ -115,7 +116,6 @@
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
-    <Compile Include="Assets\_\Scripts\View\LoadScene\SetupLoadScene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\DestroyObject.cs" />
   </ItemGroup>
   <ItemGroup>

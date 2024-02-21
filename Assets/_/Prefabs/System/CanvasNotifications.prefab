@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 4595577131744641268}
   - component: {fileID: 2059539427610496245}
   - component: {fileID: 488040921731413357}
+  - component: {fileID: 1858772331484105683}
   m_Layer: 0
   m_Name: CanvasNotifications
   m_TagString: Untagged
@@ -898,6 +899,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notifications: {fileID: 6064653044165317275}
   notificationsTextMeshProUGUI: {fileID: 959792163694775467}
+--- !u!114 &1858772331484105683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4350937188017746228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f1660ecb963cc4086b6f3c4b5b1aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4355640005487000824
 GameObject:
   m_ObjectHideFlags: 0
