@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 465.59998
     height: 350.4
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 35
+  controlID: 66
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 34
+  controlID: 65
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 27
+  controlID: 64
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,8 +196,8 @@ MonoBehaviour:
     y: 343.2
     width: 754.4
     height: 379.59998
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 14}
@@ -684,7 +684,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_/Scenes
+    - Assets/_/Scripts/Controller/Giftcode
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -692,16 +692,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/_/Scenes
+  - Assets/_/Scripts/Controller/Giftcode
   m_LastFoldersGridSize: 67
   m_LastProjectPath: D:\code\unity\unity2d-game-sieu-anh-hung
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ea7b0000
-    m_LastClickedID: 31722
-    m_ExpandedIDs: 00000000007b0000027b0000047b0000067b0000087b00000a7b00000c7b00000e7b0000107b0000127b0000147b0000167b000000ca9a3b
+    scrollPos: {x: 0, y: 247.81952}
+    m_SelectedIDs: 9a7d0000
+    m_LastClickedID: 32154
+    m_ExpandedIDs: 00000000a67c0000a87c0000aa7c0000ac7c0000ae7c0000b07c0000b27c0000b47c0000b67c0000b87c0000ba7c0000bc7c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -729,7 +729,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000007b0000027b0000047b0000067b0000087b00000a7b00000c7b00000e7b0000107b0000127b0000147b0000167b0000
+    m_ExpandedIDs: 00000000a67c0000a87c0000aa7c0000ac7c0000ae7c0000b07c0000b27c0000b47c0000b67c0000b87c0000ba7c0000bc7c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -869,9 +869,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 525d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: c405f9ff1e06f9ff4209f9ff1c0af9ff440bf9ff940cf9ffb80df9ffec0ef9ff5a10f9ff1e11f9ff3812f9ff1864faffe26afaff088dfbff405ffcff5ce5fcff60e5fcff7ce5fcff84e5fcff9ae5fcffdce5fcffde07fdffaa16fdff4ed8feff30e6feff00f1ffffe2f4ffffb0f7ffffe4faffff0e7d0000d4800000f28a0000a68d00003e8f0000688f0000c48f0000ce8f000060900000429100004c920000c2920000ea9200008893000002950000569500007a960000ce960000942e0100962f0100a42f0100483101000a33010070330100723301009c340100e838010012390100783901007a3901007eb80100c0ba01008cbc0100e6be0100a0c0010022c101000ef20200c6f2020072f40200c2f40200eef40200fcf5020084f60200
+      m_ExpandedIDs: e4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

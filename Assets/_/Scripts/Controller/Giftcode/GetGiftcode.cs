@@ -26,22 +26,26 @@ public class GetGiftcode : BaseButton
     // Lấy thông tin giftcode
     IEnumerator GetGiftcodeInfo()
     {
-        bool isUsed = false;
         _button.interactable = false;
+        bool isUsed = false;
 
+        bool isExistUsedCheck = false;
         // Kiểm tra giftcode đã được sử dụng chưa
         adminGiftcode.CheckGiftcodeUsed(inputGiftcode.text, isU =>
         {
             isUsed = isU;
+            isExistUsedCheck = true;
         });
 
-        // chờ 0.3s trước khi tiếp tục
-        yield return new WaitForSeconds(0.3f);
+        while (isExistUsedCheck == false)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
 
         // Nếu giftcode đã được sử dụng thì không cần kiểm tra tiếp
         if (isUsed)
         {
-            Notification.instance.ShowNotifications("Giftcode đã được sử dụng");
+            Notification.instance.ShowNotifications("Giftcode này đã được sử dụng");
             _button.interactable = true;
             yield break;
         }
@@ -68,7 +72,7 @@ public class GetGiftcode : BaseButton
     {
         if (giftcodeData == null)
         {
-            Notification.instance.ShowNotifications("Giftcode không tồn tại");
+            Notification.instance.ShowNotifications("Giftcode này không tồn tại");
             _button.interactable = true;
             return;
         }
@@ -76,7 +80,7 @@ public class GetGiftcode : BaseButton
         // kiểm tra thời gian hiện tại có nằm trong thời gian sử dụng giftcode không
         if (adminGiftcode.CheckGiftcodeTime((string)giftcodeData["timestamp"]) == false)
         {
-            Notification.instance.ShowNotifications("Giftcode đã hết hạn");
+            Notification.instance.ShowNotifications("Giftcode này đã hết hạn");
             _button.interactable = true;
             return;
         }
