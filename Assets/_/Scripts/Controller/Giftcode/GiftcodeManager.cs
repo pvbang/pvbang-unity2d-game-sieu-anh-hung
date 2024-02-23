@@ -7,8 +7,6 @@ using UnityEngine;
 
 public class GiftcodeManager : MonoBehaviour
 {
-    private FirebaseUser user;
-
     public bool isCreate = false;
     public bool isEdit = false;
     public bool isDelete = false;
@@ -17,11 +15,6 @@ public class GiftcodeManager : MonoBehaviour
     public string[] itemID;
     public string[] quantity;
     public int timeEnd = 1;
-
-    private void Awake()
-    {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
-    }
 
     public void ForButton()
     {
@@ -213,7 +206,7 @@ public class GiftcodeManager : MonoBehaviour
     // thêm giftcode đã sử dụng vào user
     public void AddGiftcodeToUser(string giftcodeID, Dictionary<string, object> data, Action<bool> callback)
     {
-        if (user == null)
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null)
         {
             callback(false);
             return;
@@ -221,7 +214,7 @@ public class GiftcodeManager : MonoBehaviour
 
         giftcodeID = giftcodeID.ToUpper();
 
-        FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("giftcodes").Child(giftcodeID).SetValueAsync("used").ContinueWith(task =>
+        FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("giftcodes").Child(giftcodeID).SetValueAsync("used").ContinueWith(task =>
         {
             if (task.IsFaulted)
             {
@@ -240,14 +233,14 @@ public class GiftcodeManager : MonoBehaviour
     // kiểm tra giftcode đã được sử dụng bởi user chưa
     public void CheckGiftcodeUsed(string giftcodeID, Action<bool> callback)
     {
-        if (user == null)
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null)
         {
             callback(false);
             return;
         }
 
         giftcodeID = giftcodeID.ToUpper();
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("giftcodes").Child(giftcodeID).GetValueAsync();
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("giftcodes").Child(giftcodeID).GetValueAsync();
 
         task.ContinueWith(task =>
         {

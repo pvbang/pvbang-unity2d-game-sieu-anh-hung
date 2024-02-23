@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 public class Team : MonoBehaviour
 {
-    private FirebaseUser user;
     private string ServerID;
 
     public TextMeshProUGUI TxtPower;
@@ -32,8 +31,6 @@ public class Team : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
-
         ServerID = PlayerPrefs.GetString("ServerID");
 
         if (pos1 == null) pos1 = gameObject.transform.Find("Pos1").Find("Pos1").gameObject;
@@ -49,13 +46,13 @@ public class Team : MonoBehaviour
 
     private void Start()
     {
-        if (user == null) return;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
         if (ServerID == "") return;
 
-        DatabaseReference referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("games");
+        DatabaseReference referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("games");
         referenceGames.ValueChanged += HandleValueChangedGames;
 
-        DatabaseReference referenceItems = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("teams").Child(PlayerPrefs.GetString("Teams_ID"));
+        DatabaseReference referenceItems = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("teams").Child(PlayerPrefs.GetString("Teams_ID"));
         referenceItems.ValueChanged += HandleValueChangedTeams;
     }
 
@@ -163,10 +160,10 @@ public class Team : MonoBehaviour
 
         if (heroTransform != null && heroObject != null)
         {
-            // hiển thị hero
             GameObject heroInstance = Instantiate(heroObject, heroTransform.position, heroTransform.rotation);
             heroInstance.transform.localScale = heroTransform.localScale;
             heroInstance.transform.Find("CanvasStatusBar").gameObject.SetActive(false);
+            heroInstance.transform.SetParent(this.transform);
         }
         WaitingController.Instance.EndWaiting();
     }

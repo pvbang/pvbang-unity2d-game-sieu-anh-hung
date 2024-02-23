@@ -10,7 +10,6 @@ using Firebase.Extensions;
 
 public class PhysicalController : MonoBehaviour
 {
-    private FirebaseUser user;
     private string ServerID;
     public TextMeshProUGUI physicalText;
 
@@ -18,19 +17,19 @@ public class PhysicalController : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
         physicalText = transform.Find("Text").GetComponent<TextMeshProUGUI>();
     }
 
     void Start()
     {
-        InvokeRepeating("StartAddPhysical", 0, 300);
+        // gọi hàm AddPhysical sau mỗi 1 phút
+        InvokeRepeating("StartAddPhysical", 0, 60);
 
-        if (user == null) return;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
         if (ServerID == "") return;
 
-        referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("games");
+        referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("games");
         //referenceGames.ValueChanged += HandleValueChangedGames;
     }
 

@@ -5,14 +5,16 @@ using UnityEngine;
 public class WelfereContent : MonoBehaviour
 {
     public GameObject[] contents;
+    public GameObject[] frames;
 
     private void Awake()
     {
-        contents[0].SetActive(true);
-        for (int i = 1; i < contents.Length; i++)
-        {
-            contents[i].SetActive(false);
-        }
+        SetActiveChoiceObject(0);
+    }
+
+    private void OnEnable()
+    {
+        SetActiveChoiceObject(0);
     }
 
     public void SetActiveChoiceObject(int index)
@@ -20,6 +22,7 @@ public class WelfereContent : MonoBehaviour
         for (int i = 0; i < contents.Length; i++)
         {
             contents[i].SetActive(i == index);
+            frames[i].SetActive(i == index);
         }
     }
 }

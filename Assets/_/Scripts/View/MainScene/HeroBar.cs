@@ -7,7 +7,6 @@ using TMPro;
 
 public class HeroBar : MonoBehaviour
 {
-    private FirebaseUser user;
     private string ServerID;
 
     public GameObject Avatar;
@@ -23,21 +22,19 @@ public class HeroBar : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
-
         ServerID = PlayerPrefs.GetString("ServerID");
         WaitingController.Instance.DelaySeconds(1f);
     }
 
     private void Start()
     {
-        if (user == null) return;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
         if (ServerID == "") return;
 
-        DatabaseReference referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("games");
+        DatabaseReference referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("games");
         referenceGames.ValueChanged += HandleValueChangedGames;
 
-        DatabaseReference referenceItems = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("items");
+        DatabaseReference referenceItems = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("items");
         referenceItems.ValueChanged += HandleValueChangedItems;
     }
 

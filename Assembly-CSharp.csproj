@@ -69,6 +69,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\Waiting.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ButtonAnimation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetPlayerPrefs2.cs" />
+    <Compile Include="Assets\_\Scripts\View\MainScene\HeroPos.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\BaseButton.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\RemovePlayerPrefs.cs" />

@@ -7,8 +7,6 @@ using UnityEngine;
 
 public class ServerManager : MonoBehaviour
 {
-    private FirebaseUser user;
-
     private string serverID;
     private Server server;
     private List<Server> servers;
@@ -21,8 +19,6 @@ public class ServerManager : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
-        
         if (PlayerPrefs.HasKey("ServerID")) {
             serverID = PlayerPrefs.GetString("ServerID");
         } else
@@ -73,12 +69,6 @@ public class ServerManager : MonoBehaviour
         {
             serverID = PlayerPrefs.GetString("ServerID");
             StartCoroutine(GetServer(serverID));
-        }
-
-        // nếu PlayerPrefs Account thay đổi giá trị thì cập nhật lại username
-        if (FirebaseAuth.DefaultInstance.CurrentUser != user)
-        {
-            user = FirebaseAuth.DefaultInstance.CurrentUser;
         }
     }
 
@@ -189,7 +179,7 @@ public class ServerManager : MonoBehaviour
         if (serverID.Length == 0) yield break;
 
         WaitingController.Instance.StartWaiting();
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").GetValueAsync();
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
 

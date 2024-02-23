@@ -56,3 +56,6 @@ TagManager:
   - name: AOA
     uniqueID: 1863487475
     locked: 0
+  - name: Specials
+    uniqueID: 1648308985
+    locked: 0

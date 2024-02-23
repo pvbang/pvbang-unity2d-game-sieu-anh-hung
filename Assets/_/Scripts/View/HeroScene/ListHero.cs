@@ -7,8 +7,6 @@ using Unity.VisualScripting;
 
 public class ListHero : MonoBehaviour
 {
-    private FirebaseUser user;
-
     public Content contentAccountServer;
     public Transform itemBlank;
     public Transform item;
@@ -17,7 +15,6 @@ public class ListHero : MonoBehaviour
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
         if (itemBlank == null) itemBlank = GameAssets.Instance.GetGameObjectFromId("Item_Frame_Blank").transform;
         if (item == null) item = GameAssets.Instance.GetGameObjectFromId("Item_Hero_Frame").transform;
         if (contentAccountServer == null) contentAccountServer = gameObject.GetComponentInChildren<Content>();

@@ -31,6 +31,12 @@ public class UILoadScene : MonoBehaviour
         StartCoroutine(GetInfoAccount());
     }
 
+    void OnEnable()
+    {
+        user = FirebaseAuth.DefaultInstance.CurrentUser;
+        StartCoroutine(GetInfoAccount());
+    }
+
     private void FixedUpdate()
     {
         if (PlayerPrefs.HasKey("ServerID"))
@@ -101,7 +107,7 @@ public class UILoadScene : MonoBehaviour
 
         WaitingController.Instance.StartWaiting();
 
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(serverID).GetValueAsync();
+        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(serverID).GetValueAsync();
 
         yield return new WaitUntil(() => task.IsCompleted);
 

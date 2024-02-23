@@ -11,7 +11,7 @@ public class GetGiftcode : BaseButton
     private GiftcodeManager adminGiftcode;
     private ShowReward showReward;
 
-    private Button button;
+    private Button _button;
 
     private Dictionary<string, object> giftcodeData;
 
@@ -20,13 +20,14 @@ public class GetGiftcode : BaseButton
         adminGiftcode = GetComponent<GiftcodeManager>();
         showReward = GetComponent<ShowReward>();
 
-        button = GetComponent<Button>();
+        _button = GetComponent<Button>();
     }
 
     // Lấy thông tin giftcode
     IEnumerator GetGiftcodeInfo()
     {
         bool isUsed = false;
+        _button.interactable = false;
 
         // Kiểm tra giftcode đã được sử dụng chưa
         adminGiftcode.CheckGiftcodeUsed(inputGiftcode.text, isU =>
@@ -41,6 +42,7 @@ public class GetGiftcode : BaseButton
         if (isUsed)
         {
             Notification.instance.ShowNotifications("Giftcode đã được sử dụng");
+            _button.interactable = true;
             yield break;
         }
 
@@ -67,6 +69,7 @@ public class GetGiftcode : BaseButton
         if (giftcodeData == null)
         {
             Notification.instance.ShowNotifications("Giftcode không tồn tại");
+            _button.interactable = true;
             return;
         }
 
@@ -74,6 +77,7 @@ public class GetGiftcode : BaseButton
         if (adminGiftcode.CheckGiftcodeTime((string)giftcodeData["timestamp"]) == false)
         {
             Notification.instance.ShowNotifications("Giftcode đã hết hạn");
+            _button.interactable = true;
             return;
         }
 
@@ -92,8 +96,6 @@ public class GetGiftcode : BaseButton
     // Hiển thị từng item trong giftcode và thêm hero mới nếu có
     IEnumerator ShowGiftcodeItems(Dictionary<string, object> items)
     {
-        button.interactable = false;
-
         foreach (var item in items)
         {
             GameObject itemObject = GameAssets.Instance.GetGameObjectFromId(item.Key);
@@ -127,7 +129,7 @@ public class GetGiftcode : BaseButton
             yield return new WaitForSeconds(0.3f);
         }
 
-        button.interactable = true;
+        _button.interactable = true;
     }
 
 

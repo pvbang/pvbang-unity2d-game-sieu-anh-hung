@@ -6,23 +6,21 @@ using UnityEngine;
 
 public class EXPController : MonoBehaviour
 {
-    private FirebaseUser user;
     private string ServerID;
 
     private DatabaseReference referenceGames;
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
     }
 
     void Start()
     {
-        if (user == null) return;
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
         if (ServerID == "") return;
 
-        referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(user.UserId).Child("servers").Child(ServerID).Child("games");
+        referenceGames = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("games");
         //referenceGames.ValueChanged += HandleValueChangedGames;
     }
 

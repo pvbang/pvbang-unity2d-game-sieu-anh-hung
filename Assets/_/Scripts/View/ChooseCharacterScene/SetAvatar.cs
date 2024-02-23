@@ -8,8 +8,6 @@ using Firebase.Auth;
 
 public class SetAvatar : BaseButton
 {
-    private FirebaseUser user;
-    
     private string ServerID;
     private int AvatarIndex = 0;
 
@@ -21,7 +19,6 @@ public class SetAvatar : BaseButton
 
     private void Awake()
     {
-        user = FirebaseAuth.DefaultInstance.CurrentUser;
         ServerID = PlayerPrefs.GetString("ServerID");
 
         // SetRandomName();
@@ -61,7 +58,7 @@ public class SetAvatar : BaseButton
     // khởi tạo và set thông tin cho account
     public void SetGameDataAsync()
     {
-        if (user == null)
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null)
         {
             Notification.instance.ShowNotifications("Bạn chưa đăng nhập");
             return;
@@ -82,7 +79,7 @@ public class SetAvatar : BaseButton
             return;
         }
 
-        DatabaseReference reference = FirebaseConnection.instance.databaseReference.Child("accounts").Child(user.UserId).Child("servers").Child(ServerID);
+        DatabaseReference reference = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID);
         Dictionary<string, object> gamesData = new Dictionary<string, object>
         {
             { "id", ServerID+"SAH"+RandomStringGenerator.GenerateRandomString(7) },
