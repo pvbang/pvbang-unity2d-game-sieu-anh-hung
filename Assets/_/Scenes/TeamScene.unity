@@ -293,7 +293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
@@ -2327,6 +2327,7 @@ GameObject:
   - component: {fileID: 444145922}
   - component: {fileID: 444145924}
   - component: {fileID: 444145923}
+  - component: {fileID: 444145925}
   m_Layer: 0
   m_Name: Info
   m_TagString: Untagged
@@ -2395,6 +2396,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444145921}
   m_CullTransparentMesh: 1
+--- !u!114 &444145925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444145921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94230b2ae361e484c95eb573d3ca3199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpDefault: {fileID: 32030319}
+  hpPlus: {fileID: 1435135283}
+  tankDefault: {fileID: 122322820}
+  tankPlus: {fileID: 342080782}
+  speedDefault: {fileID: 1583987322}
+  speedPlus: {fileID: 1264084932}
+  damagePhysicalDefault: {fileID: 1046833203}
+  damagePhysicalPlus: {fileID: 1156819771}
+  damageMagicDefault: {fileID: 1469431587}
+  damageMagicPlus: {fileID: 402849944}
 --- !u!1 &453698094
 GameObject:
   m_ObjectHideFlags: 0
@@ -5907,7 +5930,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
@@ -8750,7 +8773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
@@ -9658,7 +9681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
   m_sharedMaterial: {fileID: -4169352844883024999, guid: bda07e78c21b40e4d94c1e40d0665bd5, type: 2}
@@ -15578,7 +15601,7 @@ MonoBehaviour:
   mainHeroBackground: {fileID: -489924775, guid: f23924f9ab8331d4783e2257387185d6, type: 3}
   reserveBlankBackground: {fileID: -758267462, guid: f23924f9ab8331d4783e2257387185d6, type: 3}
   reserveHeroBackground: {fileID: -818425947, guid: f23924f9ab8331d4783e2257387185d6, type: 3}
-  Properties: {fileID: 328549848}
+  Info: {fileID: 444145921}
 --- !u!114 &6776201273797238602
 MonoBehaviour:
   m_ObjectHideFlags: 0

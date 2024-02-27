@@ -5,10 +5,12 @@ using Firebase.Database;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class Team : MonoBehaviour
 {
     private string ServerID;
+    private string PositionPlayerPrefs;
 
     public TextMeshProUGUI TxtPower;
     public GameObject pos1;
@@ -27,11 +29,21 @@ public class Team : MonoBehaviour
     public Sprite reserveBlankBackground;
     public Sprite reserveHeroBackground;
 
-    public GameObject Properties;
+    public GameObject Info;
+    private TeamInfo teamInfo;
+
 
     private void Awake()
     {
         ServerID = PlayerPrefs.GetString("ServerID");
+        PositionPlayerPrefs = PlayerPrefs.GetString("Position");
+
+        if (Info == null)
+        {
+            Info = GameObject.Find("Info");
+            teamInfo = Info.GetComponent<TeamInfo>();
+        }
+        else teamInfo = Info.GetComponent<TeamInfo>();
 
         if (pos1 == null) pos1 = gameObject.transform.Find("Pos1").Find("Pos1").gameObject;
         if (pos2 == null) pos2 = gameObject.transform.Find("Pos2").Find("Pos2").gameObject;
@@ -54,7 +66,58 @@ public class Team : MonoBehaviour
 
         DatabaseReference referenceItems = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("teams").Child(PlayerPrefs.GetString("Teams_ID"));
         referenceItems.ValueChanged += HandleValueChangedTeams;
+
+        DatabaseReference referenceHeros = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("heros");
+        referenceHeros.ValueChanged += HandleValueChangedHeros;
+
+        StartCoroutine(GetTeamFromPosition());
     }
+
+    private void Update()
+    {
+        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
+        if (ServerID == "") return;
+
+        if (PositionPlayerPrefs == PlayerPrefs.GetString("Position")) return;
+        else PositionPlayerPrefs = PlayerPrefs.GetString("Position");
+
+        if (PlayerPrefs.GetString("Teams_ID") == null) return;
+
+        StartCoroutine(GetTeamFromPosition());
+    }
+
+    // lấy thông tin hero từ position
+    IEnumerator GetTeamFromPosition()
+    {
+        string id_hero = "";
+        bool isLoaded = false;
+
+        // lấy thông tin hero từ position
+        _Teams.GetTeamFromPosition(PlayerPrefs.GetString("Teams_ID"), PlayerPrefs.GetString("Position"), _id_hero =>
+        {
+            if (_id_hero != null)
+            {
+                id_hero = _id_hero;
+                isLoaded = true;
+            }
+        });
+
+        while (isLoaded == false)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        if (id_hero == "" || id_hero == "HERO_BLANK")
+        {
+            SetInfoUI(null);
+            yield break;
+        }
+
+        DatabaseReference referenceHeros = FirebaseDatabase.DefaultInstance.GetReference("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("heros").Child(id_hero);
+        referenceHeros.ValueChanged += HandleValueChangedHeros;
+    }
+
+    //////////////////////////////////////////////////////////////////////////
 
     // lấy thông tin nhân vật mỗi khi có thay đổi trong games
     void HandleValueChangedGames(object sender, ValueChangedEventArgs args)
@@ -84,6 +147,21 @@ public class Team : MonoBehaviour
         SetInfoUserTeams(snapshot);
     }
 
+    // lấy thông tin hero mỗi khi có thay đổi trong heros
+    void HandleValueChangedHeros(object sender, ValueChangedEventArgs args)
+    {
+        if (args.DatabaseError != null)
+        {
+            Debug.LogError(args.DatabaseError.Message);
+            return;
+        }
+
+        // lấy dữ liệu
+        DataSnapshot snapshot = args.Snapshot;
+        SetInfoUserHeros(snapshot);
+    }
+
+    //////////////////////////////////////////////////////////////////////////
 
     // set thông tin nhân vật
     public void SetInfoUserGames(DataSnapshot data)
@@ -116,6 +194,16 @@ public class Team : MonoBehaviour
         if (position_9 != null && pos9 != null) StartCoroutine(GetHeroInfo(position_9, pos9, 9));
     }
 
+    // set thông tin hero
+    public void SetInfoUserHeros(DataSnapshot data)
+    {
+        Hero hero = JsonUtility.FromJson<Hero>(data.GetRawJsonValue());
+
+        SetInfoUI(hero);
+    }
+
+    //////////////////////////////////////////////////////////////////////////
+    
     IEnumerator GetHeroInfo(string id, GameObject pos, int posNum)
     {
         WaitingController.Instance.StartWaiting();
@@ -145,6 +233,27 @@ public class Team : MonoBehaviour
         SetHeroUI(hero, pos, herroSprite);
     }
 
+    IEnumerator GetInfo(string id)
+    {
+        Hero hero = new Hero();
+        bool isLoaded = false;
+
+        HeroManager.GetHeroInfoById(id, _hero =>
+        {
+            hero = _hero;
+            isLoaded = true;
+        });
+
+        while (isLoaded == false)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        SetInfoUI(hero);
+    }
+
+    //////////////////////////////////////////////////////////////////////////
+
     void SetHeroUI(Hero hero, GameObject pos, Sprite background)
     {
         pos.GetComponent<Image>().sprite = background;
@@ -166,6 +275,18 @@ public class Team : MonoBehaviour
             heroInstance.transform.SetParent(this.transform);
         }
         WaitingController.Instance.EndWaiting();
+    }
+
+    void SetInfoUI(Hero hero)
+    {
+        if (teamInfo == null) return;
+        if (hero == null)
+        {
+            teamInfo.SetUIDefault(0, 0, 0, 0, 0);
+            return;
+        }
+
+        teamInfo.SetUIDefault(hero.h_maxHP, hero.h_tank, hero.h_speed, hero.h_damagePysical, hero.h_damageMagic);
     }
 
 }

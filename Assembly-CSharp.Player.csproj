@@ -61,6 +61,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\WaitingController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\AuthSignOut.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Games.cs" />
     <Compile Include="Assets\_\Scripts\View\TeamScene\Team.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\AutoAssignCamera.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
@@ -83,12 +84,14 @@
     <Compile Include="Assets\_\Scripts\View\LoadScene\ChooseServer.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Login.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\PhysicalController.cs" />
+    <Compile Include="Assets\_\Scripts\Model\Position.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\ID.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Reward\RewardController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveMultiObject.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Register.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\HealthBar.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Heros.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Reward\ShowReward.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\BackgroundController.cs" />
@@ -101,6 +104,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\ActiveWaiting.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\ItemAssets.cs" />
+    <Compile Include="Assets\_\Scripts\View\TeamScene\TeamInfo.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroManager.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetActiveObjectWithPlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroFrame.cs" />
@@ -110,6 +114,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Hero\Level.cs" />
     <Compile Include="Assets\_\Scripts\View\HeroScene\SetHeroPosition.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\UILoadScene.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Teams.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\ShakeBackground.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ServerManager.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroBar.cs" />
