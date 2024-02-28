@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1075
+        width: 635
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637317a57fc1a82438658e28721e351f
+      internalID: 522236441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1075
+        width: 631
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac476a44ea28f40a3c624a14f9155d
+      internalID: 1899683903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1414
+        width: 1333
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14b506a53854434bbc10588f811f7cb
+      internalID: 357347252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 718
+        width: 631
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0572bb32bf6f47b4da761c7ee2f2cfdb
+      internalID: 479600116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 704
+        width: 631
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8bcba6de532e4e9948ead343ccc69
+      internalID: -1706203306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_active_recharte-hd_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 359
+        width: 631
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7705a39c88474c14982f89b9608ed81e
+      internalID: -799233712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +284,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ui_active_recharte-hd_0: 522236441
+      ui_active_recharte-hd_1: 1899683903
+      ui_active_recharte-hd_2: 357347252
+      ui_active_recharte-hd_3: 479600116
+      ui_active_recharte-hd_4: -1706203306
+      ui_active_recharte-hd_5: -799233712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
