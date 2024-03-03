@@ -12,12 +12,27 @@ public class BackgroundController : MonoBehaviour
 
     private Image background;
 
+    public bool isOnEnable = false;
+
     private void Awake()
     {
         background = GetComponent<Image>();
     }
 
     void Start()
+    {
+        SetUpUI();
+    }
+
+    private void OnEnable()
+    {
+        if (isOnEnable)
+        {
+            SetUpUI();
+        }
+    }
+
+    void SetUpUI()
     {
         if (isRandom)
         {

@@ -82,14 +82,14 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi tạo server");
+            NotificationGame.instance.ShowNotifications("Lỗi tạo server");
         }
         else if (task.IsCompleted)
         {
             DataSnapshot snapshot = task.Result;
             if (snapshot.Exists)
             {
-                Notification.instance.ShowNotifications("Tên server đã tồn tại");
+                NotificationGame.instance.ShowNotifications("Tên server đã tồn tại");
             }
             else
             {
@@ -98,7 +98,7 @@ public class ServerManager : MonoBehaviour
 
                 FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
 
-                Notification.instance.ShowNotifications("Tạo server thành công");
+                NotificationGame.instance.ShowNotifications("Tạo server thành công");
             }
         }
 
@@ -116,7 +116,7 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi xóa server");
+            NotificationGame.instance.ShowNotifications("Lỗi xóa server");
         }
         else if (task.IsCompleted)
         {
@@ -125,11 +125,11 @@ public class ServerManager : MonoBehaviour
             {
                 FirebaseConnection.instance.databaseReference.Child("servers").Child(id).RemoveValueAsync();
 
-                Notification.instance.ShowNotifications("Xóa server thành công");
+                NotificationGame.instance.ShowNotifications("Xóa server thành công");
             }
             else
             {
-                Notification.instance.ShowNotifications("Server không tồn tại");
+                NotificationGame.instance.ShowNotifications("Server không tồn tại");
             }
         }
 
@@ -146,7 +146,7 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi lấy danh sách server");
+            NotificationGame.instance.ShowNotifications("Lỗi lấy danh sách server");
         }
         else if (task.IsCompleted)
         {
@@ -165,7 +165,7 @@ public class ServerManager : MonoBehaviour
             }
             else
             {
-                Notification.instance.ShowNotifications("Không có server nào");
+                NotificationGame.instance.ShowNotifications("Không có server nào");
             }
         }
 
@@ -185,7 +185,7 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi lấy danh sách server từng chơi");
+            NotificationGame.instance.ShowNotifications("Lỗi lấy danh sách server từng chơi");
         }
         else if (task.IsCompleted)
         {
@@ -226,7 +226,7 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi lấy thông tin server");
+            NotificationGame.instance.ShowNotifications("Lỗi lấy thông tin server");
         }
         else if (task.IsCompleted)
         {
@@ -240,7 +240,7 @@ public class ServerManager : MonoBehaviour
             }
             else
             {
-                Notification.instance.ShowNotifications("Server không tồn tại");
+                NotificationGame.instance.ShowNotifications("Server không tồn tại");
             }
         }
 
@@ -257,7 +257,7 @@ public class ServerManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi cập nhật thông tin server");
+            NotificationGame.instance.ShowNotifications("Lỗi cập nhật thông tin server");
         }
         else if (task.IsCompleted)
         {
@@ -269,11 +269,11 @@ public class ServerManager : MonoBehaviour
 
                 FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
 
-                Notification.instance.ShowNotifications("Cập nhật thông tin server thành công");
+                NotificationGame.instance.ShowNotifications("Cập nhật thông tin server thành công");
             }
             else
             {
-                Notification.instance.ShowNotifications("Server không tồn tại");
+                NotificationGame.instance.ShowNotifications("Server không tồn tại");
             }
         }
 

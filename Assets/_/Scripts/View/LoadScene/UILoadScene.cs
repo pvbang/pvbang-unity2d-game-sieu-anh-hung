@@ -113,7 +113,7 @@ public class UILoadScene : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi kết nối");
+            Notification.instance.ShowNotifications("Lỗi kết nối đến server");
         }
         else if (task.IsCompleted)
         {

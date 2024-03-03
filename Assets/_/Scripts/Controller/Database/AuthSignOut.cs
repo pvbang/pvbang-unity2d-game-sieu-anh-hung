@@ -8,6 +8,7 @@ public class AuthSignOut : BaseButton
 {
     protected override void OnClick()
     {
+        WaitingController.Instance.StartWaiting();
         if (GetComponent<ButtonAnimation>())
         {
             // nếu có animation thì delay theo thời gian của animation

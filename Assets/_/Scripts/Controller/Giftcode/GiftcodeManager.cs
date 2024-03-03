@@ -51,11 +51,11 @@ public class GiftcodeManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi tạo giftcode");
+            NotificationGame.instance.ShowNotifications("Lỗi tạo giftcode");
         }
         else if (task.Result.Exists)
         {
-            Notification.instance.ShowNotifications("Giftcode đã tồn tại");
+            NotificationGame.instance.ShowNotifications("Giftcode đã tồn tại");
         }
         else
         {
@@ -76,7 +76,7 @@ public class GiftcodeManager : MonoBehaviour
 
             FirebaseConnection.instance.databaseReference.Child("giftcodes").Child(giftcodeID).SetValueAsync(data);
 
-            Notification.instance.ShowNotifications("Tạo giftcode thành công");
+            NotificationGame.instance.ShowNotifications("Tạo giftcode thành công");
         }
     }
 
@@ -99,11 +99,11 @@ public class GiftcodeManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi chỉnh sửa giftcode");
+            NotificationGame.instance.ShowNotifications("Lỗi chỉnh sửa giftcode");
         }
         else if (!task.Result.Exists)
         {
-            Notification.instance.ShowNotifications("Giftcode không tồn tại");
+            NotificationGame.instance.ShowNotifications("Giftcode không tồn tại");
         }
         else
         {
@@ -123,7 +123,7 @@ public class GiftcodeManager : MonoBehaviour
 
             FirebaseConnection.instance.databaseReference.Child("giftcodes").Child(giftcodeID).SetValueAsync(data);
 
-            Notification.instance.ShowNotifications("Chỉnh sửa giftcode thành công");
+            NotificationGame.instance.ShowNotifications("Chỉnh sửa giftcode thành công");
         }
     }
 
@@ -144,16 +144,16 @@ public class GiftcodeManager : MonoBehaviour
 
         if (task.IsFaulted)
         {
-            Notification.instance.ShowNotifications("Lỗi xóa giftcode");
+            NotificationGame.instance.ShowNotifications("Lỗi xóa giftcode");
         }
         else if (!task.Result.Exists)
         {
-            Notification.instance.ShowNotifications("Giftcode không tồn tại");
+            NotificationGame.instance.ShowNotifications("Giftcode không tồn tại");
         }
         else
         {
             FirebaseConnection.instance.databaseReference.Child("giftcodes").Child(giftcodeID).RemoveValueAsync();
-            Notification.instance.ShowNotifications("Xóa giftcode thành công");
+            NotificationGame.instance.ShowNotifications("Xóa giftcode thành công");
         }
     }
 

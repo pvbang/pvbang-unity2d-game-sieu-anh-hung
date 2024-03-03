@@ -1,0 +1,1398 @@
+fileFormatVersion: 2
+guid: 07e444ce9b733aa4fa423b9ac53ae670
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4826
+        width: 3043
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf9db73adb555b49a9497e92934a445
+      internalID: -1080467448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_1
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 4900
+        width: 662
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2fecf7226ee8a409e967f8b4834873
+      internalID: -2100544904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_2
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 4337
+        width: 643
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b741f8f86f593ad42a221cc2d3adc92a
+      internalID: 1665763862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_3
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 4746
+        width: 409
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7333db14cf2d846b1411581b8f713d
+      internalID: -1589212055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_4
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 2899
+        width: 393
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17559f6c3284314fad7541d5754a87b
+      internalID: 1114915910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_5
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 2326
+        width: 394
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391a1ba635745ff4cae8b3e40ff5d6e9
+      internalID: 217310312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_6
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2545
+        width: 634
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35750f929c341ee409b53f104b719e15
+      internalID: 199940810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_7
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 3382
+        width: 761
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cabd953a38b85459e967056354bdab
+      internalID: 751157858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_8
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 4041
+        width: 756
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e310f8191e74270429d0148a0626a2da
+      internalID: 315029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_9
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 4375
+        width: 770
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2019f29e8549f44939081c2d72d112
+      internalID: -506813330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_10
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 3277
+        width: 643
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec8dd730b8af147942d02d7d4cadeb
+      internalID: 1593804587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_11
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 3071
+        width: 760
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239c51473b4cdde4b9d249592cbeeba8
+      internalID: 629289764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4213
+        width: 1460
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9a852377167d840952bb7fc795208f
+      internalID: 311354521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_13
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 5178
+        width: 676
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0e66ae58f00c845abbc9d61f1d7bda
+      internalID: -428288123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_14
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 5273
+        width: 677
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a5cf7dd18a24d4b8c3fbce091304d2
+      internalID: 1425137666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_15
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 5369
+        width: 677
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4739c77e5111144293a1177d8ed5ad9
+      internalID: -1892619000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_16
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 5461
+        width: 682
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b441d8adcb647468c506173f6a1fbe
+      internalID: -1216485218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 13
+        width: 384
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0432ff93185c4904e9eb3ca6272e17d3
+      internalID: 231183685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_18
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 2551
+        width: 428
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7bf1e2ef8a2c94d87d1f1ba1228614
+      internalID: 436075195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_19
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 2093
+        width: 366
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2b13c0e88531b46a793530361c9594
+      internalID: -1720736590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_20
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 1715
+        width: 374
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ca850256e6d1f49a2eccdc8b0f5c23
+      internalID: 1381862894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_21
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1352
+        width: 367
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee10fd131e90f498797bc43a1c582c
+      internalID: -478412832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_22
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 2517
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b2118015f6b694ca1729bdb07a8103
+      internalID: -1768680220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_23
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 4392
+        width: 715
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2894fe822f944df45b09ad76b3c957c0
+      internalID: 329500770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_24
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 556
+        width: 327
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248a4781625bd934498bc4f7cf14413b
+      internalID: 2092910596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_25
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1291
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384e4422fb105384b9bb734a674a1e49
+      internalID: -1325130703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_26
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 609
+        width: 137
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1e96e7606512048b1a399cfd86de32
+      internalID: 580847994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_27
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 5089
+        width: 850
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac5ef090b027ff4c8be7d563af01a5f
+      internalID: 1107976847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_28
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 3094
+        width: 435
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf6cd8608ccd1341ba2c29b623d93a4
+      internalID: 696969462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 394
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda8c7da9a805814c8c510f248f769c4
+      internalID: 857973262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2284
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd081ee1e15114286343cb14b00260
+      internalID: 1737834299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_31
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1883
+        width: 397
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d66ede7d560769478e3620650430bfa
+      internalID: -115027932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_32
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1884
+        width: 397
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feef05c6f7b5e6a428dbc361fabbe755
+      internalID: 953770361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_33
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1726
+        width: 395
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a6ad599c22e174188efe194be61c61
+      internalID: 1025419923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1480
+        width: 395
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6a39bf6df77614ca235d4f66a59b5b
+      internalID: -873880555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_35
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1491
+        width: 378
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f30ef63368a649af3cd6f05714a34
+      internalID: 609121653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_36
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 2133
+        width: 393
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4fc858998c4a645a292360872c601d
+      internalID: -831250785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_37
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 2114
+        width: 394
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af23133e208fdc44b7cb45795131839
+      internalID: -1824270702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_38
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 2414
+        width: 398
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa9765f7b757a7488a8fcc282d2888a
+      internalID: -1298367249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 479
+        width: 379
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5197a1532f726094788b3e8ef1113d2c
+      internalID: -1973338593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_41
+      rect:
+        serializedVersion: 2
+        x: 5291
+        y: 1857
+        width: 127
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f882d4479802754dbba164b18c067e0
+      internalID: 106641767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_42
+      rect:
+        serializedVersion: 2
+        x: 5292
+        y: 2126
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be87287a6426a7c4b846db089e132c14
+      internalID: 1984205423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_43
+      rect:
+        serializedVersion: 2
+        x: 5287
+        y: 2260
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d45cb2f9d272e4cb03ad6cdac70a3b
+      internalID: 440675638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_44
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 165
+        width: 123
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcff57a2a5a01fd4a8bd7c555f4287a0
+      internalID: -256312308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_45
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 299
+        width: 132
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b706f41c216e428d62aa0602508bb
+      internalID: -1897226460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_46
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 907
+        width: 368
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b752fec07723748b7899027c8a8a16
+      internalID: -1660738940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_47
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 1039
+        width: 362
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba0c59a3ec7374ba63b5a0a8aff3bb
+      internalID: -1649854405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4945
+        width: 2526
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefdb1c05c832c74f95e4cc0904fd66a
+      internalID: -1893175907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_49
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 3650
+        width: 655
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aa20473c46fdf4d8fbb9059e776be3
+      internalID: -1303778831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_50
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 5099
+        width: 847
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5514d3cf21de22a409c5f1181cbef2fc
+      internalID: -1917078070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1879
+        width: 494
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 38, z: 38, w: 36}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21d1cb4c03bc8d40b635e5d031ee6dc
+      internalID: -491466821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3262
+        width: 601
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63218fa891a26d745aeca76a0b8cad7c
+      internalID: 315346989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_52
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 3261
+        width: 590
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd78aaca1db79e140a35b975bc1aec29
+      internalID: -1469450749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_53
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 192
+        width: 267
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ec0abb953ecef4a8cc918e2316cdb4
+      internalID: 1821072551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_54
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 4625
+        width: 724
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1875842cd30219b46a1e2453b0d9af7f
+      internalID: -1277430059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_55
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 641
+        width: 361
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d38d4edb4491b4290f3289df3e82ec
+      internalID: 1454005105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      public_res-hd.pvr.ccz_0: -1080467448
+      public_res-hd.pvr.ccz_1: -2100544904
+      public_res-hd.pvr.ccz_10: 1593804587
+      public_res-hd.pvr.ccz_11: 629289764
+      public_res-hd.pvr.ccz_12: 311354521
+      public_res-hd.pvr.ccz_13: -428288123
+      public_res-hd.pvr.ccz_14: 1425137666
+      public_res-hd.pvr.ccz_15: -1892619000
+      public_res-hd.pvr.ccz_16: -1216485218
+      public_res-hd.pvr.ccz_17: 231183685
+      public_res-hd.pvr.ccz_18: 436075195
+      public_res-hd.pvr.ccz_19: -1720736590
+      public_res-hd.pvr.ccz_2: 1665763862
+      public_res-hd.pvr.ccz_20: 1381862894
+      public_res-hd.pvr.ccz_21: -478412832
+      public_res-hd.pvr.ccz_22: -1768680220
+      public_res-hd.pvr.ccz_23: 329500770
+      public_res-hd.pvr.ccz_24: 2092910596
+      public_res-hd.pvr.ccz_25: -1325130703
+      public_res-hd.pvr.ccz_26: 580847994
+      public_res-hd.pvr.ccz_27: 1107976847
+      public_res-hd.pvr.ccz_28: 696969462
+      public_res-hd.pvr.ccz_29: 857973262
+      public_res-hd.pvr.ccz_3: -1589212055
+      public_res-hd.pvr.ccz_30: 1737834299
+      public_res-hd.pvr.ccz_31: -115027932
+      public_res-hd.pvr.ccz_32: 953770361
+      public_res-hd.pvr.ccz_33: 1025419923
+      public_res-hd.pvr.ccz_34: -873880555
+      public_res-hd.pvr.ccz_35: 609121653
+      public_res-hd.pvr.ccz_36: -831250785
+      public_res-hd.pvr.ccz_37: -1824270702
+      public_res-hd.pvr.ccz_38: -1298367249
+      public_res-hd.pvr.ccz_39: -1973338593
+      public_res-hd.pvr.ccz_4: 1114915910
+      public_res-hd.pvr.ccz_40: 315346989
+      public_res-hd.pvr.ccz_41: 106641767
+      public_res-hd.pvr.ccz_42: 1984205423
+      public_res-hd.pvr.ccz_43: 440675638
+      public_res-hd.pvr.ccz_44: -256312308
+      public_res-hd.pvr.ccz_45: -1897226460
+      public_res-hd.pvr.ccz_46: -1660738940
+      public_res-hd.pvr.ccz_47: -1649854405
+      public_res-hd.pvr.ccz_48: -1893175907
+      public_res-hd.pvr.ccz_49: -1303778831
+      public_res-hd.pvr.ccz_5: 217310312
+      public_res-hd.pvr.ccz_50: -1917078070
+      public_res-hd.pvr.ccz_51: -491466821
+      public_res-hd.pvr.ccz_52: -1469450749
+      public_res-hd.pvr.ccz_53: 1821072551
+      public_res-hd.pvr.ccz_54: -1277430059
+      public_res-hd.pvr.ccz_55: 1454005105
+      public_res-hd.pvr.ccz_6: 199940810
+      public_res-hd.pvr.ccz_7: 751157858
+      public_res-hd.pvr.ccz_8: 315029
+      public_res-hd.pvr.ccz_9: -506813330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

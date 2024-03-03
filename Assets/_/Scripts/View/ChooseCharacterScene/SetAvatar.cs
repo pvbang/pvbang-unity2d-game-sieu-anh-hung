@@ -60,13 +60,13 @@ public class SetAvatar : BaseButton
     {
         if (FirebaseAuth.DefaultInstance.CurrentUser == null)
         {
-            Notification.instance.ShowNotifications("Bạn chưa đăng nhập");
+            NotificationGame.instance.ShowNotifications("Bạn chưa đăng nhập");
             return;
         }
 
         if (NameInput.text.Length == 0)
         {
-            Notification.instance.ShowNotifications("Bạn chưa đặt tên cho nhân vật");
+            NotificationGame.instance.ShowNotifications("Bạn chưa đặt tên cho nhân vật");
             return;
         }
 
@@ -75,7 +75,7 @@ public class SetAvatar : BaseButton
         // kiểm tra tên nhân vật có trống không
         if (name.Length == 0)
         {
-            Notification.instance.ShowNotifications("Bạn chưa đặt tên cho nhân vật");
+            NotificationGame.instance.ShowNotifications("Bạn chưa đặt tên cho nhân vật");
             return;
         }
 

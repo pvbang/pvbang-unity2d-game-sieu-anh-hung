@@ -2350,7 +2350,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ffdc49143bcd75b49bac2be8a995aa8b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 806a66c6c821ecb458def0e72d0e0a7f, type: 2}
   m_sharedMaterial: {fileID: -4716458690355283296, guid: ffdc49143bcd75b49bac2be8a995aa8b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2381,7 +2381,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2414,7 +2414,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &134528101
@@ -2467,6 +2467,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 9beaa41446db671459acfc89bd0265a4, type: 3}
   - {fileID: 21300000, guid: f943ff9b4a1563848b47376cb5c238f0, type: 3}
+  isOnEnable: 0
 --- !u!1 &160699137
 GameObject:
   m_ObjectHideFlags: 0
@@ -24319,6 +24320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3302488388801520955, guid: d75ce9a3c3ee0c4409f84d8a278b1ab1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4350937188017746228, guid: d75ce9a3c3ee0c4409f84d8a278b1ab1, type: 3}
       propertyPath: m_Name
       value: CanvasNotifications
@@ -35125,6 +35130,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6b4b9f71d88b0c341b41b0f8965ae77b, type: 3}
   - {fileID: 21300000, guid: bc666cd4a3984274683f8ae21b617b90, type: 3}
   - {fileID: 21300000, guid: 41399de0b15b93d46988f57db4efa898, type: 3}
+  isOnEnable: 0
 --- !u!111 &3427113918488157307
 Animation:
   m_ObjectHideFlags: 0
@@ -38666,6 +38672,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 1650123611, guid: 5b3e74624bfc69443a7e46872e7c604d, type: 3}
   - {fileID: 1332311255, guid: 5b3e74624bfc69443a7e46872e7c604d, type: 3}
+  isOnEnable: 0
 --- !u!224 &8397527190343970047
 RectTransform:
   m_ObjectHideFlags: 0

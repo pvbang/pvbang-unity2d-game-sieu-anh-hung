@@ -45,7 +45,7 @@ public class GetGiftcode : BaseButton
         // Nếu giftcode đã được sử dụng thì không cần kiểm tra tiếp
         if (isUsed)
         {
-            Notification.instance.ShowNotifications("Giftcode này đã được sử dụng");
+            NotificationGame.instance.ShowNotifications("Giftcode này đã được sử dụng");
             _button.interactable = true;
             yield break;
         }
@@ -72,7 +72,7 @@ public class GetGiftcode : BaseButton
     {
         if (giftcodeData == null)
         {
-            Notification.instance.ShowNotifications("Giftcode này không tồn tại");
+            NotificationGame.instance.ShowNotifications("Giftcode này không tồn tại");
             _button.interactable = true;
             return;
         }
@@ -80,7 +80,7 @@ public class GetGiftcode : BaseButton
         // kiểm tra thời gian hiện tại có nằm trong thời gian sử dụng giftcode không
         if (adminGiftcode.CheckGiftcodeTime((string)giftcodeData["timestamp"]) == false)
         {
-            Notification.instance.ShowNotifications("Giftcode này đã hết hạn");
+            NotificationGame.instance.ShowNotifications("Giftcode này đã hết hạn");
             _button.interactable = true;
             return;
         }
@@ -89,7 +89,7 @@ public class GetGiftcode : BaseButton
         {
             if (!isAdd)
             {
-                Notification.instance.ShowNotifications("Nhận giftcode thất bại");
+                NotificationGame.instance.ShowNotifications("Nhận giftcode thất bại");
             }
         });
 
@@ -141,7 +141,7 @@ public class GetGiftcode : BaseButton
     {
         if (inputGiftcode.text.Length <= 0)
         {
-            Notification.instance.ShowNotifications("Bạn chưa nhập giftcode");
+            NotificationGame.instance.ShowNotifications("Bạn chưa nhập giftcode");
             return;
         }
         StartCoroutine(GetGiftcodeInfo());
