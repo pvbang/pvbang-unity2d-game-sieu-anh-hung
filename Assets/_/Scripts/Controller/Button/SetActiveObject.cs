@@ -12,8 +12,19 @@ public class SetActiveObject : BaseButton
 
     public float waitSeconds = 0.0f;
 
+    public bool reverseActive = false;
+
     protected override void OnClick()
     {
+        if (obj.activeSelf && reverseActive)
+        {
+            active = false;
+        }
+        else if (!obj.activeSelf && reverseActive)
+        {
+            active = true;
+        }
+
         if (waitAnimation)
         {
             StartCoroutine(CoroutineHelper.DelaySeconds(() => obj.SetActive(active), GetComponent<ButtonAnimation>().GetLengthAnimation()));

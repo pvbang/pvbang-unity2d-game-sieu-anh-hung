@@ -5,17 +5,17 @@ using UnityEngine;
 public class ButtonAnimation : BaseButton
 {
     private Animation anim;
-    private string nameAnimation = "BaseButton";
+    public string nameAnimation = "BaseButton";
 
     protected override void OnClick()
     {
-        PlayAnimation();
+        PlayAnimation(nameAnimation);
     }
 
     // hàm này sẽ chạy animation
-    public void PlayAnimation()
+    public void PlayAnimation(string name)
     {
-        anim.Play(nameAnimation);
+        anim.Play(name);
     }
 
     private void Awake()
