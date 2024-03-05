@@ -11,8 +11,11 @@ public class HealthBar : MonoBehaviour
 
     private void Awake()
     {
-        fillBar = transform.Find("Fill").GetComponent<Image>();
-        healthText = transform.Find("Text").GetComponent<TextMeshProUGUI>();
+        if (fillBar == null)
+            fillBar = transform.Find("Fill").GetComponent<Image>();
+
+        if (healthText == null)
+            healthText = transform.Find("Text").GetComponent<TextMeshProUGUI>();
     }
 
     public void UpdateBar(float health, float maxHealth)
