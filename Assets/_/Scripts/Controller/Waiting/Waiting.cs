@@ -7,7 +7,6 @@ using UnityEngine.Rendering;
 public class Waiting : MonoBehaviour
 {
     public Transform position;
-    public TextMeshProUGUI text;
 
     private GameObject heroInstance = null;
 

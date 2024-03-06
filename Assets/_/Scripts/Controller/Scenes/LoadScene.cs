@@ -13,7 +13,9 @@ public enum ListScene
     PKScene,
     TeamScene,
     WeaponsScene,
-    HotScene
+    HotScene,
+    GachaScene,
+    FighterMapScene,
 }
 
 public class LoadScene : BaseButton

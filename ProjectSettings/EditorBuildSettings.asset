@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_/Scenes/HotScene.unity
     guid: 3bcdcf12e8f146f4b84aaedc09a24a00
+  - enabled: 1
+    path: Assets/_/Scenes/GachaScene.unity
+    guid: 740e53900ca5e9e43b670a2b8daeccee
+  - enabled: 1
+    path: Assets/_/Scenes/FighterMapScene.unity
+    guid: 872f46bfffdd5aa47bf2c339661a1811
   m_configObjects: {}

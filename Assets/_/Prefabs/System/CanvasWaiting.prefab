@@ -153,6 +153,7 @@ GameObject:
   - component: {fileID: 8629304025500487276}
   - component: {fileID: 4076262613433725962}
   - component: {fileID: 18958878897375733}
+  - component: {fileID: 4404006087110576263}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -277,6 +278,25 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4404006087110576263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721678199440699750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8748320cc2bd5843ada8f84f2562a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 18958878897375733}
+  texts:
+  - "C\u1EA5p \u0111\u1ED3ng \u0111\u1ED9i kh\xF4ng th\u1EC3 v\u01B0\u1EE3t qu\xE1
+    c\u1EA5p ng\u01B0\u1EDDi ch\u01A1i"
+  - "\u1EA2i tinh \u1EA2i Tinh Anh c\xF3 th\u1EC3 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng
+    trang b\u1ECB, m\u1ED7i ng\xE0y s\u1ED1 l\u1EA7n c\xF3 h\u1EA1n, \u0111\u1EEBng
+    b\u1ECF l\u1EE1 nh\xE9!"
 --- !u!1 &5602622180408245373
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,4 +459,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {fileID: 2199967258736091342}
-  text: {fileID: 18958878897375733}

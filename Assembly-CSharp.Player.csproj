@@ -124,6 +124,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\_\RandomTextInList.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\DestroyObject.cs" />
   </ItemGroup>
   <ItemGroup>
