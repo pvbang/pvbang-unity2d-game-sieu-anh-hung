@@ -1366,6 +1366,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_58
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2532
+        width: 448
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e12b7a8d3f66648b9c0e27af5ddab9
+      internalID: -352767717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_59
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 3000
+        width: 249
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 71, y: 70, z: 73, w: 70}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7dd4c49e06186458fc9187482f0b1a
+      internalID: -1659385433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_60
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 3036
+        width: 174
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 35, y: 34, z: 34, w: 35}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892f39eac06859409330e9a27a9d5a4
+      internalID: 330859742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1431,7 +1494,10 @@ TextureImporter:
       public_res-hd.pvr.ccz_55: 1454005105
       public_res-hd.pvr.ccz_56: 1683943134
       public_res-hd.pvr.ccz_57: 1253097312
+      public_res-hd.pvr.ccz_58: -352767717
+      public_res-hd.pvr.ccz_59: -1659385433
       public_res-hd.pvr.ccz_6: 199940810
+      public_res-hd.pvr.ccz_60: 330859742
       public_res-hd.pvr.ccz_7: 751157858
       public_res-hd.pvr.ccz_8: 315029
       public_res-hd.pvr.ccz_9: -506813330

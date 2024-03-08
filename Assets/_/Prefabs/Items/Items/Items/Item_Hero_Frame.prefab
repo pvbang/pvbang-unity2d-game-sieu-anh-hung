@@ -327,6 +327,20 @@ MonoBehaviour:
   image: {fileID: 2080719748127629395}
   heroLevel: {fileID: 8673076122633050167}
   heroName: {fileID: 4213326562706246207}
+  frameWhite: {fileID: -1877520785, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameGray: {fileID: -1877520785, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameGreen: {fileID: 1769992974, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameBlue: {fileID: -1640977876, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameViolet: {fileID: -1813331729, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameOrange1: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameOrange2: {fileID: 1860114901, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameOrange3: {fileID: 524451503, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameRed1: {fileID: -1215185849, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameRed2: {fileID: 18691255, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameRed3: {fileID: -1136090401, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameYellow1: {fileID: 1879330930, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameYellow2: {fileID: 1632774174, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  frameYellow3: {fileID: -1351730822, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
 --- !u!114 &7781964220238904369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!111 &2345405638275410816
 Animation:
   m_ObjectHideFlags: 0

@@ -5,6 +5,8 @@
     public string h_name;
     public int h_level;
     public int h_levelMax;
+    public int h_exp;
+    public int h_expMax;
     public ulong h_hp;
     public ulong h_maxHP;
     public ulong h_damagePysical;
@@ -39,4 +41,12 @@
     public int superEvolution;
     // chuyển sinh
     public int reincarnation;
+    // cải tạo
+    public ulong renovationH;
+    public ulong renovationDamagePysical;
+    public ulong renovationDamageMagic;
+    public ulong renovationTank;
+    public ulong renovationSpeed;
+    // chuyển thế
+    public int transformation;
 }

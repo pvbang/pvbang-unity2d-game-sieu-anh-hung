@@ -7,6 +7,8 @@ public class HeroUnit : MonoBehaviour
     public string h_name = "";
     public int h_level = 0;
     public int h_levelMax = 205;
+    public int h_exp = 0;
+    public int h_expMax = 1000;
     public ulong h_hp = 1000;
     public ulong h_maxHP = 1000;
     public ulong h_damagePysical = 1000;
@@ -41,4 +43,12 @@ public class HeroUnit : MonoBehaviour
     public int superEvolution = 0;
     // chuyển sinh
     public int reincarnation = 0;
+    // cải tạo
+    public ulong renovationHP = 0;
+    public ulong renovationDamagePysical = 0;
+    public ulong renovationDamageMagic = 0;
+    public ulong renovationTank = 0;
+    public ulong renovationSpeed = 0;
+    // chuyển thế
+    public int transformation = 0;
 }

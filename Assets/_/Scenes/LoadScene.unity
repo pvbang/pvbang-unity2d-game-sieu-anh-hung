@@ -2803,6 +2803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!1 &2033266613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,6 +3080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!1 &2121775094
 GameObject:
   m_ObjectHideFlags: 0
@@ -9172,9 +9174,9 @@ GameObject:
   - component: {fileID: 609669018813145908}
   - component: {fileID: 2579631402402426859}
   - component: {fileID: 5062340359375464937}
+  - component: {fileID: 6906359026704654719}
   - component: {fileID: 6906359026704654721}
   - component: {fileID: 6906359026704654720}
-  - component: {fileID: 6906359026704654719}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -9198,7 +9200,8 @@ MonoBehaviour:
   isObjectParent: 0
   active: 1
   waitAnimation: 0
-  waitSeconds: 0.4
+  waitSeconds: 0.25
+  reverseActive: 0
 --- !u!114 &6906359026704654720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10154,6 +10157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &7822867951103465967
 MonoBehaviour:
   m_ObjectHideFlags: 0

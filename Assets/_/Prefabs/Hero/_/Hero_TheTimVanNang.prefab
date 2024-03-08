@@ -67,6 +67,7 @@ MonoBehaviour:
   frame: {fileID: -115027932, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
   image: {fileID: 21300000, guid: 57c17098727c0ef408ea9bde415815e6, type: 3}
   background: {fileID: -1813331729, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  listColor: 4
 --- !u!210 &8595705093899660588
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -124,9 +125,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b180baab4773f72428ee84c290f2b080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
   h_id: Hero_TheTimVanNang
   h_name: "Th\u1EBB t\xEDm v\u1EA1n n\u0103ng"
   h_level: 0
+  h_levelMax: 205
+  h_exp: 0
+  h_expMax: 1000
   h_hp: 1000
   h_maxHP: 1000
   h_damagePysical: 1000
@@ -149,3 +154,9 @@ MonoBehaviour:
   evolution: 0
   superEvolution: 0
   reincarnation: 0
+  renovationHP: 0
+  renovationDamagePysical: 0
+  renovationDamageMagic: 0
+  renovationTank: 0
+  renovationSpeed: 0
+  transformation: 0

@@ -90,9 +90,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Tatsumaki
   icon: {fileID: 21300000, guid: c6ff90f4cd5cc1e45a831739d943ae15, type: 3}
-  frame: {fileID: 1025419923, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
+  frame: {fileID: 857973262, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
   image: {fileID: 21300000, guid: 1727349d3f53de649beafe1380505752, type: 3}
-  background: {fileID: 1879330930, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  background: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
+  listColor: 5
 --- !u!114 &4254844984176319954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,9 +106,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b180baab4773f72428ee84c290f2b080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
   h_id: Hero_Tatsumaki
   h_name: Tatsumaki
   h_level: 0
+  h_levelMax: 205
+  h_exp: 0
+  h_expMax: 1000
   h_hp: 11000
   h_maxHP: 11000
   h_damagePysical: 500
@@ -130,6 +135,12 @@ MonoBehaviour:
   evolution: 0
   superEvolution: 0
   reincarnation: 0
+  renovationHP: 0
+  renovationDamagePysical: 0
+  renovationDamageMagic: 0
+  renovationTank: 0
+  renovationSpeed: 0
+  transformation: 0
 --- !u!1001 &802431142322946515
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ public class Content : MonoBehaviour
         Instantiate(content, transform);
     }
 
-    // tạo hiều item vào list
+    // tạo nhiều item vào list
     public void AddContent(List<Transform> contentList)
     {
         foreach (Transform content in contentList)
