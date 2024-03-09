@@ -42,7 +42,7 @@
     // chuyển sinh
     public int reincarnation;
     // cải tạo
-    public ulong renovationH;
+    public ulong renovationHP;
     public ulong renovationDamagePysical;
     public ulong renovationDamageMagic;
     public ulong renovationTank;

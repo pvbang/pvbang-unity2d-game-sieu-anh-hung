@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,6 +25,18 @@ public class HeroFrame : MonoBehaviour
     public Sprite frameYellow1;
     public Sprite frameYellow2;
     public Sprite frameYellow3;
+
+    public Sprite star;
+    public Sprite moon;
+
+    public GameObject Star;
+    public GameObject Effect;
+
+    public Image CS1;
+    public Image CS2;
+    public Image CS3;
+    public Image CS4;
+    public Image CS5;
 
     private void Awake()
     {
@@ -64,12 +76,31 @@ public class HeroFrame : MonoBehaviour
             {
                 this.background.sprite = GetFrameBackground(itemAssets, hero);
                 this.image.sprite = itemAssets.GetImage();
+                SetStar(hero.reincarnation);
+
+                if (hero.reincarnation >=3)
+                {
+                    this.Star.SetActive(true);
+                } else
+                {
+                    this.Star.SetActive(false);
+                }
+
+                if (hero.reincarnation >= 5)
+                {
+                    this.Effect.SetActive(true);
+                }
+                else
+                {
+                    this.Effect.SetActive(false);
+                }
             }
         }
         this.heroLevel.text = "Lv. " + hero.h_level.ToString() + " / " + hero.h_levelMax.ToString();
         this.heroName.text = hero.h_name;
     }
 
+    // hiển thị khung siêu tiến hóa
     public Sprite GetFrameBackground(ItemAssets itemAssets, Hero hero)
     {
         string color = itemAssets.GetColor();
@@ -162,5 +193,37 @@ public class HeroFrame : MonoBehaviour
             else return frameYellow3;
         }
         else return itemAssets.GetBackground();
+    }
+
+    // hiển thị sao chuyển sinh
+    public void SetStar(int star)
+    {
+        if (star == 0) SetStarSprite(null, null, null, null, null);
+        else if(star == 1) SetStarSprite(this.star, null, null, null, null);
+        else if (star == 2) SetStarSprite(this.star, this.star, null, null, null);
+        else if (star == 3) SetStarSprite(this.star, this.star, this.star, null, null);
+        else if (star == 4) SetStarSprite(this.star, this.star, this.star, this.star, null);
+        else if (star == 5) SetStarSprite(this.star, this.star, this.star, this.star, this.star);
+
+        else if (star == 6) SetStarSprite(this.moon, null, null, null, null);
+        else SetStarSprite(this.moon, this.moon, null, null, null);
+    }
+
+    public void SetStarSprite(Sprite cs1, Sprite cs2, Sprite cs3, Sprite cs4, Sprite cs5)
+    {
+        if (cs1 == null) CS1.gameObject.SetActive(false);
+        else CS1.sprite = cs1;
+
+        if (cs2 == null) CS2.gameObject.SetActive(false);
+        else CS2.sprite = cs2;
+
+        if (cs3 == null) CS3.gameObject.SetActive(false);
+        else CS3.sprite = cs3;
+
+        if (cs4 == null) CS4.gameObject.SetActive(false);
+        else CS4.sprite = cs4;
+
+        if (cs5 == null) CS5.gameObject.SetActive(false);
+        else CS5.sprite = cs5;
     }
 }
