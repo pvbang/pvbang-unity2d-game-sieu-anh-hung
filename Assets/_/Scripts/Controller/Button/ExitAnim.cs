@@ -10,6 +10,11 @@ public class ExitAnim : BaseButton
 
     public void Exit()
     {
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+
         animator.SetTrigger("out");
 
         // lấy thời gian animation đang chạy bởi animator

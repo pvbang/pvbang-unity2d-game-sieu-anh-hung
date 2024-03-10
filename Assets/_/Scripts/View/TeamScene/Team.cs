@@ -166,7 +166,7 @@ public class Team : MonoBehaviour
     public void SetInfoUserGames(DataSnapshot data)
     {
         string power = data.Child("power").Value.ToString();
-        if (TxtPower != null) TxtPower.text = power;
+        if (TxtPower != null) TxtPower.text = "Lực chiến: " +power;
     }
 
     // set thông tin team

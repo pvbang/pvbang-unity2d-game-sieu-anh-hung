@@ -886,9 +886,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83dc5bb4f1387241a614e5d03d59f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentAccountServer: {fileID: 1322910795}
+  contents: {fileID: 0}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
-  item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  itemAllHeros: {fileID: 0}
+  itemMyHeros: {fileID: 0}
+  itemMyHeroTeam: {fileID: 0}
   allHeros: 1
   myHeros: 0
   myHeroTeam: 0
@@ -2012,9 +2014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83dc5bb4f1387241a614e5d03d59f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentAccountServer: {fileID: 1618709630}
+  contents: {fileID: 0}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
-  item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  itemAllHeros: {fileID: 0}
+  itemMyHeros: {fileID: 0}
+  itemMyHeroTeam: {fileID: 0}
   allHeros: 1
   myHeros: 0
   myHeroTeam: 0
@@ -2855,9 +2859,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83dc5bb4f1387241a614e5d03d59f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentAccountServer: {fileID: 95277953}
+  contents: {fileID: 0}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
-  item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  itemAllHeros: {fileID: 0}
+  itemMyHeros: {fileID: 0}
+  itemMyHeroTeam: {fileID: 0}
   allHeros: 1
   myHeros: 0
   myHeroTeam: 0
@@ -5464,9 +5470,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83dc5bb4f1387241a614e5d03d59f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentAccountServer: {fileID: 674183720}
+  contents: {fileID: 0}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
-  item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  itemAllHeros: {fileID: 0}
+  itemMyHeros: {fileID: 0}
+  itemMyHeroTeam: {fileID: 0}
   allHeros: 1
   myHeros: 0
   myHeroTeam: 0

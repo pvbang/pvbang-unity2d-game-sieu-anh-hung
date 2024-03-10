@@ -64,5 +64,7 @@ MonoBehaviour:
   - {fileID: 5928436535567640347, guid: 273ab4fb810d72c48987d6633e347156, type: 3}
   - {fileID: 5928436535567640347, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
   - {fileID: 8831759823323165412, guid: e9f70a7dab263e2449495299b3db2cac, type: 3}
+  - {fileID: 7603267307221087410, guid: 52ebdf8eaca8b8542a2218747c5d4082, type: 3}
+  - {fileID: 81015824446791469, guid: aa312b6244f0c3c458b3e9846d991540, type: 3}
   icons: []
   weapons: []
