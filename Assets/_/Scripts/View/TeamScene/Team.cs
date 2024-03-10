@@ -93,7 +93,7 @@ public class Team : MonoBehaviour
         bool isLoaded = false;
 
         // lấy thông tin hero từ position
-        _Teams.GetTeamFromPosition(PlayerPrefs.GetString("Teams_ID"), PlayerPrefs.GetString("Position"), _id_hero =>
+        _Teams.GetTeamFromPosition(PlayerPrefs.GetString("Teams_ID", "Main_1"), PlayerPrefs.GetString("Position"), _id_hero =>
         {
             id_hero = _id_hero;
             isLoaded = true;
@@ -103,8 +103,6 @@ public class Team : MonoBehaviour
         {
             yield return new WaitForSeconds(0.1f);
         }
-
-        Debug.Log("id_hero: " + id_hero);
 
         if (id_hero == "" || id_hero == "HERO_BLANK")
         {

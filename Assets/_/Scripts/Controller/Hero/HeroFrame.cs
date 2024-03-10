@@ -68,6 +68,8 @@ public class HeroFrame : MonoBehaviour
 
     public void SetHeroFrame(Hero hero)
     {
+        if (hero == null) return;
+
         GameObject heroObject = GameAssets.Instance.GetGameObjectFromId(hero.h_id);
         if (heroObject != null)
         {

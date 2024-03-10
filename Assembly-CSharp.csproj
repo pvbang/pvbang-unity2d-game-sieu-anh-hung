@@ -83,11 +83,13 @@
     <Compile Include="Assets\_\Scripts\Controller\Scenes\Scene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Scenes\LoadScene.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ChooseServer.cs" />
+    <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\ContentReincarnation.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Login.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\PhysicalController.cs" />
     <Compile Include="Assets\_\Scripts\Model\Position.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\ID.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Items\ItemHeroBanner.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Reward\RewardController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveMultiObject.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Register.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\_\Scripts\View\MainScene\EXPController.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Notification.cs" />
+    <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\Reincarnation.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\InvertListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\Server.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Waiting\ActiveWaiting.cs" />
@@ -125,6 +128,7 @@
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomTextInList.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\_\UpdatePlayerPrefsActive.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\DestroyObject.cs" />
   </ItemGroup>
   <ItemGroup>

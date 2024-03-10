@@ -5,6 +5,7 @@ using UnityEngine;
 public class SetPlayerPrefs : BaseButton
 {
     public string key = "";
+    public bool isID = false;
 
     [Header("Int")]    
     public bool isInt = false;
@@ -31,6 +32,9 @@ public class SetPlayerPrefs : BaseButton
         else if (isString)
         {
             PlayerPrefs.SetString(key, stringValue);
+        } else if (isID)
+        {
+            PlayerPrefs.SetString(key, gameObject.transform.name);
         }
     }
 }
