@@ -514,7 +514,7 @@ TextureImporter:
         width: 781
         height: 977
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,6 +522,27 @@ TextureImporter:
       bones: []
       spriteID: b01865d8eace83c479aeddd17096a95b
       internalID: -740882443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: other_public_res-hd.pvr.ccz_18
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2293
+        width: 585
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9c327423caa5499fc6f95306d0c7c
+      internalID: -245083545
       vertices: []
       indices: 
       edges: []
@@ -547,6 +568,7 @@ TextureImporter:
       other_public_res-hd.pvr.ccz_15: -343177995
       other_public_res-hd.pvr.ccz_16: 271350190
       other_public_res-hd.pvr.ccz_17: -740882443
+      other_public_res-hd.pvr.ccz_18: -245083545
       other_public_res-hd.pvr.ccz_2: 1405829479
       other_public_res-hd.pvr.ccz_3: -1948950359
       other_public_res-hd.pvr.ccz_4: 903334989

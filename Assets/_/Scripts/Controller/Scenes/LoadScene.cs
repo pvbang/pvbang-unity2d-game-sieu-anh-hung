@@ -16,6 +16,8 @@ public enum ListScene
     HotScene,
     GachaScene,
     FighterMapScene,
+    AllHeroScene,
+    MyHeroScene,
 }
 
 public class LoadScene : BaseButton

@@ -97,6 +97,10 @@ public class GameAssets : MonoBehaviour
         }
     }
 
-
+    // lấy danh sách tất cả heros
+    public GameObject[] GetAllHeros()
+    {
+        return heros;
+    }
 }
 

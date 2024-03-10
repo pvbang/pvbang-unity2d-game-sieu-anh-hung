@@ -34,6 +34,15 @@ public class TeamInfo : MonoBehaviour
         damageMagicDefault.text = damageMagic.ToString();
     }
 
+    public void SetUIDefaultBlank()
+    {
+        hpDefault.text = "0";
+        tankDefault.text = "0";
+        speedDefault.text = "0";
+        damagePhysicalDefault.text = "0";
+        damageMagicDefault.text = "0";
+    }
+
     public void SetUIPlus(ulong hp, ulong tank, ulong speed, ulong damagePhysical, ulong damageMagic)
     {
         hpPlus.text = hp.ToString();

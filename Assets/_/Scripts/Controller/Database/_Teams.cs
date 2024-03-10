@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 using Firebase.Database;
 using System;
 using UnityEngine.UIElements;
+using Firebase.Extensions;
 
 public static class _Teams
 {
@@ -99,32 +100,41 @@ public static class _Teams
             return;
         }
 
-        var task = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("teams").Child(TeamID).Child(Position).GetValueAsync();
-
-        task.ContinueWith(task =>
-        {
+        FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(PlayerPrefs.GetString("ServerID")).Child("teams").Child(TeamID).GetValueAsync().ContinueWithOnMainThread(task => {
+            Debug.Log("Lấy thông tin team từ position: " + Position);
             if (task.IsFaulted)
             {
                 Debug.Log("Lỗi lấy thông tin team từ position: " + task.Exception);
                 callback("");
-                return;
             }
-
-            if (task.IsCompleted)
+            else if (task.IsCompleted)
             {
                 DataSnapshot snapshot = task.Result;
 
                 if (snapshot.Exists)
                 {
-                    string heroID = snapshot.Value.ToString();
+                    if (snapshot.Child(Position).Exists)
+                    {
+                        string heroID = snapshot.Child(Position).Value.ToString();
 
-                    callback(heroID);
+                        callback(heroID);
+                    }
+                    else
+                    {
+                        Debug.Log("Không tìm thấy hero");
+                        callback("");
+                    }
                 }
                 else
                 {
                     Debug.Log("Không tìm thấy hero");
                     callback("");
                 }
+            }
+            else
+            {
+                Debug.Log("Task không hoàn thành");
+                callback("");
             }
         });
     }

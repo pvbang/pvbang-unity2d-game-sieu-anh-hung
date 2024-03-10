@@ -297,6 +297,14 @@ MonoBehaviour:
   - "\u1EA2i Tinh Anh c\xF3 th\u1EC3 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng trang b\u1ECB,
     m\u1ED7i ng\xE0y s\u1ED1 l\u1EA7n c\xF3 h\u1EA1n, \u0111\u1EEBng b\u1ECF l\u1EE1
     nh\xE9!"
+  - "Kh\xF4ng ph\u1EA3i l\xFAc n\xE0o l\u1EF1c chi\u1EBFn c\xE0ng cao c\u0169ng c\xE0ng
+    m\u1EA1nh, c\u1EA7n ch\xFA \xFD \u0111\u1ED9i h\xECnh v\xE0 s\u1EF1 ph\u1ED1i
+    h\u1EE3p c\u1EE7a c\xE1c \u0111\u1ED3ng \u0111\u1ED9i"
+  - "H\xE3y lu\xF4n vui v\u1EBB nh\xE9, ch\u01A1i game l\xE0 \u0111\u1EC3 gi\u1EA3i
+    tr\xED m\xE0"
+  - "Mua s\u1EAFm kh\xF4ng ph\u1EA3i l\xE0 con \u0111\u01B0\u1EDDng duy nh\u1EA5t
+    \u0111\u1EC3 tr\u1EDF n\xEAn m\u1EA1nh h\u01A1n, nh\u01B0ng \u0111\xF3 l\xE0
+    con \u0111\u01B0\u1EDDng nhanh nh\u1EA5t"
 --- !u!1 &5602622180408245373
 GameObject:
   m_ObjectHideFlags: 0

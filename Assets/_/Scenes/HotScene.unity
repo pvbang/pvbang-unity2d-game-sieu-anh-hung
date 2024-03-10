@@ -889,6 +889,9 @@ MonoBehaviour:
   contentAccountServer: {fileID: 1322910795}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
   item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  allHeros: 1
+  myHeros: 0
+  myHeroTeam: 0
 --- !u!114 &388916694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1300,6 +1303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &600461355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,6 +2015,9 @@ MonoBehaviour:
   contentAccountServer: {fileID: 1618709630}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
   item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  allHeros: 1
+  myHeros: 0
+  myHeroTeam: 0
 --- !u!114 &1054882128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,6 +2858,9 @@ MonoBehaviour:
   contentAccountServer: {fileID: 95277953}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
   item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  allHeros: 1
+  myHeros: 0
+  myHeroTeam: 0
 --- !u!114 &1408132050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,6 +3056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &1415788598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3435,6 +3446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &1512538834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4016,6 +4028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &1659940764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5041,6 +5054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &2000825541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5180,6 +5194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!114 &2043839681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5452,6 +5467,9 @@ MonoBehaviour:
   contentAccountServer: {fileID: 674183720}
   itemBlank: {fileID: 8165459215047358219, guid: c19607602b99b3147a2d4be796e4989c, type: 3}
   item: {fileID: 8165459215047358219, guid: 2a08eaa155fd4c74badf0e01c607ef34, type: 3}
+  allHeros: 1
+  myHeros: 0
+  myHeroTeam: 0
 --- !u!114 &2083289782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5774,6 +5792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812de7e987f61440b01558acce54545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameAnimation: BaseButton
 --- !u!1 &2659959562113059374
 GameObject:
   m_ObjectHideFlags: 0

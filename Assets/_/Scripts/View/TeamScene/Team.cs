@@ -95,17 +95,16 @@ public class Team : MonoBehaviour
         // lấy thông tin hero từ position
         _Teams.GetTeamFromPosition(PlayerPrefs.GetString("Teams_ID"), PlayerPrefs.GetString("Position"), _id_hero =>
         {
-            if (_id_hero != null)
-            {
-                id_hero = _id_hero;
-                isLoaded = true;
-            }
+            id_hero = _id_hero;
+            isLoaded = true;
         });
 
         while (isLoaded == false)
         {
             yield return new WaitForSeconds(0.1f);
         }
+
+        Debug.Log("id_hero: " + id_hero);
 
         if (id_hero == "" || id_hero == "HERO_BLANK")
         {
