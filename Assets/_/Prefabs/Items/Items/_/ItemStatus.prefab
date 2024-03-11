@@ -94,6 +94,8 @@ MonoBehaviour:
   sprites:
   - {fileID: -1588607180, guid: 3f791cc9fd0656a40ae209f06e446e2d, type: 3}
   - {fileID: -739354620, guid: 3f791cc9fd0656a40ae209f06e446e2d, type: 3}
+  - {fileID: 1141222641, guid: 3f791cc9fd0656a40ae209f06e446e2d, type: 3}
+  isOnEnable: 0
 --- !u!1 &4319994217361658038
 GameObject:
   m_ObjectHideFlags: 0

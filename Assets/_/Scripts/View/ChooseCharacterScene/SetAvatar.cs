@@ -79,35 +79,10 @@ public class SetAvatar : BaseButton
             return;
         }
 
-        DatabaseReference reference = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID);
-        Dictionary<string, object> gamesData = new Dictionary<string, object>
-        {
-            { "id", ServerID+"SAH"+RandomStringGenerator.GenerateRandomString(7) },
-            { "name", name },
-            { "level", 0 },
-            { "exp", 0 },
-            { "maxEXP", 100 },
-            { "power", 0 },
-            { "physical", 120 },
-            { "maxPhysical", 120 },
-            { "vip", 0 },
-            { "avatar", GetAvatarIndex() }
-        };
+        string userID = ServerID + "SAH" + RandomStringGenerator.GenerateRandomString(7);
 
-        Dictionary<string, object> itemsData = new Dictionary<string, object>
-        {
-            { "diamond", 0 },
-            { "meat", 0 },
-            { "iron", 0 }
-        };
-
-        reference.Child("games").UpdateChildrenAsync(gamesData);
-        reference.Child("items").UpdateChildrenAsync(itemsData);
-
-        WaitingController.Instance.WaitingSeconds(1f);
-
-        // chuyển sang màn hình game
-        GetComponent<LoadScene>().LoadSelectScene();
+        StartCoroutine(_Accounts.AddAccount(ServerID, userID, name, GetAvatarIndex(), true));
+        _Inter_Servers.CreateNewInterServer(ServerID, userID);
     }
 
     protected override void OnClick()

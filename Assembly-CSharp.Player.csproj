@@ -70,6 +70,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\Waiting.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ButtonAnimation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetPlayerPrefs2.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Accounts.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\HeroPos.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\Content.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\PlayAnim.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Button\RemovePlayerPrefs.cs" />
     <Compile Include="Assets\_\Scripts\View\HeroScene\ListHero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Giftcode\GiftcodeManager.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Inter_Servers.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\WelfereContent.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HP.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\WinOrLose.cs" />
@@ -127,6 +129,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Servers.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomTextInList.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\UpdatePlayerPrefsActive.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\DestroyObject.cs" />

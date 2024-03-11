@@ -39,19 +39,7 @@ public class ServerManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine(GetServer(serverID));
-
-        //StartCoroutine(CreateNewServer("S1", "Siêu Anh Hùng", "FULL"));
-        //StartCoroutine(CreateNewServer("S2", "Monkey D. Luffy", "FULL"));
-        //StartCoroutine(CreateNewServer("S3", "Goku", "FULL"));
-        //StartCoroutine(CreateNewServer("S4", "Naruto Uzumaki", "NEW"));
-        //StartCoroutine(CreateNewServer("S5", "Sasuke Uchiha", "NEW"));
-        //StartCoroutine(CreateNewServer("S6", "Itachi Uchiha", "NEW"));
-        //StartCoroutine(CreateNewServer("S7", "Saitama", "NEW"));
-        //StartCoroutine(CreateNewServer("S8", "Tanjiro Kamado", "NEW"));
-        //StartCoroutine(CreateNewServer("S9", "Zenitsu Agatsuma", "NEW"));
-        //StartCoroutine(CreateNewServer("S9", "Inosuke Hashibira", "NEW"));
-
-        // StartCoroutine(DeleteServer("S1"));
+        //CreateManyServer();
     }
 
     private void FixedUpdate()
@@ -73,68 +61,26 @@ public class ServerManager : MonoBehaviour
     }
 
     // tạo server mới
-    IEnumerator CreateNewServer(string id, string username, string status)
+    public void CreateNewServer(string id, string username, string status)
     {
-        WaitingController.Instance.StartWaiting();
-        var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
-
-        yield return new WaitUntil(() => task.IsCompleted);
-
-        if (task.IsFaulted)
-        {
-            NotificationGame.instance.ShowNotifications("Lỗi tạo server");
-        }
-        else if (task.IsCompleted)
-        {
-            DataSnapshot snapshot = task.Result;
-            if (snapshot.Exists)
-            {
-                NotificationGame.instance.ShowNotifications("Tên server đã tồn tại");
-            }
-            else
-            {
-                Server server = new Server(id, username, status);
-                string json = JsonUtility.ToJson(server);
-
-                FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
-
-                NotificationGame.instance.ShowNotifications("Tạo server thành công");
-            }
-        }
-
-        WaitingController.Instance.EndWaiting();
+        StartCoroutine(_Servers.CreateNewServer(id, username, status));
     }
 
-    // xóa server
-    IEnumerator DeleteServer(string id)
+    // admin test tạo nhiều server
+    public void CreateManyServer()
     {
-        WaitingController.Instance.StartWaiting();
-
-        var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
-
-        yield return new WaitUntil(() => task.IsCompleted);
-
-        if (task.IsFaulted)
-        {
-            NotificationGame.instance.ShowNotifications("Lỗi xóa server");
-        }
-        else if (task.IsCompleted)
-        {
-            DataSnapshot snapshot = task.Result;
-            if (snapshot.Exists)
-            {
-                FirebaseConnection.instance.databaseReference.Child("servers").Child(id).RemoveValueAsync();
-
-                NotificationGame.instance.ShowNotifications("Xóa server thành công");
-            }
-            else
-            {
-                NotificationGame.instance.ShowNotifications("Server không tồn tại");
-            }
-        }
-
-        WaitingController.Instance.EndWaiting();
+        CreateNewServer("S1", "Siêu Anh Hùng", "FULL");
+        CreateNewServer("S2", "Monkey D. Luffy", "FULL");
+        CreateNewServer("S3", "Goku", "FULL");
+        CreateNewServer("S4", "Naruto Uzumaki", "NEW");
+        CreateNewServer("S5", "Sasuke Uchiha", "NEW");
+        CreateNewServer("S6", "Itachi Uchiha", "NEW");
+        CreateNewServer("S7", "Saitama", "NEW");
+        CreateNewServer("S8", "Tanjiro Kamado", "NEW");
+        CreateNewServer("S9", "Zenitsu Agatsuma", "NEW");
+        CreateNewServer("S9", "Inosuke Hashibira", "NEW");
     }
+
 
     // lấy danh sách server
     public IEnumerator GetListServer()
@@ -247,38 +193,6 @@ public class ServerManager : MonoBehaviour
         WaitingController.Instance.EndWaiting();
     }
 
-    // cập nhật thông tin server
-    IEnumerator UpdateServer(string id, string username, string status)
-    {
-        WaitingController.Instance.StartWaiting();
-        var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
-
-        yield return new WaitUntil(() => task.IsCompleted);
-
-        if (task.IsFaulted)
-        {
-            NotificationGame.instance.ShowNotifications("Lỗi cập nhật thông tin server");
-        }
-        else if (task.IsCompleted)
-        {
-            DataSnapshot snapshot = task.Result;
-            if (snapshot.Exists)
-            {
-                Server server = new Server(id, username, status);
-                string json = JsonUtility.ToJson(server);
-
-                FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
-
-                NotificationGame.instance.ShowNotifications("Cập nhật thông tin server thành công");
-            }
-            else
-            {
-                NotificationGame.instance.ShowNotifications("Server không tồn tại");
-            }
-        }
-
-        WaitingController.Instance.EndWaiting();
-    }
 
     // lấy thông tin server từ list
     public Server GetServerFromList(string id)
@@ -314,9 +228,13 @@ public class ServerManager : MonoBehaviour
         {
             return 0;
         }
-        else 
+        else if (status == "FULL")
         {
             return 1;
+        }
+        else
+        {
+            return 2;
         }
     }
 
