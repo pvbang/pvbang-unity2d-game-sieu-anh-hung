@@ -58,6 +58,18 @@ public static class _Accounts
 
         //__Account __account = new __Account();
         //__account.UpdateServerQuantity(ServerID, quantity + 1);
+        _Servers.UpdateServerQuantity(ServerID, quantity + 1, _bool =>
+        {
+            if (_bool)
+            {
+                Debug.Log("Cập nhật số lượng trong server thành công");
+            }
+            else
+            {
+                Debug.Log("Lỗi cập nhật số lượng trong nhân vật");
+            }
+        });
+
 
         yield return new WaitUntil(() => task.IsCompleted);
         yield return new WaitUntil(() => task2.IsCompleted);
@@ -72,13 +84,5 @@ public static class _Accounts
         }
 
         WaitingController.Instance.EndWaiting();
-    }
-}
-
-public class __Account : MonoBehaviour
-{
-    public void UpdateServerQuantity(string ServerID, int quantity)
-    {
-        StartCoroutine(_Servers.UpdateServerQuantity(ServerID, quantity));
     }
 }

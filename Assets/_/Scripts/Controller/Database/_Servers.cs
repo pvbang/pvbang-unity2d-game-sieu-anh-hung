@@ -97,37 +97,43 @@ public static class _Servers
     }
 
     // cập nhật thông tin quantity của server
-    public static IEnumerator UpdateServerQuantity(string id, int quantity)
+    public static void UpdateServerQuantity(string id, int quantity, Action<bool> callback)
     {
         var task = FirebaseConnection.instance.databaseReference.Child("servers").Child(id).GetValueAsync();
 
-        yield return new WaitUntil(() => task.IsCompleted);
-
-        if (task.IsFaulted)
+        task.ContinueWith(task =>
         {
-            Debug.Log("Lỗi cập nhật thông tin server");
-        }
-        else if (task.IsCompleted)
-        {
-            DataSnapshot snapshot = task.Result;
-            if (snapshot.Exists)
+            if (task.IsFaulted)
             {
-                Server server = JsonUtility.FromJson<Server>(snapshot.GetRawJsonValue());
-                server.quantity = quantity;
-                if (quantity >= 200) server.status = "HOT";
-                if (quantity >= 500) server.status = "FULL";
-
-                string json = JsonUtility.ToJson(server);
-
-                FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
-
-                Debug.Log("Cập nhật thông tin server thành công");
+                Debug.Log("Lỗi cập nhật thông tin quantity server: " + task.Exception);
+                callback(false);
+                return;
             }
-            else
+
+            if (task.IsCompleted)
             {
-                Debug.Log("Server không tồn tại");
+                DataSnapshot snapshot = task.Result;
+                if (snapshot.Exists)
+                {
+                    Server server = JsonUtility.FromJson<Server>(snapshot.GetRawJsonValue());
+                    server.quantity = quantity;
+                    if (quantity >= 200) server.status = "HOT";
+                    if (quantity >= 500) server.status = "FULL";
+
+                    string json = JsonUtility.ToJson(server);
+
+                    FirebaseConnection.instance.databaseReference.Child("servers").Child(id).SetRawJsonValueAsync(json);
+
+                    Debug.Log("Cập nhật thông tin server thành công");
+                    callback(true);
+                }
+                else
+                {
+                    Debug.Log("Server không tồn tại");
+                    callback(false);
+                }
             }
-        }
+        });
     }
 
     // lấy quantity của server
