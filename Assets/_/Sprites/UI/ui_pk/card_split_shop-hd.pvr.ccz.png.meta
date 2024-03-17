@@ -152,9 +152,9 @@ TextureImporter:
       name: card_split_shop-hd.pvr.ccz_0
       rect:
         serializedVersion: 2
-        x: 837
+        x: 850
         y: 747
-        width: 1307
+        width: 1281
         height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -173,9 +173,9 @@ TextureImporter:
       name: card_split_shop-hd.pvr.ccz_1
       rect:
         serializedVersion: 2
-        x: 839
+        x: 850
         y: 370
-        width: 1034
+        width: 1011
         height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -325,7 +325,7 @@ TextureImporter:
         width: 1273
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

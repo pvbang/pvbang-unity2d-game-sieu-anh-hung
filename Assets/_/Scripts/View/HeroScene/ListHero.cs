@@ -277,6 +277,7 @@ public class ListHero : MonoBehaviour
     // sắp xếp list tất cả heros theo lực chiến giảm dần
     public void SortByPower()
     {
+        if (this.heros == null) return; 
         this.heros.Sort((x, y) => CalculatePower(y).CompareTo(CalculatePower(x)));
     }
 }

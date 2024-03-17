@@ -99,10 +99,12 @@ public class Reincarnation : MonoBehaviour
 
             string notification = "";
             
-            // kiểm tra hero.id có trong position không
-            if (position.position_1 == hero.id || position.position_2 == hero.id || position.position_3 == hero.id || position.position_4 == hero.id || position.position_5 == hero.id || position.position_6 == hero.id || position.position_7 == hero.id || position.position_8 == hero.id || position.position_9 == hero.id)
-            {
-                notification = "Ra trận";
+            if (position != null) {
+                // kiểm tra hero.id có trong position không
+                if (position.position_1 == hero.id || position.position_2 == hero.id || position.position_3 == hero.id || position.position_4 == hero.id || position.position_5 == hero.id || position.position_6 == hero.id || position.position_7 == hero.id || position.position_8 == hero.id || position.position_9 == hero.id)
+                {
+                    notification = "Ra trận";
+                }
             }
 
             Transform heroTransform = GameAssets.Instance.GetGameObjectFromId(hero.h_id).transform;
@@ -143,6 +145,7 @@ public class Reincarnation : MonoBehaviour
     // sắp xếp list tất cả heros theo lực chiến giảm dần
     public void SortByPower()
     {
+        if (this.heros == null) return;
         this.heros.Sort((x, y) => CalculatePower(y).CompareTo(CalculatePower(x)));
     }
 
@@ -158,6 +161,7 @@ public class Reincarnation : MonoBehaviour
     // sắp xếp theo cấp độ
     public void SortByLevel()
     {
+        if (this.heros == null) return;
         this.heros.Sort((x, y) => y.h_level.CompareTo(x.h_level));
     }
 
@@ -173,6 +177,7 @@ public class Reincarnation : MonoBehaviour
     // sắp xếp theo chuyển sinh
     public void SortByReincarnation()
     {
+        if (this.heros == null) return;
         this.heros.Sort((x, y) => y.reincarnation.CompareTo(x.reincarnation));
     }
 
@@ -188,6 +193,7 @@ public class Reincarnation : MonoBehaviour
     // sắp xếp theo siêu tiến hóa
     public void SortBySuperEvolution()
     {
+        if (this.heros == null) return;
         this.heros.Sort((x, y) => y.superEvolution.CompareTo(x.superEvolution));
     }
 
