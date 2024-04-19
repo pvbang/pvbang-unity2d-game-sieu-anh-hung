@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Scene : MonoBehaviour
 {
-    void Awake()
+    void Awake() 
     {
         if (PlayerPrefs.HasKey("NowScene"))
         {

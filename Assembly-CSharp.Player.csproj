@@ -96,6 +96,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveMultiObject.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Register.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\HealthBar.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Items\ItemCS.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\NotificationGame.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\_Heros.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Reward\ShowReward.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroUnit.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\FirebaseConnection.cs" />
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
+    <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\IngredientReincarnation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\_Servers.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomTextInList.cs" />

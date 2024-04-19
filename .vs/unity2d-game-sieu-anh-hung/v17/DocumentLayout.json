@@ -1,0 +1,766 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\assets\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\assets\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|d:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|d:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|d:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\heroscene\\listhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\heroscene\\listhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\waiting\\waitingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\waiting\\waitingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\reincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\reincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\giftcode\\giftcodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\giftcode\\giftcodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\hero\\heroframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\hero\\heroframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\model\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\model\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\button\\exitanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\button\\exitanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\database\\_servers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\database\\_servers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\model\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\model\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\database\\_inter_servers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\database\\_inter_servers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\loadscene\\servermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\loadscene\\servermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\loadscene\\chooseserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\loadscene\\chooseserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\choosecharacterscene\\setavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\choosecharacterscene\\setavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\contentreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\contentreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\button\\setplayerprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\button\\setplayerprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\model\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\items\\itemherobanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\items\\itemherobanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\teamscene\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\teamscene\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\herobar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\herobar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\hero\\herounit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\hero\\herounit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\heropos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\heropos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\welferecontentbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\welferecontentbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\heroscene\\setheroposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\heroscene\\setheroposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\teamscene\\teaminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\teamscene\\teaminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\hero\\heromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\hero\\heromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\loadscene\\uiloadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\loadscene\\uiloadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\button\\setactiveobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\button\\setactiveobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\button\\basebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\button\\basebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\randomtextinlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\randomtextinlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\waiting\\waiting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\waiting\\waiting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\button\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\button\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\backgroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\database\\authsignout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\database\\authsignout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\database\\firebaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\database\\firebaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\loadscene\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\loadscene\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\_\\notificationgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\_\\notificationgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\welferecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\welferecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameAssets.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T09:26:24.895Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WaitingController.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T17:23:50.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:40:06.962Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemAssets.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:19:24.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemCS.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:10:22.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListHero.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T13:42:15.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IngredientReincarnation.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:43:59.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HeroFrame.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAIAwwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:20:31.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GiftcodeManager.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GiftcodeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Giftcode\\GiftcodeManager.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GiftcodeManager.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Giftcode\\GiftcodeManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAKUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:44:47.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetGiftcode.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:43:28.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reincarnation.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:46:24.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExitAnim.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\ExitAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Button\\ExitAnim.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\ExitAnim.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Button\\ExitAnim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-04T12:54:36.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Servers.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\_Servers.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Database\\_Servers.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\_Servers.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Database\\_Servers.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAkwIQAAAAkAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-11T14:48:01.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\Position.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Model\\Position.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\Position.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Model\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAsAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-14T13:07:50.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ID.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\ID.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Model\\ID.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\ID.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Model\\ID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T09:26:10.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Inter_Servers.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\_Inter_Servers.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Database\\_Inter_Servers.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\_Inter_Servers.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Database\\_Inter_Servers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-11T14:21:36.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServerManager.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\ServerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\LoadScene\\ServerManager.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\ServerManager.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\LoadScene\\ServerManager.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAiwCkAAAAdAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:42:47.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChooseServer.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\ChooseServer.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\LoadScene\\ChooseServer.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\ChooseServer.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\LoadScene\\ChooseServer.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwBUAAAAnAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-11T17:22:29.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SetAvatar.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\ChooseCharacterScene\\SetAvatar.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\ChooseCharacterScene\\SetAvatar.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\ChooseCharacterScene\\SetAvatar.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\ChooseCharacterScene\\SetAvatar.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwFYAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:45:19.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContentReincarnation.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\ContentReincarnation.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\ContentReincarnation.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\ContentReincarnation.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\ContentReincarnation.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-10T16:03:31.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SetPlayerPrefs.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\SetPlayerPrefs.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Button\\SetPlayerPrefs.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\SetPlayerPrefs.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Button\\SetPlayerPrefs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAaAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-10T16:33:11.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Model\\Hero.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Model\\Hero.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Model\\Hero.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCgAAAAeAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-08T12:52:39.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemHeroBanner.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemHeroBanner.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Items\\ItemHeroBanner.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemHeroBanner.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Items\\ItemHeroBanner.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAAuAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-10T13:55:28.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\TeamScene\\Team.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\TeamScene\\Team.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\TeamScene\\Team.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\TeamScene\\Team.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAApwF8AAABDAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-27T16:12:14.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HeroBar.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\HeroBar.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\HeroBar.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\HeroBar.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\HeroBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA0AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-06T15:40:50.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HeroUnit.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Hero\\HeroUnit.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroUnit.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Hero\\HeroUnit.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEsAAAA7AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-08T12:53:02.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HeroPos.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\HeroPos.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\HeroPos.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\HeroPos.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\HeroPos.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAHQAAAA4AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-06T15:40:21.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WelfereContentButton.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\WelfereContentButton.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\WelfereContentButton.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\WelfereContentButton.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\WelfereContentButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-28T14:49:40.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SetHeroPosition.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\SetHeroPosition.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\HeroScene\\SetHeroPosition.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\SetHeroPosition.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\HeroScene\\SetHeroPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-27T16:39:47.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TeamInfo.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\TeamScene\\TeamInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\TeamScene\\TeamInfo.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\TeamScene\\TeamInfo.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\TeamScene\\TeamInfo.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCoAAAAmAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-10T02:54:05.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HeroManager.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Hero\\HeroManager.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroManager.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Hero\\HeroManager.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEEAAAA8AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-08T13:44:35.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoadScene.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-28T16:46:26.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UILoadScene.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\UILoadScene.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\LoadScene\\UILoadScene.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\UILoadScene.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\LoadScene\\UILoadScene.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIIAAAAiAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:42:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SetActiveObject.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\SetActiveObject.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Button\\SetActiveObject.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\SetActiveObject.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Button\\SetActiveObject.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAGEAAAAhAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-04T03:06:05.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseButton.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\BaseButton.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Button\\BaseButton.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\BaseButton.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Button\\BaseButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAxAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-09T15:26:32.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\HealthBar.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\HealthBar.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-05T15:13:06.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Content.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\Content.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\Content.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\Content.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\Content.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-07T13:07:01.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ButtonAnimation.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\ButtonAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Button\\ButtonAnimation.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Button\\ButtonAnimation.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Button\\ButtonAnimation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-04T02:41:29.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Waiting.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Waiting\\Waiting.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Waiting\\Waiting.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Waiting\\Waiting.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Waiting\\Waiting.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-06T12:38:55.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RandomTextInList.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\RandomTextInList.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\RandomTextInList.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\RandomTextInList.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\RandomTextInList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-06T12:41:11.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BackgroundController.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\BackgroundController.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\BackgroundController.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\BackgroundController.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\BackgroundController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwCAAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T14:10:45.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthSignOut.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\AuthSignOut.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Database\\AuthSignOut.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\AuthSignOut.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Database\\AuthSignOut.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:47:47.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FirebaseConnection.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\FirebaseConnection.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Database\\FirebaseConnection.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Database\\FirebaseConnection.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Database\\FirebaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:47:45.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\Login.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\LoadScene\\Login.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\LoadScene\\Login.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\LoadScene\\Login.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAMwBoAAAAiAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T13:45:38.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NotificationGame.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\NotificationGame.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\NotificationGame.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\NotificationGame.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\_\\NotificationGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-03T09:24:18.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WelfereContent.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\WelfereContent.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\WelfereContent.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\WelfereContent.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\WelfereContent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-28T14:35:10.852Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

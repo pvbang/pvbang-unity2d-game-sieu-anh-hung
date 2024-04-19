@@ -12,6 +12,7 @@ public class GameAssets : MonoBehaviour
     public GameObject[] items;
     public GameObject[] icons;
     public GameObject[] weapons;
+    public GameObject[] nguyenLieuChuyenSinh;
 
     // Sử dụng một dictionary để lưu trữ asset theo ID
     private Dictionary<string, GameObject> assetMap = new Dictionary<string, GameObject>();
@@ -41,6 +42,7 @@ public class GameAssets : MonoBehaviour
         AddGameObjectsToMap(assetMap, items);
         AddGameObjectsToMap(assetMap, icons);
         AddGameObjectsToMap(assetMap, weapons);
+        AddGameObjectsToMap(assetMap, nguyenLieuChuyenSinh);
 
         AddGameObjectsToMap(assetMapHero, heros);
     }
@@ -101,6 +103,12 @@ public class GameAssets : MonoBehaviour
     public GameObject[] GetAllHeros()
     {
         return heros;
+    }
+
+    // lấy danh sách nguyên liệu chuyển sinh
+    public GameObject[] GetNguyenLieuChuyenSinh()
+    {
+        return nguyenLieuChuyenSinh;
     }
 }
 
