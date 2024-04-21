@@ -64,3 +64,5 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 1ad9a094593afa340968c0554937a67b, type: 3}
   background: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
   listColor: 7
+  cost: 
+  costSprite: {fileID: 0}

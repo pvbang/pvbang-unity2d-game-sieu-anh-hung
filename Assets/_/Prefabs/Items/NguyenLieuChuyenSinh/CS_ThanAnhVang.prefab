@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8771966252028200960
+--- !u!1 &4497338156678944015
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7229893723493116394}
-  - component: {fileID: 3117403272157178786}
-  - component: {fileID: 3133929261160818163}
+  - component: {fileID: 3255403672664075174}
+  - component: {fileID: 411107547920949622}
+  - component: {fileID: 4575890865165955570}
   m_Layer: 0
-  m_Name: CS_BangTinh
+  m_Name: CS_ThanAnhVang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7229893723493116394
+--- !u!4 &3255403672664075174
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8771966252028200960}
+  m_GameObject: {fileID: 4497338156678944015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -33,36 +33,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3117403272157178786
+--- !u!114 &411107547920949622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8771966252028200960}
+  m_GameObject: {fileID: 4497338156678944015}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8393a769f83a52944a5410ab7a0c2c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 
---- !u!114 &3133929261160818163
+--- !u!114 &4575890865165955570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8771966252028200960}
+  m_GameObject: {fileID: 4497338156678944015}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f502c95cc2189b94e8c5d0896cfc3310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "B\u0103ng tinh"
-  icon: {fileID: 21300000, guid: a418f1dedf28b994cab90eba6dbf5bad, type: 3}
-  frame: {fileID: -1824270702, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
+  itemName: "Th\u1EA7n anh v\xE0ng"
+  icon: {fileID: 21300000, guid: 8735bf796e82df941a541443757b9ace, type: 3}
+  frame: {fileID: 857973262, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
   image: {fileID: 21300000, guid: 1ad9a094593afa340968c0554937a67b, type: 3}
   background: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
-  listColor: 6
+  listColor: 5
   cost: 
   costSprite: {fileID: 0}

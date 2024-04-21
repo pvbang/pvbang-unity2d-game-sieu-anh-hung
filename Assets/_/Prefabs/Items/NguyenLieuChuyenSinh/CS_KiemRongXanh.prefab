@@ -60,7 +60,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Ki\u1EBFm r\u1ED3ng xanh"
   icon: {fileID: 21300000, guid: 3670c08bf80636042bdf7d348f20102e, type: 3}
-  frame: {fileID: -115027932, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
+  frame: {fileID: 953770361, guid: 07e444ce9b733aa4fa423b9ac53ae670, type: 3}
   image: {fileID: 21300000, guid: 1ad9a094593afa340968c0554937a67b, type: 3}
   background: {fileID: -1676089648, guid: d31c0f21e9d62af4d97a67c761e241e1, type: 3}
-  listColor: 7
+  listColor: 2
+  cost: 
+  costSprite: {fileID: 0}
