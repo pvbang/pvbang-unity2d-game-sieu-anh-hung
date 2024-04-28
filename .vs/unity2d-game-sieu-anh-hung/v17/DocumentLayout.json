@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|d:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|d:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\assets\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\assets\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\assets\\itemassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\items\\itemcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\ingredientreincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\scenes\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\heroscene\\listhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\view\\mainscene\\chuyensinh\\reincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\view\\mainscene\\chuyensinh\\reincarnation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|solutionrelative:assets\\_\\scripts\\controller\\giftcode\\getgiftcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB672F1B-6DC7-9AE8-510E-6FE5A54D1B53}|Assembly-CSharp.csproj|D:\\code\\unity\\unity2d-game-sieu-anh-hung\\assets\\_\\scripts\\controller\\giftcode\\giftcodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -198,24 +198,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameAssets.cs",
               "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
               "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
               "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
               "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Assets\\GameAssets.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAeAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAuwIAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-17T09:26:24.895Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WaitingController.cs",
               "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
               "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Waiting\\WaitingController.cs",
@@ -228,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Notification.cs",
               "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
               "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\_\\Notification.cs",
@@ -241,27 +242,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "ItemCS.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:10:22.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemAssets.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:19:24.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:10:54.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IngredientReincarnation.cs",
               "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
               "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
               "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
               "RelativeToolTip": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\IngredientReincarnation.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCkAAAAjAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwCkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T14:43:59.973Z"
+              "WhenOpened": "2024-04-12T14:43:59.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HeroFrame.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAIAwwGwAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "GetGiftcode.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAtwGgAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T12:20:31.438Z"
+              "WhenOpened": "2024-03-03T13:43:28.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListHero.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T13:42:15.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadScene.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAABRwBMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T16:46:26.665Z"
             },
             {
               "$type": "Document",
@@ -277,81 +341,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeroFrame.cs",
+              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Hero\\HeroFrame.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAIAwwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:20:31.438Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "GetGiftcode.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Giftcode\\GetGiftcode.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T13:43:28.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoadScene.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Scenes\\LoadScene.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T16:46:26.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListHero.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\View\\HeroScene\\ListHero.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwFYAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:42:15.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemCS.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Items\\ItemCS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:10:22.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemAssets.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Assets\\ItemAssets.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:19:24.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Scene.cs",
-              "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
-              "RelativeDocumentMoniker": "Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
-              "ToolTip": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
-              "RelativeToolTip": "Assets\\_\\Scripts\\Controller\\Scenes\\Scene.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T14:10:54.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Reincarnation.cs",
               "DocumentMoniker": "D:\\code\\unity\\unity2d-game-sieu-anh-hung\\Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",
               "RelativeDocumentMoniker": "Assets\\_\\Scripts\\View\\MainScene\\ChuyenSinh\\Reincarnation.cs",

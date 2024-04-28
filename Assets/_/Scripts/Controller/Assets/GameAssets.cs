@@ -20,6 +20,9 @@ public class GameAssets : MonoBehaviour
     // Chỉ lưu gameobject heros
     private Dictionary<string, GameObject> assetMapHero = new Dictionary<string, GameObject>();
 
+    // Chỉ lưu gameobject nguyên liệu chuyển sinh
+    private Dictionary<string, GameObject> assetMapNguyenLieuChuyenSinh = new Dictionary<string, GameObject>();
+
     private void Awake()
     {
         if (_instance == null)
@@ -45,6 +48,7 @@ public class GameAssets : MonoBehaviour
         AddGameObjectsToMap(assetMap, nguyenLieuChuyenSinh);
 
         AddGameObjectsToMap(assetMapHero, heros);
+        AddGameObjectsToMap(assetMapNguyenLieuChuyenSinh, nguyenLieuChuyenSinh);
     }
 
     private void AddGameObjectsToMap(Dictionary<string, GameObject> map, GameObject[] objects)
@@ -66,6 +70,7 @@ public class GameAssets : MonoBehaviour
     }
 
     // Lấy gameobject từ ID
+    // GameObject itemObject = GameAssets.Instance.GetGameObjectFromId(item.Key);
     public GameObject GetGameObjectFromId(string id)
     {
         if (assetMap.TryGetValue(id, out GameObject obj))
@@ -109,6 +114,20 @@ public class GameAssets : MonoBehaviour
     public GameObject[] GetNguyenLieuChuyenSinh()
     {
         return nguyenLieuChuyenSinh;
+    }
+
+    // Lấy gameobject NguyenLieuChuyenSinh từ ID
+    public GameObject GetNguyenLieuChuyenSinhFromId(string id)
+    {
+        if (assetMapNguyenLieuChuyenSinh.TryGetValue(id, out GameObject obj))
+        {
+            return obj;
+        }
+        else
+        {
+            Debug.LogWarning("Assets không tồn tại: " + id);
+            return null;
+        }
     }
 }
 

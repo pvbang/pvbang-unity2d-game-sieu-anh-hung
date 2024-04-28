@@ -22,12 +22,9 @@ public class ItemCS : MonoBehaviour
         itemColor.color = itemAssets.GetColorFromEnum(itemAssets.GetColor());
         itemFrame.sprite = itemAssets.GetFrame();
         itemIcon.sprite = itemAssets.GetIcon();
-        itemCount.text = "x" +count;
+        itemCount.text = "x" + itemAssets.GetCount();
 
         itemCost.text = itemAssets?.GetCost() ?? "0";
-        if (itemAssets.GetCostSprite() != null)
-        {
-            itemCostImage.sprite = itemAssets.GetCostSprite();
-        }
+        itemCostImage.sprite = itemAssets.GetCostIcon();
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public enum ListColor
 {
@@ -27,7 +28,9 @@ public class ItemAssets : MonoBehaviour
     public ListColor listColor;
 
     public string cost;
-    public Sprite costSprite;
+    public string costObjectIDName;
+    public int count = 1;
+
 
     public string GetItemName()
     {
@@ -64,9 +67,25 @@ public class ItemAssets : MonoBehaviour
         return cost;
     }
 
-    public Sprite GetCostSprite()
+    public int GetCount()
     {
-        return costSprite;
+        return count;
+    }
+
+    public GameObject GetCostObject()
+    {
+        GameObject itemObject = GameAssets.Instance.GetNguyenLieuChuyenSinhFromId(costObjectIDName);
+        return itemObject;
+    }
+
+    public Sprite GetCostIcon()
+    {
+        GameObject itemObject = GetCostObject();
+        if (itemObject != null)
+        {
+            return itemObject.GetComponent<ItemAssets>().GetIcon();
+        }
+        return null;
     }
 
 
