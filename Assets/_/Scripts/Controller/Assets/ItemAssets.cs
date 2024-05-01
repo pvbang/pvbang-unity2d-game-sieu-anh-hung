@@ -72,6 +72,11 @@ public class ItemAssets : MonoBehaviour
         return count;
     }
 
+    public string GetCostObjectIDName()
+    {
+        return costObjectIDName;
+    }
+
     public GameObject GetCostObject()
     {
         GameObject itemObject = GameAssets.Instance.GetNguyenLieuChuyenSinhFromId(costObjectIDName);
@@ -88,31 +93,54 @@ public class ItemAssets : MonoBehaviour
         return null;
     }
 
-
-    public Color32 GetColorFromEnum(string color)
+    public string GetID()
     {
+        return gameObject.name;
+    }
+
+
+    public Color32 GetColorFromEnum(string color, float brightnessFactor)
+    {
+        Color32 baseColor;
         switch (color)
         {
             case "White":
-                return new Color32(255, 255, 255, 255);
+                baseColor = new Color32(255, 255, 255, 255);
+                break;
             case "Gray":
-                return new Color32(128, 128, 128, 255);
+                baseColor = new Color32(128, 128, 128, 255);
+                break;
             case "Green":
-                return new Color32(0, 255, 0, 255);
+                baseColor = new Color32(100, 185, 0, 255);
+                break;
             case "Blue":
-                return new Color32(0, 0, 255, 255);
+                baseColor = new Color32(45, 80, 204, 255);
+                break;
             case "Violet":
-                return new Color32(238, 130, 238, 255);
+                baseColor = new Color32(230, 0, 230, 255); 
+                break;
             case "Orange":
-                return new Color32(255, 165, 0, 255);
+                baseColor = new Color32(230, 100, 0, 255);
+                break;
             case "Red":
-                return new Color32(255, 0, 0, 255);
+                baseColor = new Color32(238, 17, 17, 255);
+                break;
             case "Yellow":
-                return new Color32(255, 255, 0, 255);
+                baseColor = new Color32(255, 222, 0, 255);
+                break;
             case "Colorful":
-                return new Color32((byte)Random.Range(0, 256), (byte)Random.Range(0, 256), (byte)Random.Range(0, 256), 255);
+                baseColor = new Color32((byte)Random.Range(0, 256), (byte)Random.Range(0, 256), (byte)Random.Range(0, 256), 255);
+                break;
             default:
-                return new Color32(0, 0, 0, 255); 
+                baseColor = new Color32(0, 0, 0, 255);
+                break;
         }
+
+        byte r = (byte)(baseColor.r * brightnessFactor);
+        byte g = (byte)(baseColor.g * brightnessFactor);
+        byte b = (byte)(baseColor.b * brightnessFactor);
+
+        return new Color32(r, g, b, baseColor.a);
     }
+
 }

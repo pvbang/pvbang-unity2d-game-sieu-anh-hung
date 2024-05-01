@@ -52,7 +52,7 @@ public class HeroBar : MonoBehaviour
         SetInfoUserGames(snapshot);
     }
 
-    // lấy thông tin nhân vật mỗi khi có thay đổi trong games
+    // lấy thông tin nhân vật mỗi khi có thay đổi trong items
     void HandleValueChangedItems(object sender, ValueChangedEventArgs args)
     {
         if (args.DatabaseError != null)

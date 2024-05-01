@@ -61,7 +61,6 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\WaitingController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\AuthSignOut.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomStringGenerator.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\Database\_Games.cs" />
     <Compile Include="Assets\_\Scripts\View\TeamScene\Team.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\AutoAssignCamera.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\CoroutineHelper.cs" />
@@ -87,6 +86,7 @@
     <Compile Include="Assets\_\Scripts\View\LoadScene\ChooseServer.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\ContentReincarnation.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Login.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Button\ButtonBuy.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\PhysicalController.cs" />
     <Compile Include="Assets\_\Scripts\Model\Position.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\ListServer.cs" />
@@ -95,10 +95,10 @@
     <Compile Include="Assets\_\Scripts\Controller\Reward\RewardController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\SetActiveMultiObject.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\Register.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Database\_Items.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\HealthBar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Items\ItemCS.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\NotificationGame.cs" />
-    <Compile Include="Assets\_\Scripts\Controller\Database\_Heros.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Reward\ShowReward.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroController.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\BackgroundController.cs" />

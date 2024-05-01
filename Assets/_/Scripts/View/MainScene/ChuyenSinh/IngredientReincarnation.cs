@@ -9,7 +9,6 @@ public class IngredientReincarnation : MonoBehaviour
     public Content contents;
     public Transform Item;
 
-    public ContentReincarnation contentIngredientReincarnation;
     private GameObject[] nguyenLieuChuyenSinh;
 
     private void Start()
@@ -35,7 +34,8 @@ public class IngredientReincarnation : MonoBehaviour
         {
             ItemAssets itemAssets = nguyenlieu.GetComponent<ItemAssets>();
             Transform itemTransform = Instantiate(this.Item);
-            itemTransform.GetComponent<ItemCS>().SetItem(itemAssets, "1");
+            itemTransform.GetComponent<ItemCS>().SetItem(itemAssets);
+
             contentList.Add(itemTransform);
         }
 
@@ -44,5 +44,4 @@ public class IngredientReincarnation : MonoBehaviour
 
         WaitingController.Instance.EndWaiting();
     }
-
 }

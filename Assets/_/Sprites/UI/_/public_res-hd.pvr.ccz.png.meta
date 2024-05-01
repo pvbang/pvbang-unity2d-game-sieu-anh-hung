@@ -1375,7 +1375,7 @@ TextureImporter:
         width: 448
         height: 454
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1396,7 +1396,7 @@ TextureImporter:
         width: 249
         height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 71, y: 70, z: 73, w: 70}
       outline: []
       physicsShape: []
@@ -1417,7 +1417,7 @@ TextureImporter:
         width: 174
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 35, y: 34, z: 34, w: 35}
       outline: []
       physicsShape: []
@@ -1425,6 +1425,48 @@ TextureImporter:
       bones: []
       spriteID: e892f39eac06859409330e9a27a9d5a4
       internalID: 330859742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 756
+        width: 337
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8de20339bfe29449d1663f770a86cb
+      internalID: -210828296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: public_res-hd.pvr.ccz_62
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1004
+        width: 335
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecad40766bb8f14591f0d0edcd1007e
+      internalID: 1870678752
       vertices: []
       indices: 
       edges: []
@@ -1498,6 +1540,8 @@ TextureImporter:
       public_res-hd.pvr.ccz_59: -1659385433
       public_res-hd.pvr.ccz_6: 199940810
       public_res-hd.pvr.ccz_60: 330859742
+      public_res-hd.pvr.ccz_61: -210828296
+      public_res-hd.pvr.ccz_62: 1870678752
       public_res-hd.pvr.ccz_7: 751157858
       public_res-hd.pvr.ccz_8: 315029
       public_res-hd.pvr.ccz_9: -506813330

@@ -14,4 +14,9 @@ public class ID : MonoBehaviour
             id = gameObject.name;
         }
     }
+
+    public string GetID()
+    {
+        return id;
+    }
 }
