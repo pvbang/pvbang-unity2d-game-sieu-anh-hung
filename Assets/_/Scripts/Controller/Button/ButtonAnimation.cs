@@ -15,7 +15,7 @@ public class ButtonAnimation : BaseButton
     // hàm này sẽ chạy animation
     public void PlayAnimation(string name)
     {
-        anim.Play(name);
+        anim.Play(name);  
     }
 
     private void Awake()

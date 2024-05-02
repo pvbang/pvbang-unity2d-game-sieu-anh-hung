@@ -16,8 +16,7 @@ public class ItemCS : MonoBehaviour
     public TextMeshProUGUI itemCost;
     public Image itemCostImage;
 
-    public string costObjectIDName = "";
-    public string cost = "0";
+    public ItemAssets itemAssets;
 
     public void SetItem(ItemAssets itemAssets)
     {
@@ -32,17 +31,11 @@ public class ItemCS : MonoBehaviour
         itemCostImage.sprite = itemAssets.GetCostIcon();
 
         //
-        costObjectIDName = itemAssets.GetCostObjectIDName();
-        cost = itemAssets.GetCost();
+        this.itemAssets = itemAssets;
     }
 
-    public string GetCostObjectIDName()
+    public ItemAssets GetItemAssets()
     {
-        return costObjectIDName;
-    }
-
-    public string GetCost()
-    {
-        return cost;
+        return itemAssets;
     }
 }

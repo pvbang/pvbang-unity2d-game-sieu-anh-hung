@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
     
-// Notification.instance.ShowNotifications("Thông báo");
+// NotificationGame.instance.ShowNotifications("Thông báo");
 
 public class NotificationGame : MonoBehaviour
 {

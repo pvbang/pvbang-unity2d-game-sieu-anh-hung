@@ -127,6 +127,15 @@ public class GetGiftcode : BaseButton
                         }
                     }
                 }
+                // Nếu heroID là "CS", thêm item mới
+                else if (heroID == "CS")
+                {
+                    // chạy item.Value lần
+                    for (int i = 0; i < int.Parse(item.Value.ToString()); i++)
+                    {
+                        StartCoroutine(ItemManager.AddNewItem(item.Key, int.Parse(item.Value.ToString())));
+                    }
+                }
             }
 
             // Chờ một chút trước khi hiển thị item tiếp theo

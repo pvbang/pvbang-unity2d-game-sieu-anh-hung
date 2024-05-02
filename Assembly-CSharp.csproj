@@ -112,6 +112,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Waiting\ActiveWaiting.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\ItemAssets.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\Items\ItemManager.cs" />
     <Compile Include="Assets\_\Scripts\View\TeamScene\TeamInfo.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\HeroManager.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\SetActiveObjectWithPlayerPrefs.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="Assets\_\Scripts\Model\Hero.cs" />
     <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\IngredientReincarnation.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Button\ExitAnim.cs" />
+    <Compile Include="Assets\_\Scripts\Model\Item.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\_Servers.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\RandomTextInList.cs" />
     <Compile Include="Assets\_\Scripts\Controller\_\UpdatePlayerPrefsActive.cs" />

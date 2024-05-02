@@ -83,6 +83,14 @@ public class ItemAssets : MonoBehaviour
         return itemObject;
     }
 
+    public string GetCostObjectName()
+    {
+        GameObject itemObject = GameAssets.Instance.GetNguyenLieuChuyenSinhFromId(costObjectIDName);
+
+        ItemAssets itemAssets = itemObject.GetComponent<ItemAssets>();
+        return itemAssets.GetItemName();
+    }
+
     public Sprite GetCostIcon()
     {
         GameObject itemObject = GetCostObject();

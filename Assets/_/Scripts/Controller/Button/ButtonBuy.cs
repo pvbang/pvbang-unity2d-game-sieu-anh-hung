@@ -1,17 +1,16 @@
 ﻿using Firebase.Auth;
 using Firebase.Database;
 using Google.MiniJSON;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class ButtonBuy : BaseButton
 {
-    private string ServerID;
     public ItemCS itemCS;
-    DatabaseReference referenceItems;
-
-    private string itemValue = "###";
 
     private void Awake()
     {
@@ -19,45 +18,59 @@ public class ButtonBuy : BaseButton
         {
             itemCS = GetComponentInParent<ItemCS>();
         }
-
-        ServerID = PlayerPrefs.GetString("ServerID");
-    }
-
-    void HandleValueChangedItems(object sender, ValueChangedEventArgs args)
-    {
-        if (args.DatabaseError != null)
-        {
-            Debug.LogError(args.DatabaseError.Message);
-            return;
-        }
-
-        // lấy dữ liệu
-        DataSnapshot snapshot = args.Snapshot;
-        itemValue = snapshot.Child(itemCS.GetCostObjectIDName()).Value.ToString();
     }
 
     protected override void OnClick()
     {
-        if (FirebaseAuth.DefaultInstance.CurrentUser == null) return;
-        if (ServerID == "") return;
-
-        if (referenceItems == null)
-        {
-            referenceItems = FirebaseConnection.instance.databaseReference.Child("accounts").Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId).Child("servers").Child(ServerID).Child("items");
-            referenceItems.ValueChanged += HandleValueChangedItems;
-        }
-
-        StartCoroutine(UpdateValueItem());
+        StartCoroutine(GetItemInfoById(itemCS.GetItemAssets().GetCostObjectIDName()));
     }
 
 
-    IEnumerator UpdateValueItem()
+    public IEnumerator GetItemInfoById(string itemID)
     {
-        while (itemValue == "###")
-        {
-            yield return new WaitForSeconds(0.1f);
-        }
+        var itemRef = FirebaseConnection.instance.databaseReference
+            .Child("accounts")
+            .Child(FirebaseAuth.DefaultInstance.CurrentUser.UserId)
+            .Child("servers")
+            .Child(PlayerPrefs.GetString("ServerID"))
+            .Child("items")
+            .Child(itemID);
 
-        referenceItems.Child(itemCS.GetCostObjectIDName()).SetValueAsync(float.Parse(itemValue) - float.Parse(itemCS.GetCost()));
+        var getTask = itemRef.GetValueAsync();
+
+        // Đợi cho đến khi hoàn thành việc lấy dữ liệu
+        yield return new WaitUntil(() => getTask.IsCompleted);
+
+        if (getTask.IsFaulted)
+        {
+            Debug.Log("Lỗi khi lấy dữ liệu item");
+        }
+        else if (getTask.IsCompleted)
+        {
+            DataSnapshot snapshot = getTask.Result;
+            int currentValue = snapshot.Exists ? Convert.ToInt32(snapshot.Value) : 0;
+
+            if (currentValue - int.Parse(itemCS.GetItemAssets().GetCost()) >= 0)
+            {
+                UpdateValue();
+            } 
+            else
+            {
+                NotificationGame.instance.ShowNotifications("Không đủ " + itemCS.GetItemAssets().GetCostObjectName());
+            }
+        }
     }
+
+    public void UpdateValue()
+    {
+        string itemID = this.transform.parent.name.Replace("(Clone)", "");
+
+        ItemAssets itemAttribute = itemCS.GetItemAssets();
+
+        StartCoroutine(ItemManager.CountToAddItem(itemID, +itemAttribute.GetCount()));
+
+        ShowReward.instance.ShowRewardNotification(itemAttribute.GetIcon(), itemAttribute.GetFrame(), itemAttribute.GetItemName() + " x" + itemAttribute.GetCount());
+        StartCoroutine(ItemManager.CountToAddItem(itemAttribute.GetCostObjectIDName(), -int.Parse(itemAttribute.GetCost())));
+    }
+
 }
