@@ -26,6 +26,9 @@ public class LoadScene : BaseButton
     public bool isActive = true;
     public bool isLoadLastScene = false;
 
+    public bool isNameScene = false;
+    public string nameScene = "";
+
     // hàm load scene nếu isActive = true
     public void Load()
     {
@@ -36,7 +39,13 @@ public class LoadScene : BaseButton
             {
                 WaitingController.Instance.StartWaiting();
                 LoadLastScene();
-            } else
+            } 
+            else if (isNameScene)
+            {
+                WaitingController.Instance.StartWaiting();
+                SceneManager.LoadScene(nameScene);
+            }
+            else
             {
                 WaitingController.Instance.StartWaiting();
                 SceneManager.LoadScene(selectScene.ToString());

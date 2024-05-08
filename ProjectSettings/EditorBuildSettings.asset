@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_/Scenes/FighterMapScene.unity
     guid: 872f46bfffdd5aa47bf2c339661a1811
+  - enabled: 1
+    path: Assets/_/Scenes/FighterMaps/SingaporeMap1Scene.unity
+    guid: 78370b36069787e4483260d7cfa8f15d
   m_configObjects: {}

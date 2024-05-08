@@ -109,6 +109,7 @@
     <Compile Include="Assets\_\Scripts\View\MainScene\ChuyenSinh\Reincarnation.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\InvertListServer.cs" />
     <Compile Include="Assets\_\Scripts\Model\Server.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\_\CameraMovement.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Waiting\ActiveWaiting.cs" />
     <Compile Include="Assets\_\Scripts\View\PKScene\PKSystem.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Assets\ItemAssets.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets\_\Scripts\Controller\Giftcode\GetGiftcode.cs" />
     <Compile Include="Assets\_\Scripts\View\ChooseCharacterScene\SetAvatar.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Hero\Level.cs" />
+    <Compile Include="Assets\_\Scripts\Controller\_\CameraZoom.cs" />
     <Compile Include="Assets\_\Scripts\View\HeroScene\SetHeroPosition.cs" />
     <Compile Include="Assets\_\Scripts\View\LoadScene\UILoadScene.cs" />
     <Compile Include="Assets\_\Scripts\Controller\Database\_Teams.cs" />
